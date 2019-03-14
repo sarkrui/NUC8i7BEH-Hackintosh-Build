@@ -1,0 +1,152 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="css/applehelp.css" />
+<link rel="stylesheet" type="text/css" href="css/fatcatdocs.css" />
+<title>Managing installed structure definitions</title>
+
+</head>
+<body>
+
+<div id="banner">
+	<div id="machelp">
+	<a class="bread" href="index.html">Table of Contents</a>
+	</div>
+</div>
+<div id="mainbox">
+	<div id="caticon">
+	<img width="32" height="32" alt="PlistEdit Pro Icon" src="images/PlistEditPro.png"/>
+	</div>
+</div>
+
+<div id="pagetitle">
+	<h1>Managing installed structure definitions</h1><br/>
+</div>
+
+<p>Structure definitions were introduced by Xcode 3.0 and are implemented as Xcode plugin files. Initially, these were plain XML files with a .xcodeplugin file extension, but then starting in Xcode 5, they changed to being full fledged code bundles with an extension of .dvtplugin. PlistEdit Pro supports both types of plugins, but can only read .dvtplugin style structure definitions, whereas it can both read and write .xcodeplugin style definitions. This means that definition files that ship with Xcode can be used by PlistEdit Pro, but not vice versa.</p>
+
+<p>Xcode stores its structure definition plugins inside the Xcode.app application bundle, in Xcode.app/Contents/PlugIns, and will also read .dvtplugin style definitions stored in ~/Library/Application Support/Developer/Shared/Xcode/Plug-ins.</p>
+
+<p>PlistEdit Pro ships with several of its own built-in .xcodeplugin structure definitions which are located inside its own application bundle. These structure definitions will only show up in PlistEdit Pro, and not Xcode or Property List Editor. PlistEdit Pro will also read definition files from ~/Application Support/PlistEdit Pro/Structure Definitions, which will be used as the default save location for new definition files created by you.</p>
+
+<p>You can see what structure definitions you have installed by going to the Definitions tab in the preferences window of PlistEdit Pro.</p>
+
+<p><a href="https://www.fatcatsoftware.com/plisteditpro/VersionedDocs/v1/screenshots/manage_definitions.png"><img src="https://www.fatcatsoftware.com/plisteditpro/VersionedDocs/v1/screenshots/manage_definitions.png" width="100%" /></a></p>
+
+<p>￼
+All installed structure definitions will be displayed in the Definitions table on the left. Note that a single plugin file can contain multiple definitions, such PlistEdit Pro’s built-in definitions for Applescript .scriptSuite and .scriptTerminology files, which are both stored in the same plugin file.  On the right you will see the following information for the selected structure definition:</p>
+
+<ul>
+  <li><strong>Use for files with extensions</strong>. If you want PlistEdit Pro to automatically use a particular structure definition for files ending with a specific file extension, you can type the extensions you would like to use the selected definition into this field. For example, by default all files ending with the “.scriptSuite” extension will be opened using the AppleScript Suite definition. You do not need to include the “.” character, and you can type a comma to end one extension and start typing a new one.</li>
+  <li><strong>Use for files with filenames</strong>. Similarly, you can type entire filenames into this field to have files with that name use the selected structure definition by default. For example, files named “Info.plist” are automatically opened using the Info.plist definition (but other files that simply end in “.plist” are opened without a definition)</li>
+  <li><strong>Type</strong>. This can be one of three values, depending on where the structure definition is installed:
+    <ul>
+      <li><strong>User</strong>. Indicates that this definition is installed in the Xcode plugin folder located inside your home folder</li>
+      <li><strong>PlistEdit Pro Builtin</strong>. Indicates that this definition is located inside the PlistEdit Pro application bundle. You will typically not want to edit these files directly, since any changes you make will be lost if you update PlistEdit Pro to a new version. Note that these definitions will not show up for use in Xcode or Property List Editor. If you’d like to use a PlistEdit Pro definition in either program, you can make a separate copy of the definition file in your home folder that Xcode/Property List Editor will detect and use.</li>
+    </ul>
+  </li>
+  <li><strong>Xcode Builtin</strong>. Indicates that this is one of Xcode’s built-in structure definitions. It is not recommended that you edit these files directly, since all your edits will be lost the next time you install an update to Xcode. When editing one of these definitions, you will be given the option to make a separate copy of the file in your home folder that you can edit instead. PlistEdit Pro will use whichever version of Xcode you have chosen using the xcode-select command line tool.</li>
+</ul>
+
+<p>Note that if more than one copy of a particular structure definiton is present (based on the “identifier” field of the definition), PlistEdit Pro will only list one copy of the structure definition. Definitions installed in the user’s home folder take precedence over PlistEdit Pro built-in definitions, which in turn take precedence over Xcode built-in definitions.</p>
+
+
+<div style="height: 30px;">
+
+
+
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+		
+
+	
+	
+	
+		<div style="float: left">&lt;&lt; <a href="variant_dictionary_element.html">Variant dictionaries</a></div>
+	
+
+
+	
+	
+	
+		<div style="float: right"><a href="preferences.html">Preferences &gt;&gt;</a></div>
+	
+
+
+
+</div>
+
+</body>
+</html>
+

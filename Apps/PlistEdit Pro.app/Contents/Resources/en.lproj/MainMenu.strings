@@ -1,0 +1,420 @@
+
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "5"; */
+"5.title" = "Bring All to Front";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "19"; */
+"19.title" = "Window";
+
+/* Class = "NSMenuItem"; title = "Minimize Window"; ObjectID = "23"; */
+"23.title" = "Minimize Window";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "24"; */
+"24.title" = "Window";
+
+/* Class = "NSMenu"; title = "MainMenu"; ObjectID = "29"; */
+"29.title" = "MainMenu";
+
+/* Class = "NSMenuItem"; title = "PlistEdit Pro"; ObjectID = "56"; */
+"56.title" = "PlistEdit Pro";
+
+/* Class = "NSMenu"; title = "PlistEdit Pro"; ObjectID = "57"; */
+"57.title" = "PlistEdit Pro";
+
+/* Class = "NSMenuItem"; title = "About PlistEdit Pro"; ObjectID = "58"; */
+"58.title" = "About PlistEdit Pro";
+
+/* Class = "NSMenuItem"; title = "Open…"; ObjectID = "72"; */
+"72.title" = "Open…";
+
+/* Class = "NSMenuItem"; title = "Close"; ObjectID = "73"; */
+"73.title" = "Close";
+
+/* Class = "NSMenuItem"; title = "Save"; ObjectID = "75"; */
+"75.title" = "Save";
+
+/* Class = "NSMenuItem"; title = "Page Setup…"; ObjectID = "77"; */
+"77.title" = "Page Setup…";
+
+/* Class = "NSMenuItem"; title = "Print…"; ObjectID = "78"; */
+"78.title" = "Print…";
+
+/* Class = "NSMenuItem"; title = "Save As…"; ObjectID = "80"; */
+"80.title" = "Save As…";
+
+/* Class = "NSMenu"; title = "File"; ObjectID = "81"; */
+"81.title" = "File";
+
+/* Class = "NSMenuItem"; title = "New"; ObjectID = "82"; */
+"82.title" = "New";
+
+/* Class = "NSMenuItem"; title = "File"; ObjectID = "83"; */
+"83.title" = "File";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "103"; */
+"103.title" = "Help";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "106"; */
+"106.title" = "Help";
+
+/* Class = "NSMenuItem"; title = "PlistEdit Pro Help"; ObjectID = "111"; */
+"111.title" = "PlistEdit Pro Help";
+
+/* Class = "NSMenuItem"; title = "Revert"; ObjectID = "112"; */
+"112.title" = "Revert";
+
+/* Class = "NSMenuItem"; title = "Open Recent"; ObjectID = "124"; */
+"124.title" = "Open Recent";
+
+/* Class = "NSMenu"; title = "Open Recent"; ObjectID = "125"; */
+"125.title" = "Open Recent";
+
+/* Class = "NSMenuItem"; title = "Clear Menu"; ObjectID = "126"; */
+"126.title" = "Clear Menu";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "129"; */
+"129.title" = "Preferences…";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "130"; */
+"130.title" = "Services";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "131"; */
+"131.title" = "Services";
+
+/* Class = "NSMenuItem"; title = "Hide PlistEdit Pro"; ObjectID = "134"; */
+"134.title" = "Hide PlistEdit Pro";
+
+/* Class = "NSMenuItem"; title = "Quit PlistEdit Pro"; ObjectID = "136"; */
+"136.title" = "Quit PlistEdit Pro";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "145"; */
+"145.title" = "Hide Others";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "150"; */
+"150.title" = "Show All";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "157"; */
+"157.title" = "Copy";
+
+/* Class = "NSMenuItem"; title = "Undo"; ObjectID = "158"; */
+"158.title" = "Undo";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "160"; */
+"160.title" = "Cut";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "163"; */
+"163.title" = "Edit";
+
+/* Class = "NSMenuItem"; title = "Clear"; ObjectID = "164"; */
+"164.title" = "Clear";
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "169"; */
+"169.title" = "Edit";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "171"; */
+"171.title" = "Paste";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "172"; */
+"172.title" = "Select All";
+
+/* Class = "NSMenuItem"; title = "Redo"; ObjectID = "173"; */
+"173.title" = "Redo";
+
+/* Class = "NSMenuItem"; title = "Operations"; ObjectID = "205"; */
+"205.title" = "Operations";
+
+/* Class = "NSMenu"; title = "Operations"; ObjectID = "206"; */
+"206.title" = "Operations";
+
+/* Class = "NSMenuItem"; title = "New Sibling Of Type"; ObjectID = "212"; */
+"212.title" = "New Sibling Of Type";
+
+/* Class = "NSMenu"; title = "New Sibling Of Type"; ObjectID = "213"; */
+"213.title" = "New Sibling Of Type";
+
+/* Class = "NSMenuItem"; title = "Data"; ObjectID = "215"; */
+"215.title" = "Data";
+
+/* Class = "NSMenuItem"; title = "Date"; ObjectID = "216"; */
+"216.title" = "Date";
+
+/* Class = "NSMenuItem"; title = "Dictionary"; ObjectID = "217"; */
+"217.title" = "Dictionary";
+
+/* Class = "NSMenuItem"; title = "Boolean"; ObjectID = "218"; */
+"218.title" = "Boolean";
+
+/* Class = "NSMenuItem"; title = "String"; ObjectID = "219"; */
+"219.title" = "String";
+
+/* Class = "NSMenuItem"; title = "Number"; ObjectID = "220"; */
+"220.title" = "Number";
+
+/* Class = "NSMenuItem"; title = "New Child Of Type"; ObjectID = "221"; */
+"221.title" = "New Child Of Type";
+
+/* Class = "NSMenuItem"; title = "String"; ObjectID = "222"; */
+"222.title" = "String";
+
+/* Class = "NSMenuItem"; title = "Number"; ObjectID = "223"; */
+"223.title" = "Number";
+
+/* Class = "NSMenu"; title = "New Child Of Type"; ObjectID = "224"; */
+"224.title" = "New Child Of Type";
+
+/* Class = "NSMenuItem"; title = "Dictionary"; ObjectID = "225"; */
+"225.title" = "Dictionary";
+
+/* Class = "NSMenuItem"; title = "Date"; ObjectID = "226"; */
+"226.title" = "Date";
+
+/* Class = "NSMenuItem"; title = "Boolean"; ObjectID = "227"; */
+"227.title" = "Boolean";
+
+/* Class = "NSMenuItem"; title = "Data"; ObjectID = "228"; */
+"228.title" = "Data";
+
+/* Class = "NSMenuItem"; title = "Duplicate"; ObjectID = "230"; */
+"230.title" = "Duplicate";
+
+/* Class = "NSMenuItem"; title = "Paste As Child"; ObjectID = "257"; */
+"257.title" = "Paste As Child";
+
+/* Class = "NSMenuItem"; title = "Sort Keys"; ObjectID = "261"; */
+"261.title" = "Sort Keys";
+
+/* Class = "NSMenuItem"; title = "Sort All Keys"; ObjectID = "262"; */
+"262.title" = "Sort All Keys";
+
+/* Class = "NSMenuItem"; title = "Save All"; ObjectID = "325"; */
+"325.title" = "Save All";
+
+/* Class = "NSMenuItem"; title = "Save To…"; ObjectID = "328"; */
+"328.title" = "Save To…";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Change the format in which the property list is written to disk"; ObjectID = "377"; */
+"377.ibShadowedToolTip" = "Change the format in which the property list is written to disk";
+
+/* Class = "NSMenuItem"; title = "Change Format"; ObjectID = "377"; */
+"377.title" = "Change Format";
+
+/* Class = "NSMenu"; title = "Change Format"; ObjectID = "378"; */
+"378.title" = "Change Format";
+
+/* Class = "NSMenuItem"; title = "Binary"; ObjectID = "379"; */
+"379.title" = "Binary";
+
+/* Class = "NSMenuItem"; title = "ASCII"; ObjectID = "380"; */
+"380.title" = "ASCII";
+
+/* Class = "NSMenuItem"; title = "XML"; ObjectID = "381"; */
+"381.title" = "XML";
+
+/* Class = "NSMenuItem"; title = "Array"; ObjectID = "391"; */
+"391.title" = "Array";
+
+/* Class = "NSMenuItem"; title = "Array"; ObjectID = "394"; */
+"394.title" = "Array";
+
+/* Class = "NSMenuItem"; title = "New Sibling"; ObjectID = "397"; */
+"397.title" = "New Sibling";
+
+/* Class = "NSMenuItem"; title = "New Child"; ObjectID = "399"; */
+"399.title" = "New Child";
+
+/* Class = "NSMenuItem"; title = "View"; ObjectID = "424"; */
+"424.title" = "View";
+
+/* Class = "NSMenu"; title = "View"; ObjectID = "425"; */
+"425.title" = "View";
+
+/* Class = "NSMenuItem"; title = "Customize Toolbar…"; ObjectID = "434"; */
+"434.title" = "Customize Toolbar…";
+
+/* Class = "NSMenuItem"; title = "Show Toolbar"; ObjectID = "435"; */
+"435.title" = "Show Toolbar";
+
+/* Class = "NSMenuItem"; title = "Sort Values"; ObjectID = "438"; */
+"438.title" = "Sort Values";
+
+/* Class = "NSMenuItem"; title = "Sort All Values"; ObjectID = "439"; */
+"439.title" = "Sort All Values";
+
+/* Class = "NSMenuItem"; title = "Zoom Window"; ObjectID = "443"; */
+"443.title" = "Zoom Window";
+
+/* Class = "NSMenuItem"; title = "Purchase PlistEdit Pro…"; ObjectID = "445"; */
+"445.title" = "Purchase PlistEdit Pro…";
+
+/* Class = "NSMenuItem"; title = "Registration…"; ObjectID = "446"; */
+"446.title" = "Registration…";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Synchronize the text and outline views"; ObjectID = "455"; */
+"455.ibShadowedToolTip" = "Synchronize the text and outline views";
+
+/* Class = "NSMenuItem"; title = "Sync"; ObjectID = "455"; */
+"455.title" = "Sync";
+
+/* Class = "NSMenuItem"; title = "Open Help In Browser"; ObjectID = "478"; */
+"478.title" = "Open Help In Browser";
+
+/* Class = "NSMenuItem"; title = "Visit The PlistEdit Pro Website"; ObjectID = "487"; */
+"487.title" = "Visit The PlistEdit Pro Website";
+
+/* Class = "NSMenu"; title = "Favorites"; ObjectID = "492"; */
+"492.title" = "Favorites";
+
+/* Class = "NSMenuItem"; title = "Favorites"; ObjectID = "494"; */
+"494.title" = "Favorites";
+
+/* Class = "NSMenuItem"; title = "Browser"; ObjectID = "508"; */
+"508.title" = "Browser";
+
+/* Class = "NSMenu"; title = "Browser"; ObjectID = "509"; */
+"509.title" = "Browser";
+
+/* Class = "NSMenuItem"; title = "Reveal Application"; ObjectID = "510"; */
+"510.title" = "Reveal Application";
+
+/* Class = "NSMenuItem"; title = "Move To Trash"; ObjectID = "511"; */
+"511.title" = "Move To Trash";
+
+/* Class = "NSMenuItem"; title = "Reveal In Finder"; ObjectID = "512"; */
+"512.title" = "Reveal In Finder";
+
+/* Class = "NSMenuItem"; title = "Launch Application"; ObjectID = "514"; */
+"514.title" = "Launch Application";
+
+/* Class = "NSMenuItem"; title = "Refresh List"; ObjectID = "515"; */
+"515.title" = "Refresh List";
+
+/* Class = "NSMenuItem"; title = "Show Prefs Browser"; ObjectID = "516"; */
+"516.title" = "Show Prefs Browser";
+
+/* Class = "NSMenuItem"; title = "New Property List Browser"; ObjectID = "517"; */
+"517.title" = "New Property List Browser";
+
+/* Class = "NSMenuItem"; title = "Remove From List"; ObjectID = "522"; */
+"522.title" = "Remove From List";
+
+/* Class = "NSMenuItem"; title = "Validate"; ObjectID = "523"; */
+"523.title" = "Validate";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Go to a specific line in the property list text"; ObjectID = "534"; */
+"534.ibShadowedToolTip" = "Go to a specific line in the property list text";
+
+/* Class = "NSMenuItem"; title = "Go To Line…"; ObjectID = "534"; */
+"534.title" = "Go To Line…";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Edit the selected item's value in a sheet"; ObjectID = "538"; */
+"538.ibShadowedToolTip" = "Edit the selected item's value in a sheet";
+
+/* Class = "NSMenuItem"; title = "Edit Value…"; ObjectID = "538"; */
+"538.title" = "Edit Value…";
+
+/* Class = "NSMenuItem"; title = "Select Parent"; ObjectID = "543"; */
+"543.title" = "Select Parent";
+
+/* Class = "NSMenuItem"; title = "Definition"; ObjectID = "545"; */
+"545.title" = "Definition";
+
+/* Class = "NSMenu"; title = "Definition"; ObjectID = "546"; */
+"546.title" = "Definition";
+
+/* Class = "NSMenuItem"; title = "Add Sibling Key"; ObjectID = "552"; */
+"552.title" = "Add Sibling Key";
+
+/* Class = "NSMenu"; title = "Add Sibling Key"; ObjectID = "553"; */
+"553.title" = "Add Sibling Key";
+
+/* Class = "NSMenuItem"; title = "Add Child Key"; ObjectID = "555"; */
+"555.title" = "Add Child Key";
+
+/* Class = "NSMenu"; title = "Add Child Key"; ObjectID = "556"; */
+"556.title" = "Add Child Key";
+
+/* Class = "NSMenuItem"; title = "Set To Default Value"; ObjectID = "558"; */
+"558.title" = "Set To Default Value";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Change the plist definition being used for the current document"; ObjectID = "559"; */
+"559.ibShadowedToolTip" = "Change the plist definition being used for the current document";
+
+/* Class = "NSMenuItem"; title = "Change Definition"; ObjectID = "559"; */
+"559.title" = "Change Definition";
+
+/* Class = "NSMenu"; title = "Change Definition"; ObjectID = "560"; */
+"560.title" = "Change Definition";
+
+/* Class = "NSMenuItem"; title = "Check For Updates…"; ObjectID = "567"; */
+"567.title" = "Check For Updates…";
+
+/* Class = "NSMenuItem"; title = "Open Saved Browser"; ObjectID = "593"; */
+"593.title" = "Open Saved Browser";
+
+/* Class = "NSMenuItem"; title = "Organize Saved Browsers…"; ObjectID = "594"; */
+"594.title" = "Organize Saved Browsers…";
+
+/* Class = "NSMenuItem"; title = "New Definition File"; ObjectID = "634"; */
+"634.title" = "New Definition File";
+
+/* Class = "NSMenuItem"; title = "Sort By Subkey"; ObjectID = "639"; */
+"639.title" = "Sort By Subkey";
+
+/* Class = "NSMenu"; title = "Sort By Subkey"; ObjectID = "640"; */
+"640.title" = "Sort By Subkey";
+
+/* Class = "NSMenuItem"; title = "Show Raw Keys/Values"; ObjectID = "650"; */
+"650.title" = "Show Raw Keys/Values";
+
+/* Class = "NSMenuItem"; title = "JSON"; ObjectID = "652"; */
+"652.title" = "JSON";
+
+/* Class = "NSMenuItem"; title = "New Dictionary With Selection"; ObjectID = "669"; */
+"669.title" = "New Dictionary With Selection";
+
+/* Class = "NSMenuItem"; title = "New Array With Selection"; ObjectID = "672"; */
+"672.title" = "New Array With Selection";
+
+/* Class = "NSMenuItem"; title = "Find"; ObjectID = "2mi-R2-ajN"; */
+"2mi-R2-ajN.title" = "Find";
+
+/* Class = "NSMenuItem"; title = "View As"; ObjectID = "3XX-ta-eUj"; */
+"3XX-ta-eUj.title" = "View As";
+
+/* Class = "NSMenuItem"; title = "Replace and Find Next"; ObjectID = "9Ie-mG-mc8"; */
+"9Ie-mG-mc8.title" = "Replace and Find Next";
+
+/* Class = "NSMenuItem"; title = "Find and Replace…"; ObjectID = "BCB-9h-lfD"; */
+"BCB-9h-lfD.title" = "Find and Replace…";
+
+/* Class = "NSMenu"; title = "Find"; ObjectID = "CeY-8w-Vfr"; */
+"CeY-8w-Vfr.title" = "Find";
+
+/* Class = "NSMenuItem"; title = "View By Subkey"; ObjectID = "SGT-Jc-jK8"; */
+"SGT-Jc-jK8.title" = "View By Subkey";
+
+/* Class = "NSMenuItem"; title = "Replace All"; ObjectID = "XfK-3R-qGh"; */
+"XfK-3R-qGh.title" = "Replace All";
+
+/* Class = "NSMenuItem"; title = "Find Next"; ObjectID = "Xfh-M6-BCI"; */
+"Xfh-M6-BCI.title" = "Find Next";
+
+/* Class = "NSMenuItem"; title = "Replace"; ObjectID = "bv6-A1-UE2"; */
+"bv6-A1-UE2.title" = "Replace";
+
+/* Class = "NSMenuItem"; title = "Jump to Selection"; ObjectID = "e8K-QJ-Bfq"; */
+"e8K-QJ-Bfq.title" = "Jump to Selection";
+
+/* Class = "NSMenu"; title = "View As"; ObjectID = "ggY-f4-Kb2"; */
+"ggY-f4-Kb2.title" = "View As";
+
+/* Class = "NSMenuItem"; title = "Find…"; ObjectID = "p9Q-Sf-81Y"; */
+"p9Q-Sf-81Y.title" = "Find…";
+
+/* Class = "NSMenu"; title = "View By Subkey"; ObjectID = "pNR-na-1E8"; */
+"pNR-na-1E8.title" = "View By Subkey";
+
+/* Class = "NSMenuItem"; title = "Use Selection for Find"; ObjectID = "wZ6-xF-yfb"; */
+"wZ6-xF-yfb.title" = "Use Selection for Find";
+
+/* Class = "NSMenuItem"; title = "Find Previous"; ObjectID = "zuW-MK-j3m"; */
+"zuW-MK-j3m.title" = "Find Previous";

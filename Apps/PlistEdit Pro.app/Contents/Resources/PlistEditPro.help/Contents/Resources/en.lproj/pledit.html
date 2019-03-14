@@ -1,0 +1,151 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="css/applehelp.css" />
+<link rel="stylesheet" type="text/css" href="css/fatcatdocs.css" />
+<title>The pledit command line tool</title>
+
+</head>
+<body>
+
+<div id="banner">
+	<div id="machelp">
+	<a class="bread" href="index.html">Table of Contents</a>
+	</div>
+</div>
+<div id="mainbox">
+	<div id="caticon">
+	<img width="32" height="32" alt="PlistEdit Pro Icon" src="images/PlistEditPro.png"/>
+	</div>
+</div>
+
+<div id="pagetitle">
+	<h1>The pledit command line tool</h1><br/>
+</div>
+
+<p>PlistEdit Pro also provides a command line tool, pledit, which allows you to open property lists in PlistEdit Pro from the command line and shell scripts. You can open any number of existing property list files by passing them as arguments on the command line:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>% pledit ~/Library/Preferences/com.apple.finder.plist
+% pledit MyApp.app/Contents/Resources/*.plist
+</code></pre></div></div>
+
+<p>pledit can also read property list data from stdin and open the data up as a new document in PlistEdit Pro:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>% ibtool --export keypaths.plist MainMenu.nib | pledit
+% hdiutil imageinfo -plist MyDiskImage.dmg | pledit
+</code></pre></div></div>
+
+<p>The first time you open PlistEdit Pro with a new version of pledit, it will ask you if you want to install the tool, which requires an admin password and installs in /usr/bin. You can also install the tool later via the <a href="preferences.html">preferences</a> window.</p>
+
+
+<div style="height: 30px;">
+
+
+
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+		
+
+	
+	
+	
+		<div style="float: left">&lt;&lt; <a href="applescript.html">AppleScript</a></div>
+	
+
+
+	
+	
+	
+		<div style="float: right"><a href="registration.html">Registration &gt;&gt;</a></div>
+	
+
+
+
+</div>
+
+</body>
+</html>
+

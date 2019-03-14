@@ -1,0 +1,24 @@
+
+
+/* Class = "NSButtonCell"; title = "Remove"; ObjectID = "Izs-q7-gDU"; */
+"Izs-q7-gDU.title" = "Rimuovi";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "Nm5-4X-1hc"; */
+"Nm5-4X-1hc.title" = "Annulla";
+
+/* Class = "NSMenuItem"; title = "Reveal in Finder"; ObjectID = "pnM-aj-dqk"; */
+"pnM-aj-dqk.title" = "Mostra nel Finder";
+
+
+/* DO NOT LOCALIZE BELOW */
+/* Class = "NSTextFieldCell"; title = "<Number of files found>"; ObjectID = "Ae1-aw-l7V"; */
+"Ae1-aw-l7V.title" = "<<Number of files found>";
+
+/* Class = "NSTextFieldCell"; title = "<Name>"; ObjectID = "8Ct-3O-wvR"; */
+"8Ct-3O-wvR.title" = "<Name>";
+
+/* Class = "NSTextFieldCell"; title = "<Path>"; ObjectID = "PYM-tE-xm7"; */
+"PYM-tE-xm7.title" = "<Path>";
+
+/* Class = "NSTextFieldCell"; title = "128 MB"; ObjectID = "qzr-0f-4Nl"; */
+"qzr-0f-4Nl.title" = "128 MB";

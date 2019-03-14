@@ -1,0 +1,112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="css/applehelp.css" />
+<link rel="stylesheet" type="text/css" href="css/fatcatdocs.css" />
+<title>How structure definitions work</title>
+
+</head>
+<body>
+
+<div id="banner">
+	<div id="machelp">
+	<a class="bread" href="index.html">Table of Contents</a>
+	</div>
+</div>
+<div id="mainbox">
+	<div id="caticon">
+	<img width="32" height="32" alt="PlistEdit Pro Icon" src="images/PlistEditPro.png"/>
+	</div>
+</div>
+
+<div id="pagetitle">
+	<h1>How structure definitions work</h1><br/>
+</div>
+
+<p>A property list structure definition is made up mainly of a list of <strong>property list classes</strong>. Each class describes a particular kind of property list object and how it should be displayed when editing. Every structure definition has a special class named “<em>root</em>”, which specifies what the root object of the property list should look like, what keys it supports, and so forth. The root class then determines what classes should be used for its children. The children’s classes in turn specify what class should be used for their children, and so on down the hierarchy. When using a structure definition, you’ll notice that for many items, instead of the basic types like “Array”, “Boolean”, etc., you will instead see the name of the class that has been assigned to that item by the definition</p>
+
+<p><a href="https://www.fatcatsoftware.com/plisteditpro/VersionedDocs/v1/screenshots/definition_example.png"><img src="https://www.fatcatsoftware.com/plisteditpro/VersionedDocs/v1/screenshots/definition_example.png" width="100%" /></a></p>
+
+<p>In the example above, the Info.plist structure definition’s root class specifies that the object under the “Document types” key should be assigned the “DocumentTypeArray” class. The “DocumentTypeArray” class specifies that all its children should be assigned the “DocumentTypeDict” class, and then the “DocumentTypeDict” class specifies what should be used for its various child keys.</p>
+
+<p>The most important piece of information for a class is what basic type should be used for property list objects that are assigned that clas. This can be one of the seven basic property list types: Array, Boolean, Data, Date, Dictionary, Number or String, as well as a Variant Dictionary type that will be explained a little later. The “<em>root</em>” class is typically a dictionary, though it can sometimes be an array as well. Depending on what type of object a class represents, the class will have different attributes that specify how that type of object should be treated when viewing and editing it.  Note that currently, there is no way for one class to “subclass” another and inherit its properties.</p>
+
+
+<div style="height: 30px;">
+
+
+
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+		
+
+	
+	
+	
+		<div style="float: left">&lt;&lt; <a href="using_structure_definition.html">Using a structure definition when editing a property list</a></div>
+	
+
+
+	
+	
+	
+		<div style="float: right"><a href="create_definition.html">Creating a structure definition &gt;&gt;</a></div>
+	
+
+
+
+</div>
+
+</body>
+</html>
+

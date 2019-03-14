@@ -1,0 +1,103 @@
+
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "5"; */
+"5.title" = "Postavi sve naprijed";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "19"; */
+"19.title" = "Prozor";
+
+/* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "23"; */
+"23.title" = "Smanji";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "24"; */
+"24.title" = "Prozor";
+
+/* Class = "NSMenuItem"; title = "AppCleaner"; ObjectID = "56"; */
+"56.title" = "AppCleaner";
+
+/* Class = "NSMenu"; title = "AppCleaner"; ObjectID = "57"; */
+"57.title" = "AppCleaner";
+
+/* Class = "NSMenuItem"; title = "About AppCleaner"; ObjectID = "58"; */
+"58.title" = "Više o aplikaciji AppCleaner";
+
+/* Class = "NSMenuItem"; title = "Open…"; ObjectID = "72"; */
+"72.title" = "Otvori…";
+
+/* Class = "NSMenuItem"; title = "Close"; ObjectID = "73"; */
+"73.title" = "Zatvori";
+
+/* Class = "NSMenu"; title = "File"; ObjectID = "81"; */
+"81.title" = "Datoteka";
+
+/* Class = "NSMenuItem"; title = "File"; ObjectID = "83"; */
+"83.title" = "Datoteka";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "129"; */
+"129.title" = "Postavke…";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "130"; */
+"130.title" = "Usluge";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "131"; */
+"131.title" = "Usluge";
+
+/* Class = "NSMenuItem"; title = "Hide AppCleaner"; ObjectID = "134"; */
+"134.title" = "Sakrij AppCleaner";
+
+/* Class = "NSMenuItem"; title = "Quit AppCleaner"; ObjectID = "136"; */
+"136.title" = "Zatvori AppCleaner";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "145"; */
+"145.title" = "Sakrij ostalo";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "150"; */
+"150.title" = "Prikaži sve";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "197"; */
+"197.title" = "Kopiraj";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "198"; */
+"198.title" = "Odaberi sve";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "199"; */
+"199.title" = "Izreži";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "203"; */
+"203.title" = "Zalijepi";
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "205"; */
+"205.title" = "Uredi";
+
+/* Class = "NSMenuItem"; title = "Undo"; ObjectID = "207"; */
+"207.title" = "Poništi";
+
+/* Class = "NSMenuItem"; title = "Find…"; ObjectID = "209"; */
+"209.title" = "Pronađi…";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "217"; */
+"217.title" = "Uredi";
+
+/* Class = "NSMenuItem"; title = "Zoom"; ObjectID = "239"; */
+"239.title" = "Zumiraj";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "490"; */
+"490.title" = "Pomoć";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "491"; */
+"491.title" = "Pomoć";
+
+/* Class = "NSMenuItem"; title = "AppCleaner Help"; ObjectID = "492"; */
+"492.title" = "Pomoć za AppCleaner";
+
+/* Class = "NSMenuItem"; title = "Deselect All"; ObjectID = "0DK-T6-zHi"; */
+"0DK-T6-zHi.title" = "Poništi odabir";
+
+/* Class = "NSMenuItem"; title = "Visit AppCleaner Website"; ObjectID = "Dkc-Vs-udd"; */
+"Dkc-Vs-udd.title" = "Posjetite stranicu AppCleaner-a";
+
+/* Class = "NSMenuItem"; title = "Check for Updates…"; ObjectID = "mfL-55-bwL"; */
+"mfL-55-bwL.title" = "Provjeri ažuriranja…";
+
+/* Class = "NSMenuItem"; title = "Contact Support"; ObjectID = "qxF-hp-fr0"; */
+"qxF-hp-fr0.title" = "Kontaktirajte podršku";
+

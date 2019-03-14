@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plugin name="iTunes Music Library" id="com.fatcatsoftware.structure-definition.itunes-music-library" version="1.0" xmlns:plisteditpro="http://www.fatcatsoftware.com/plisteditpro">
+    <extension point="com.apple.xcode.plist.structure-definition" name="iTunes Music Library" id="com.fatcatsoftware.itunes-music-library">
+        <definition name="_root_" localizedString="iTunes Music Library" class="Dictionary">
+            <dictionaryKeys>
+                <key name="Application Version" localizedString="Application Version" class="String" use="optional"></key>
+                <key name="Features" localizedString="Features" class="Number" use="optional"></key>
+                <key name="Library Persistent ID" localizedString="Library Persistent ID" class="String" use="required"></key>
+                <key name="Major Version" localizedString="Major Version" class="Number" use="optional"></key>
+                <key name="Minor Version" localizedString="Minor Version" class="Number" use="optional"></key>
+                <key name="Music Folder" localizedString="Music Folder" class="String" use="optional"></key>
+                <key name="Playlists" localizedString="Playlists" class="PlaylistArray" use="optional"></key>
+                <key name="Show Content Ratings" localizedString="Show Content Ratings" class="Boolean" use="optional"></key>
+                <key name="Tracks" localizedString="Tracks" class="TracksDictionary" use="optional"></key>
+                <key name="Date" localizedString="Date" class="Date" use="optional"></key>
+            </dictionaryKeys>
+        </definition>
+        <definition name="PlaylistArray" localizedString="PlaylistArray" class="Array" arrayElementClass="Playlist"></definition>
+        <definition name="Playlist" localizedString="Playlist" class="Dictionary" identifyingKey="Name">
+            <dictionaryKeys>
+                <key name="All Items" localizedString="All Items" class="Boolean" use="optional"></key>
+                <key name="Audiobooks" localizedString="Audiobooks" class="Boolean" use="optional"></key>
+                <key name="Books" localizedString="Books" class="Boolean" use="optional"></key>
+                <key name="Distinguished Kind" localizedString="Distinguished Kind" class="DistinguishedKind" use="optional"></key>
+                <key name="Folder" localizedString="Folder" class="Boolean" use="optional"></key>
+                <key name="Genius Track ID" localizedString="Genius Track ID" class="Number" use="optional"></key>
+                <key name="Master" localizedString="Master" class="Boolean" use="optional"></key>
+                <key name="Movies" localizedString="Movies" class="Boolean" use="optional"></key>
+                <key name="Music" localizedString="Music" class="Boolean" use="optional"></key>
+                <key name="Name" localizedString="Name" class="String" use="optional"></key>
+                <key name="Parent Persistent ID" localizedString="Parent Persistent ID" class="String" use="optional"></key>
+                <key name="Party Shuffle" localizedString="Party Shuffle" class="Boolean" use="optional"></key>
+                <key name="Playlist ID" localizedString="Playlist ID" class="Number" use="optional"></key>
+                <key name="Playlist Items" localizedString="Playlist Items" class="PlaylistItemArray" use="optional"></key>
+                <key name="Playlist Persistent ID" localizedString="Playlist Persistent ID" class="String" use="optional"></key>
+                <key name="Podcasts" localizedString="Podcasts" class="Boolean" use="optional"></key>
+                <key name="Purchased Music" localizedString="Purchased Music" class="Boolean" use="optional"></key>
+                <key name="Smart Criteria" localizedString="Smart Criteria" class="Data" use="optional"></key>
+                <key name="Smart Info" localizedString="Smart Info" class="Data" use="optional"></key>
+                <key name="TV Shows" localizedString="TV Shows" class="Boolean" use="optional"></key>
+                <key name="Visible" localizedString="Visible" class="Boolean" use="optional"></key>
+            </dictionaryKeys>
+        </definition>
+        <definition name="PlaylistItemArray" localizedString="PlaylistItemArray" class="Array" arrayElementClass="PlaylistItem"></definition>
+        <definition name="PlaylistItem" localizedString="PlaylistItem" class="Dictionary">
+            <dictionaryKeys>
+                <key name="Track ID" localizedString="Track ID" class="Number" use="optional"></key>
+            </dictionaryKeys>
+        </definition>
+        <definition name="TracksDictionary" localizedString="TracksDictionary" class="Dictionary" defaultDictionaryValueClass="Track"></definition>
+        <definition name="Track" localizedString="Track" class="Dictionary" identifyingKey="Name">
+            <dictionaryKeys>
+                <key name="Album" localizedString="Album" class="String" use="optional"></key>
+                <key name="Album Artist" localizedString="Album Artist" class="String" use="optional"></key>
+                <key name="Album Rating" localizedString="Album Rating" class="Number" use="optional"></key>
+                <key name="Album Rating Computed" localizedString="Album Rating Computed" class="Boolean" use="optional"></key>
+                <key name="Artist" localizedString="Artist" class="String" use="optional"></key>
+                <key name="Artwork Count" localizedString="Artwork Count" class="Number" use="optional"></key>
+                <key name="BPM" localizedString="BPM" class="Number" use="optional"></key>
+                <key name="Bit Rate" localizedString="Bit Rate" class="Number" use="optional"></key>
+                <key name="Comments" localizedString="Comments" class="String" use="optional"></key>
+                <key name="Compilation" localizedString="Compilation" class="Boolean" use="optional"></key>
+                <key name="Composer" localizedString="Composer" class="String" use="optional"></key>
+                <key name="Date Added" localizedString="Date Added" class="Date" use="optional"></key>
+                <key name="Date Modified" localizedString="Date Modified" class="Date" use="optional"></key>
+                <key name="Disabled" localizedString="Disabled" class="Boolean" use="optional"></key>
+                <key name="Disc Count" localizedString="Disc Count" class="Number" use="optional"></key>
+                <key name="Disc Number" localizedString="Disc Number" class="Number" use="optional"></key>
+                <key name="Episode" localizedString="Episode" class="String" use="optional"></key>
+                <key name="Episode Order" localizedString="Episode Order" class="Number" use="optional"></key>
+                <key name="Explicit" localizedString="Explicit" class="Boolean" use="optional"></key>
+                <key name="File Creator" localizedString="File Creator" class="OSType" use="optional"></key>
+                <key name="File Folder Count" localizedString="File Folder Count" class="Number" use="optional"></key>
+                <key name="File Type" localizedString="File Type" class="OSType" use="optional"></key>
+                <key name="Genre" localizedString="Genre" class="String" use="optional"></key>
+                <key name="Has Video" localizedString="Has Video" class="Boolean" use="optional"></key>
+                <key name="Kind" localizedString="Kind" class="Kind" use="optional"></key>
+                <key name="Library Folder Count" localizedString="Library Folder Count" class="Number" use="optional"></key>
+                <key name="Location" localizedString="Location" class="String" use="optional"></key>
+                <key name="Name" localizedString="Name" class="String" use="optional"></key>
+                <key name="Persistent ID" localizedString="Persistent ID" class="String" use="optional"></key>
+                <key name="Play Count" localizedString="Play Count" class="Number" use="optional"></key>
+                <key name="Play Date" localizedString="Play Date" class="PlayDate" use="optional"></key>
+                <key name="Play Date UTC" localizedString="Play Date UTC" class="Date" use="optional"></key>
+                <key name="Podcast" localizedString="Podcast" class="Boolean" use="optional"></key>
+                <key name="Protected" localizedString="Protected" class="Boolean" use="optional"></key>
+                <key name="Rating" localizedString="Rating" class="Number" use="optional"></key>
+                <key name="Rating Computed" localizedString="Rating Computed" class="Boolean" use="optional"></key>
+                <key name="Release Date" localizedString="Release Date" class="Date" use="optional"></key>
+                <key name="Sample Rate" localizedString="Sample Rate" class="Number" use="optional"></key>
+                <key name="Season" localizedString="Season" class="Number" use="optional"></key>
+                <key name="Series" localizedString="Series" class="String" use="optional"></key>
+                <key name="Size" localizedString="Size" class="StorageSize" use="optional"></key>
+                <key name="Sort Album" localizedString="Sort Album" class="String" use="optional"></key>
+                <key name="Sort Album Artist" localizedString="Sort Album Artist" class="String" use="optional"></key>
+                <key name="Sort Artist" localizedString="Sort Artist" class="String" use="optional"></key>
+                <key name="Sort Composer" localizedString="Sort Composer" class="String" use="optional"></key>
+                <key name="Sort Name" localizedString="Sort Name" class="String" use="optional"></key>
+                <key name="Sort Show" localizedString="Sort Show" class="String" use="optional"></key>
+                <key name="TV Show" localizedString="TV Show" class="Boolean" use="optional"></key>
+                <key name="Total Time" localizedString="Total Time" class="Number" use="optional"></key>
+                <key name="Track Count" localizedString="Track Count" class="Number" use="optional"></key>
+                <key name="Track ID" localizedString="Track ID" class="Number" use="optional"></key>
+                <key name="Track Number" localizedString="Track Number" class="Number" use="optional"></key>
+                <key name="Track Type" localizedString="Track Type" class="TrackType" use="optional"></key>
+                <key name="Unplayed" localizedString="Unplayed" class="Boolean" use="optional"></key>
+                <key name="Volume Adjustment" localizedString="Volume Adjustment" class="Number" use="optional"></key>
+                <key name="Year" localizedString="Year" class="Number" use="optional"></key>
+                <key name="Skip Count" localizedString="Skip Count" class="Number" use="optional"></key>
+                <key name="Skip Date" localizedString="Skip Date" class="Date" use="optional"></key>
+            </dictionaryKeys>
+        </definition>
+        <definition name="TrackType" localizedString="TrackType" class="String" default="">
+            <allowableValues>
+                <value name="URL" localizedString="URL"></value>
+                <value name="File" localizedString="File"></value>
+            </allowableValues>
+        </definition>
+        <definition name="HMS" localizedString="HMS" class="Number" default="0" plisteditpro:valueViewerIdentifier="com.mac.bwebster.hms"></definition>
+        <definition name="Kind" localizedString="Kind" class="String" default="">
+            <allowableValues>
+                <value name="Quicktime movie file" localizedString="Quicktime movie file"></value>
+                <value name="MPEG audio file" localizedString="MPEG audio file"></value>
+                <value name="Protected AAC audio file" localizedString="Protected AAC audio file"></value>
+                <value name="Playlist URL" localizedString="Playlist URL"></value>
+                <value name="AAC audio file" localizedString="AAC audio file"></value>
+                <value name="Protected MPEG-4 video file" localizedString="Protected MPEG-4 video file"></value>
+            </allowableValues>
+        </definition>
+        <definition name="OSType" localizedString="OSType" class="Number" default="0" plisteditpro:valueViewerIdentifier="com.apple.ostype"></definition>
+        <definition name="PlayDate" localizedString="PlayDate" class="Number" default="0" plisteditpro:valueViewerIdentifier="com.mac.bwebster.time-interval-date-1904"></definition>
+        <definition name="StorageSize" localizedString="StorageSize" class="Number" default="0" plisteditpro:valueViewerIdentifier="com.mac.bwebster.storagesize"></definition>
+        <definition name="DistinguishedKind" localizedString="DistinguishedKind" class="Number" default="0">
+            <allowableValues>
+                <value name="2" localizedString="Movies"></value>
+                <value name="3" localizedString="TV Shows"></value>
+                <value name="4" localizedString="Music"></value>
+                <value name="5" localizedString="Books"></value>
+                <value name="10" localizedString="Podcasts"></value>
+                <value name="19" localizedString="Purchased"></value>
+                <value name="20" localizedString="Purchased on device"></value>
+                <value name="22" localizedString="iTunes DJ"></value>
+                <value name="26" localizedString="Genius"></value>
+                <value name="31" localizedString="iTunes U"></value>
+            </allowableValues>
+        </definition>
+    </extension>
+</plugin>

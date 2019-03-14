@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>allowedItemIdentifiers</key>
+	<array>
+		<string>NSToolbarSeparatorItem</string>
+		<string>NSToolbarSpaceItem</string>
+		<string>NSToolbarFlexibleSpaceItem</string>
+		<string>NSToolbarCustomizeToolbarItem</string>
+		<string>LaunchApplication</string>
+		<string>RevealInFinder</string>
+		<string>RevealApplication</string>
+		<string>RefreshFileList</string>
+		<string>MoveToTrash</string>
+	</array>
+	<key>defaultItemIdentifiers</key>
+	<array>
+		<string>LaunchApplication</string>
+		<string>RevealInFinder</string>
+		<string>RevealApplication</string>
+		<string>RefreshPrefFiles</string>
+		<string>MoveToTrash</string>
+	</array>
+	<key>toolbarItems</key>
+	<dict>
+		<key>LaunchApplication</key>
+		<dict>
+			<key>action</key>
+			<string>launchApplication:</string>
+			<key>imageName</key>
+			<string>LaunchApplication</string>
+			<key>label</key>
+			<string>Launch Application</string>
+			<key>menu</key>
+			<string>Launch Application</string>
+			<key>paletteLabel</key>
+			<string>Launch Application</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>toolTip</key>
+			<string>Launch the application that owns the selected preference file</string>
+		</dict>
+		<key>MoveToTrash</key>
+		<dict>
+			<key>action</key>
+			<string>moveToTrash:</string>
+			<key>imageName</key>
+			<string>MoveToTrash</string>
+			<key>label</key>
+			<string>Move To Trash</string>
+			<key>menu</key>
+			<string>Move To Trash</string>
+			<key>paletteLabel</key>
+			<string>Move To Trash</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>toolTip</key>
+			<string>Move the selected preference file to the trash</string>
+		</dict>
+		<key>RefreshFileList</key>
+		<dict>
+			<key>action</key>
+			<string>refresh:</string>
+			<key>imageName</key>
+			<string>Refresh</string>
+			<key>label</key>
+			<string>Refresh List</string>
+			<key>menu</key>
+			<string>Refresh List</string>
+			<key>paletteLabel</key>
+			<string>Refresh List</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>toolTip</key>
+			<string>Refresh the list of preference files from disk</string>
+		</dict>
+		<key>RevealApplication</key>
+		<dict>
+			<key>action</key>
+			<string>revealApplication:</string>
+			<key>imageName</key>
+			<string>RevealApplication</string>
+			<key>label</key>
+			<string>Reveal Application</string>
+			<key>menu</key>
+			<string>Reveal Application</string>
+			<key>paletteLabel</key>
+			<string>Reveal Application</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>toolTip</key>
+			<string>Reveal the application that owns the selected preference file</string>
+		</dict>
+		<key>RevealInFinder</key>
+		<dict>
+			<key>action</key>
+			<string>revealInFinder:</string>
+			<key>imageName</key>
+			<string>Reveal</string>
+			<key>label</key>
+			<string>Reveal In Finder</string>
+			<key>menu</key>
+			<string>Reveal In Finder</string>
+			<key>paletteLabel</key>
+			<string>Reveal In Finder</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>toolTip</key>
+			<string>Reveal the selected preference file in the Finder</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

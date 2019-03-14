@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultApps</key>
+	<array>
+		<string>/Applications/Address Book.app</string>
+		<string>/Applications/App Store.app</string>
+		<string>/Applications/Automator.app</string>
+		<string>/Applications/Books.app</string>
+		<string>/Applications/Calculator.app</string>
+		<string>/Applications/Calendar.app</string>
+		<string>/Applications/Chess.app</string>
+		<string>/Applications/Contacts.app</string>
+		<string>/Applications/Dashboard.app</string>
+		<string>/Applications/Dictionary.app</string>
+		<string>/Applications/DVD Player.app</string>
+		<string>/Applications/FaceTime.app</string>
+		<string>/Applications/Font Book.app</string>
+		<string>/Applications/Game Center.app</string>
+		<string>/Applications/GarageBand.app</string>
+		<string>/Applications/Home.app</string>
+		<string>/Applications/Image Capture.app</string>
+		<string>/Applications/iBooks.app</string>
+		<string>/Applications/iCal.app</string>
+		<string>/Applications/iChat.app</string>
+		<string>/Applications/iTunes.app</string>
+		<string>/Applications/Launchpad.app</string>
+		<string>/Applications/Mail.app</string>
+		<string>/Applications/Maps.app</string>
+		<string>/Applications/Messages.app</string>
+		<string>/Applications/Mission Control.app</string>
+		<string>/Applications/News.app</string>
+		<string>/Applications/Notes.app</string>
+		<string>/Applications/Photos.app</string>
+		<string>/Applications/Photo Booth.app</string>
+		<string>/Applications/Preview.app</string>
+		<string>/Applications/QuickTime Player.app</string>
+		<string>/Applications/Reminders.app</string>
+		<string>/Applications/Stickies.app</string>
+		<string>/Applications/Siri.app</string>
+		<string>/Applications/Stocks.app</string>
+		<string>/Applications/Safari.app</string>
+		<string>/Applications/System Preferences.app</string>
+		<string>/Applications/TextEdit.app</string>
+		<string>/Applications/Time Machine.app</string>
+		<string>/Applications/VoiceMemos.app</string>
+		<string>/Applications/Utilities/Boot Camp Assistant.app</string>
+		<string>/Applications/Utilities/Migration Assistant.app</string>
+		<string>/Applications/Utilities/Grab.app</string>
+		<string>/Applications/Utilities/Digital Color Meter.app</string>
+		<string>/Applications/Utilities/Audio MIDI Setup.app</string>
+		<string>/Applications/Utilities/Console.app</string>
+		<string>/Applications/Utilities/Bluetooth File Exchange.app</string>
+		<string>/Applications/Utilities/AppleScript Editor.app</string>
+		<string>/Applications/Utilities/Expose.app</string>
+		<string>/Applications/Utilities/Grapher.app</string>
+		<string>/Applications/Utilities/System Profiler.app</string>
+		<string>/Applications/Utilities/Remote Install Mac OS X.app</string>
+		<string>/Applications/Utilities/Activity Monitor.app</string>
+		<string>/Applications/Utilities/Java Preferences.app</string>
+		<string>/Applications/Utilities/Terminal.app</string>
+		<string>/Applications/Utilities/Podcast Capture.app</string>
+		<string>/Applications/Utilities/Keychain Access.app</string>
+		<string>/Applications/Utilities/AirPort Utility.app</string>
+		<string>/Applications/Utilities/ColorSync Utility.app</string>
+		<string>/Applications/Utilities/Disk Utility.app</string>
+		<string>/Applications/Utilities/Network Utility.app</string>
+		<string>/Applications/Utilities/RAID Utility.app</string>
+		<string>/Applications/Utilities/Spaces.app</string>
+		<string>/Applications/Utilities/Screenshot.app</string>
+		<string>/Applications/Utilities/Script Editor.app</string>
+		<string>/Applications/Utilities/System Information.app</string>
+		<string>/Applications/Utilities/VoiceOver Utility.app</string>
+		<string>/Applications/Utilities/X11.app</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>allowedItemIdentifiers</key>
+	<array>
+		<string>RemoveFromFavorites</string>
+		<string>NSToolbarSeparatorItem</string>
+		<string>NSToolbarSpaceItem</string>
+		<string>NSToolbarFlexibleSpaceItem</string>
+		<string>NSToolbarCustomizeToolbarItem</string>
+		<string>RevealInFinder</string>
+		<string>MoveToTrash</string>
+	</array>
+	<key>defaultItemIdentifiers</key>
+	<array>
+		<string>RevealInFinder</string>
+		<string>RemoveFromFavorites</string>
+	</array>
+	<key>toolbarItems</key>
+	<dict>
+		<key>MoveToTrash</key>
+		<dict>
+			<key>action</key>
+			<string>moveToTrash:</string>
+			<key>imageName</key>
+			<string>MoveToTrash</string>
+			<key>label</key>
+			<string>Move To Trash</string>
+			<key>menu</key>
+			<string>Move To Trash</string>
+			<key>paletteLabel</key>
+			<string>Move To Trash</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>toolTip</key>
+			<string>Move the selected preference file to the trash</string>
+		</dict>
+		<key>RemoveFromFavorites</key>
+		<dict>
+			<key>action</key>
+			<string>removeFromFavorites:</string>
+			<key>imageName</key>
+			<string>Delete</string>
+			<key>label</key>
+			<string>Remove</string>
+			<key>menu</key>
+			<string>Remove</string>
+			<key>paletteLabel</key>
+			<string>Remove</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>toolTip</key>
+			<string>Remove the selected file from the favorites list</string>
+		</dict>
+		<key>RevealInFinder</key>
+		<dict>
+			<key>action</key>
+			<string>revealInFinder:</string>
+			<key>imageName</key>
+			<string>Reveal</string>
+			<key>label</key>
+			<string>Reveal In Finder</string>
+			<key>menu</key>
+			<string>Reveal In Finder</string>
+			<key>paletteLabel</key>
+			<string>Reveal In Finder</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>toolTip</key>
+			<string>Reveal the selected preference file in the Finder</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

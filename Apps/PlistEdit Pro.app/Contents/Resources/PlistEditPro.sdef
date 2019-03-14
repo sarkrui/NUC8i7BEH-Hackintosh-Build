@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+<dictionary xmlns:xi="http://www.w3.org/2003/XInclude" title="Dictionary">
+	<suite name="Standard Suite" code="????" description="Common classes and commands for all applications.">
+
+		<command name="open" code="aevtodoc" description="Open a document.">
+			<direct-parameter description="The file(s) to be opened.">
+<!--				<type type="file"/> -->
+				<type type="file" list="yes"/>
+			</direct-parameter>
+			<result description="The opened document(s).">
+				<type type="document"/>
+				<type type="document" list="yes"/>
+			</result>
+		</command>
+
+		<enumeration name="save options" code="savo">
+			<enumerator name="yes" code="yes " description="Save the file."/>
+			<enumerator name="no" code="no  " description="Do not save the file."/>
+			<enumerator name="ask" code="ask " description="Ask the user whether or not to save the file."/>
+		</enumeration>
+
+		<command name="close" code="coreclos" description="Close a document.">
+			<cocoa class="NSCloseCommand"/>
+			<direct-parameter type="specifier" description="the document(s) or window(s) to close."/>
+			<parameter name="saving" code="savo" type="save options" optional="yes" description="Should changes be saved before closing?">
+				<cocoa key="SaveOptions"/>
+			</parameter>
+			<parameter name="saving in" code="kfil" type="file" optional="yes" description="The file in which to save the document, if so.">
+				<cocoa key="File"/>
+			</parameter>
+		</command>
+
+		<command name="save" code="coresave" description="Save a document.">
+			<direct-parameter type="specifier" description="The document(s) or window(s) to save."/>
+			<parameter name="in" code="kfil" type="file" optional="yes" description="The file in which to save the document.">
+				<cocoa key="File"/>
+			</parameter>
+		</command>
+
+		<enumeration name="printing error handling" code="enum">
+			<enumerator name="standard" code="lwst" description="Standard PostScript error handling">
+				<cocoa boolean-value="NO"/>
+			</enumerator>
+			<enumerator name="detailed" code="lwdt" description="print a detailed report of PostScript errors">
+				<cocoa boolean-value="YES"/>
+			</enumerator>
+		</enumeration>
+
+		<record-type name="print settings" code="pset">
+			<property name="copies" code="lwcp" type="integer" description="the number of copies of a document to be printed">
+				<cocoa key="NSCopies"/>
+			</property>
+			<property name="collating" code="lwcl" type="boolean" description="Should printed copies be collated?">
+				<cocoa key="NSMustCollate"/>
+			</property>
+			<property name="starting page" code="lwfp" type="integer" description="the first page of the document to be printed">
+				<cocoa key="NSFirstPage"/>
+			</property>
+			<property name="ending page" code="lwlp" type="integer" description="the last page of the document to be printed">
+				<cocoa key="NSLastPage"/>
+			</property>
+			<property name="pages across" code="lwla" type="integer" description="number of logical pages laid across a physical page">
+				<cocoa key="NSPagesAcross"/>
+			</property>
+			<property name="pages down" code="lwld" type="integer" description="number of logical pages laid out down a physical page">
+				<cocoa key="NSPagesDown"/>
+			</property>
+			<property name="requested print time" code="lwqt" type="date" description="the time at which the desktop printer should print the document">
+				<cocoa key="NSPrintTime"/>
+			</property>
+			<property name="error handling" code="lweh" type="printing error handling" description="how errors are handled">
+				<cocoa key="NSDetailedErrorReporting"/>
+			</property>
+			<property name="fax number" code="faxn" type="text" description="for fax number">
+				<cocoa key="NSFaxNumber"/>
+			</property>
+			<property name="target printer" code="trpr" type="text" description="for target printer">
+				<cocoa key="NSPrinterName"/>
+			</property>
+		</record-type>
+
+		<command name="print" code="aevtpdoc" description="Print a document.">
+			<direct-parameter description="The file(s), document(s), or window(s) to be printed.">
+				<type type="file" list="yes"/>
+				<type type="specifier"/>
+			</direct-parameter>
+			<parameter name="with properties" code="prdt" type="print settings" optional="yes" description="The print settings to use.">
+				<cocoa key="PrintSettings"/>
+			</parameter>
+			<parameter name="print dialog" code="pdlg" type="boolean" optional="yes" description="Should the application show the print dialog?">
+				<cocoa key="ShowPrintDialog"/>
+			</parameter>
+		</command>
+
+		<command name="quit" code="aevtquit" description="Quit the application.">
+			<cocoa class="NSQuitCommand"/>
+			<parameter name="saving" code="savo" type="save options" optional="yes" description="Should changes be saved before quitting?">
+				<cocoa key="SaveOptions"/>
+			</parameter>
+		</command>
+
+		<command name="count" code="corecnte" description="Return the number of elements of a particular class within an object.">
+			<cocoa class="NSCountCommand"/>
+			<direct-parameter type="specifier" description="The objects to be counted."/>
+			<parameter name="each" code="kocl" type="type" optional="yes" description="The class of objects to be counted." hidden="yes">
+				<cocoa key="ObjectClass"/>
+			</parameter>
+			<result type="integer" description="The count."/>
+		</command>
+
+		<command name="delete" code="coredelo" description="Delete an object.">
+			<cocoa class="NSDeleteCommand"/>
+			<direct-parameter type="specifier" description="The object(s) to delete."/>
+		</command>
+
+		<command name="duplicate" code="coreclon" description="Copy an object.">
+			<cocoa class="NSCloneCommand"/>
+			<direct-parameter type="specifier" description="The object(s) to copy."/>
+			<parameter name="to" code="insh" type="location specifier" description="The location for the new copy or copies." optional="yes">
+				<cocoa key="ToLocation"/>
+			</parameter>
+			<parameter name="with properties" code="prdt" type="record" description="Properties to set in the new copy or copies right away." optional="yes">
+				<cocoa key="WithProperties"/>
+			</parameter>
+		</command>
+
+		<command name="exists" code="coredoex" description="Verify that an object exists.">
+			<cocoa class="NSExistsCommand"/>
+			<direct-parameter type="any" description="The object(s) to check."/>
+			<result type="boolean" description="Did the object(s) exist?"/>
+		</command>
+
+		<command name="make" code="corecrel" description="Create a new object.">
+			<cocoa class="NSCreateCommand"/>
+			<parameter name="new" code="kocl" type="type" description="The class of the new object.">
+				<cocoa key="ObjectClass"/>
+			</parameter>
+			<parameter name="at" code="insh" type="location specifier" optional="yes" description="The location at which to insert the object.">
+				<cocoa key="Location"/>
+			</parameter>
+			<parameter name="with data" code="data" type="any" optional="yes" description="The initial contents of the object.">
+				<cocoa key="ObjectData"/>
+			</parameter>
+			<parameter name="with properties" code="prdt" type="record" optional="yes" description="The initial values for properties of the object.">
+				<cocoa key="KeyDictionary"/>
+			</parameter>
+			<result type="specifier" description="The new object."/>
+		</command>
+
+		<command name="move" code="coremove" description="Move an object to a new location.">
+			<cocoa class="NSMoveCommand"/>
+			<direct-parameter type="specifier" description="The object(s) to move."/>
+			<parameter name="to" code="insh" type="location specifier" description="The new location for the object(s).">
+				<cocoa key="ToLocation"/>
+			</parameter>
+		</command>
+
+		<class name="application" code="capp" description="The application's top-level scripting object.">
+			<cocoa class="NSApplication"/>
+			<property name="name" code="pnam" type="text" access="r" description="The name of the application."/>
+			<property name="frontmost" code="pisf" type="boolean" access="r" description="Is this the active application?">
+				<cocoa key="isActive"/>
+			</property>
+			<property name="version" code="vers" type="text" access="r" description="The version number of the application."/>
+			<element type="document">
+				<cocoa key="orderedDocuments"/>
+			</element>
+			<element type="plist document">
+				<cocoa key="orderedPlistDocuments"/>
+			</element>
+			<element type="structure definition document">
+				<cocoa key="orderedStructureDefinitionDocuments"/>
+			</element>
+			<element type="window" access="r">
+				<cocoa key="orderedWindows"/>
+			</element>
+			<responds-to command="open">
+				<cocoa method="handleOpenCommand:"/>
+			</responds-to>
+			<responds-to command="print">
+				<cocoa method="handlePrintScriptCommand:"/>
+			</responds-to>
+			<responds-to command="quit">
+				<cocoa method="handleQuitScriptCommand:"/>
+			</responds-to>
+		</class>
+
+		<class name="document" code="docu" description="A document.">
+			<cocoa class="NSDocument"/>
+			<property name="name" code="pnam" type="text" access="r" description="Its name.">
+				<cocoa key="displayName"/>
+			</property>
+			<property name="modified" code="imod" type="boolean" access="r" description="Has it been modified since the last save?">
+				<cocoa key="isDocumentEdited"/>
+			</property>
+			<property name="file" code="file" type="file" access="r" description="Its location on disk, if it has one.">
+				<cocoa key="fileURL"/>
+			</property>
+			<responds-to command="close">
+				<cocoa method="handleCloseScriptCommand:"/>
+			</responds-to>
+			<responds-to command="print">
+				<cocoa method="handlePrintScriptCommand:"/>
+			</responds-to>
+			<responds-to command="save">
+				<cocoa method="handleSaveScriptCommand:"/>
+			</responds-to>
+		</class>
+
+		<class name="window" code="cwin" description="A window.">
+			<cocoa class="NSWindow"/>
+			<property name="name" code="pnam" type="text" access="r" description="The title of the window.">
+				<cocoa key="title"/>
+			</property>
+			<property name="id" code="ID  " type="integer" access="r" description="The unique identifier of the window.">
+				<cocoa key="uniqueID"/>
+			</property>
+			<property name="index" code="pidx" type="integer" description="The index of the window, ordered front to back.">
+				<cocoa key="orderedIndex"/>
+			</property>
+			<property name="bounds" code="pbnd" type="rectangle" description="The bounding rectangle of the window.">
+				<cocoa key="boundsAsQDRect"/>
+			</property>
+			<property name="closeable" code="hclb" type="boolean" access="r" description="Does the window have a close button?">
+				<cocoa key="hasCloseBox"/>
+			</property>
+			<property name="miniaturizable" code="ismn" type="boolean" access="r" description="Does the window have a minimize button?">
+				<cocoa key="isMiniaturizable"/>
+			</property>
+			<property name="miniaturized" code="pmnd" type="boolean" description="Is the window minimized right now?">
+				<cocoa key="isMiniaturized"/>
+			</property>
+			<property name="resizable" code="prsz" type="boolean" access="r" description="Can the window be resized?">
+				<cocoa key="isResizable"/>
+			</property>
+			<property name="visible" code="pvis" type="boolean" description="Is the window visible right now?">
+				<cocoa key="isVisible"/>
+			</property>
+			<property name="zoomable" code="iszm" type="boolean" access="r" description="Does the window have a zoom button?">
+				<cocoa key="isZoomable"/>
+			</property>
+			<property name="zoomed" code="pzum" type="boolean" description="Is the window zoomed right now?">
+				<cocoa key="isZoomed"/>
+			</property>
+			<property name="document" code="docu" type="document" access="r" description="The document whose contents are displayed in the window."/>
+			<responds-to command="close">
+				<cocoa method="handleCloseScriptCommand:"/>
+			</responds-to>
+			<responds-to command="print">
+				<cocoa method="handlePrintScriptCommand:"/>
+			</responds-to>
+			<responds-to command="save">
+				<cocoa method="handleSaveScriptCommand:"/>
+			</responds-to>
+		</class>
+
+	</suite>
+	<suite name="PlistEdit Pro Suite" code="pEDT" description="Defines classes and commands specific to PlistEdit Pro.">
+		<cocoa name="PlistEditPro"/>
+		<enumeration name="plist format" code="PLFT">
+			<cocoa name="PlistFormat"/>
+			<enumerator name="XML" code="PfXM" description="XML format">
+				<cocoa name="Format_XML"/>
+			</enumerator>
+			<enumerator name="ASCII" code="PfAS" description="OpenStep ASCII format">
+				<cocoa name="Format_ASCII"/>
+			</enumerator>
+			<enumerator name="binary" code="PfBi" description="Binary format">
+				<cocoa name="Format_Binary"/>
+			</enumerator>
+			<enumerator name="JSON" code="PfJS" description="JSON format">
+				<cocoa name="Format_JSON"/>
+			</enumerator>
+		</enumeration>
+		<class name="plist" code="PLST" description="A property list object" inherits="item">
+			<cocoa class="PEPlistObject"/>
+			<element description="The children of the property list" type="plist">
+				<cocoa key="childs"/>
+			</element>
+			<property name="value" code="valL" description="The value for the property list" access="rw">
+				<type type="text"/>
+				<type type="number"/>
+				<type type="date"/>
+				<type type="boolean"/>
+				<type type="any" list="yes"/>
+				<type type="any"/>
+				<cocoa key="scriptingPlist"/>
+			</property>
+			<property name="display value" code="dVal" description="The formatted form of the plist value (i.e. filtered through the View As menu selection)" type="text" access="r">
+				<cocoa key="scriptingValueDisplayString"/>
+			</property>
+			<property name="name" code="pnam" description="If the object belongs to a dictionary, this property holds the key under which the object is stored" type="text" access="rw"/>
+			<property name="parent" code="PRNT" description="The parent of the plist" type="plist" access="r">
+				<cocoa key="scriptingParent"/>
+			</property>
+			<property name="index" code="pidx" description="The index of the plist in its parent" type="integer" access="r">
+				<cocoa key="scriptingIndexInParent"/>
+			</property>
+			<property name="type" code="PTYP" description="The class of the property list" type="text" access="r">
+				<cocoa key="plistTypeName"/>
+			</property>
+			<responds-to command="move">
+				<cocoa method="handleMoveScriptCommand:"/>
+			</responds-to>
+			<responds-to command="sort">
+				<cocoa method="handleSortScriptCommand:"/>
+			</responds-to>
+		</class>
+		<class name="plist document" code="PDOC" description="A document representing a single plist file" plural="plist documents" inherits="document">
+			<cocoa class="PEPlistDocument"/>
+			<property name="text" code="ctxt" description="The raw text of the property list document" type="text">
+				<cocoa key="scriptingPlistText"/>
+			</property>
+			<property name="format" code="PLFT" description="The format of the document when written to disk" type="plist format">
+				<cocoa key="scriptingPlistFormat"/>
+			</property>
+			<property name="id" code="ID  " description="A unique (but not persistent) ID number for the document." type="integer" access="r">
+				<cocoa key="uniqueID"/>
+			</property>
+			<property name="selection" code="sele" description="The current selection">
+				<cocoa key="selectedItems"/>
+				<type type="plist" list="yes"/>
+			</property>
+			<property name="plist" code="PLST" description="The root property list" type="plist">
+				<cocoa key="plistRoot"/>
+			</property>
+		</class>
+		<class name="structure definition document" code="SDOC" description="A document representing a structure definition file" plural="structure definition documents" inherits="document">
+			<cocoa class="PEStructureDefinitionDocument"/>
+			<element description="The list of definitions in the document" type="structure definition">
+				<cocoa key="definitions"/>
+			</element>
+		</class>
+		<class name="structure definition" code="SDEF" description="A property list structure definition" inherits="item">
+			<cocoa class="PEStructureDefinition"/>
+			<property name="name" code="pnam" description="The definition's name" type="text">
+				<cocoa key="name"/>
+			</property>
+			<element type="definition element" description="The list of definition elements">
+				<cocoa key="elements"/>
+			</element>
+		</class>
+		<class name="definition element" code="DELM" description="A definition element that specifies parameters for a particular class of property list object" inherits="item">
+			<cocoa class="PEDefinitionElement"/>
+			<property name="name" code="pnam" description="The name of the definition element" type="text">
+			</property>
+		</class>
+		<command name="sort" code="pEDTSORT" description="Sorts a plist&apos;s keys">
+			<cocoa class="NSScriptCommand"/>
+			<direct-parameter type="plist" description="The array or dictionary to sort."/>
+			<parameter name="sorting values" code="SVAL" description="Sort the plist&apos;s values instead of its keys" type="boolean" optional="yes">
+				<cocoa key="SortValues"/>
+			</parameter>
+			<parameter name="recursion" code="SREC" description="Sort the plist&apos;s children recursively. Ignored when sorting by a subkey" type="boolean" optional="yes">
+				<cocoa key="Recursive"/>
+			</parameter>
+			<parameter name="by subkey" code="SKEY" description="Sort a list of dictionaries based on the value of the given key within each dictionary." type="text" optional="yes">
+				<cocoa key="SortSubkey"/>
+			</parameter>
+		</command>
+	</suite>
+</dictionary>

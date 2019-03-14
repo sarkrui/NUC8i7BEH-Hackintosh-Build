@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Applications</key>
+	<dict>
+		<key>User Applications</key>
+		<array>
+			<string>~/Applications</string>
+		</array>
+		<key>System Applications</key>
+		<array>
+			<string>/Applications</string>
+		</array>
+	</dict>
+	<key>Widgets</key>
+	<dict>
+		<key>User Widgets</key>
+		<array>
+			<string>~/Library/Widgets</string>
+		</array>
+		<key>System Widgets</key>
+		<array>
+			<string>/Library/Widgets</string>
+		</array>
+	</dict>
+	<key>Plugins</key>
+	<dict>
+		<key>User Plugins</key>
+		<array>
+			<string>~/Library/Contextual Menu Items</string>
+			<string>~/Library/InputManagers</string>
+			<string>~/Library/Internet Plug-Ins</string>
+			<string>~/Library/Mail/Bundles</string>
+			<string>~/Library/PreferencePanes</string>
+			<string>~/Library/QuickLook</string>
+			<string>~/Library/QuickTime</string>
+			<string>~/Library/Screen Savers</string>
+			<string>~/Library/Spotlight</string>
+		</array>
+		<key>System Plugins</key>
+		<array>
+			<string>/Library/Contextual Menu Items</string>
+			<string>/Library/InputManagers</string>
+			<string>/Library/Internet Plug-Ins</string>
+			<string>/Library/Mail/Bundles</string>
+			<string>/Library/PreferencePanes</string>
+			<string>/Library/QuickLook</string>
+			<string>/Library/QuickTime</string>
+			<string>/Library/Screen Savers</string>
+			<string>/Library/Spotlight</string>
+		</array>
+	</dict>
+</dict>
+</plist>

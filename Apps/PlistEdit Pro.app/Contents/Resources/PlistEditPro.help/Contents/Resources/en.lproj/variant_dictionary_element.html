@@ -1,0 +1,133 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="css/applehelp.css" />
+<link rel="stylesheet" type="text/css" href="css/fatcatdocs.css" />
+<title>Variant dictionaries</title>
+
+</head>
+<body>
+
+<div id="banner">
+	<div id="machelp">
+	<a class="bread" href="index.html">Table of Contents</a>
+	</div>
+</div>
+<div id="mainbox">
+	<div id="caticon">
+	<img width="32" height="32" alt="PlistEdit Pro Icon" src="images/PlistEditPro.png"/>
+	</div>
+</div>
+
+<div id="pagetitle">
+	<h1>Variant dictionaries</h1><br/>
+</div>
+
+<p>A variant dictionary type allows you to treate a dictionary differently based on its content. A variant dictionary type contains a list of one or more dictionary classes defined elsewhere in the structure definition. When a dictionary’s class is determined to be a variant dictionary, PlistEdit Pro will search through the variants and try to determine which variant is most applicable to the dictionary. This search is based on the “Variant key” and “Variant value” that is given for each dictionary class. To determine which variant to use, PlistEdit Pro evaluates each variant in order:</p>
+
+<ol>
+  <li>If the dictionary type specified by the variant has only a “Variant key” definied, then if that key is present in the dictionary being viewed, then that variant’s dictionary type is used for the dictionary being viewed.</li>
+  <li>If the dictionary type specified by the variant has both a “Variant key” and a “Variant value” defined, then the key must not only be present, but the value stored under that key must match the “Variant value” for the dictionary type.</li>
+  <li>If a variant doesn’t match the dictionary being viewed, PlistEdit Pro moves on to the next variant.</li>
+  <li>If none of the variants match, the dictionary is just treated as a plain dictionary.</li>
+</ol>
+
+<p>As an example of how a variant dictionary might be used, imagine you have a list of dictionaries, and each dictionary has a key named “class” which specifies a class name for that dictionary. For each possible class, you could create a dictionary type that would define the keys and values that apply to that class. For each dictionary type, you would specify “class” as the variant key for that dictionary type, and then the class name as the variant value. Finally, you would create a variant dictionary type and add a variant for each dictionary type you had created. Then, when one of these dictionaries was assigned your variant dictionary as its type, its “class” value would determine which dictionary type was used for that particular dictionary.</p>
+
+
+<div style="height: 30px;">
+
+
+
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+		
+
+	
+	
+	
+		<div style="float: left">&lt;&lt; <a href="array_element.html">Arrays</a></div>
+	
+
+
+	
+	
+	
+		<div style="float: right"><a href="manage_definitions.html">Managing installed structure definitions &gt;&gt;</a></div>
+	
+
+
+
+</div>
+
+</body>
+</html>
+

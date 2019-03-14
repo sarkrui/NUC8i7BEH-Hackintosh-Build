@@ -1,0 +1,27 @@
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "45E-Er-QDC"; */
+"45E-Er-QDC.title" = "OtherViews";
+
+/* Class = "NSButtonCell"; title = "Indented"; ObjectID = "JAJ-oJ-qpF"; */
+"JAJ-oJ-qpF.title" = "Indented";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "KIE-Yl-zxZ"; */
+"KIE-Yl-zxZ.title" = "Item 3";
+
+/* Class = "NSButtonCell"; title = "Condensed"; ObjectID = "Vt1-vb-Hb7"; */
+"Vt1-vb-Hb7.title" = "Condensed";
+
+/* Class = "NSTextFieldCell"; title = "File Format:"; ObjectID = "mXw-dq-emv"; */
+"mXw-dq-emv.title" = "File Format:";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "swn-4f-EFu"; */
+"swn-4f-EFu.title" = "Radio";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "yaq-eX-yqn"; */
+"yaq-eX-yqn.title" = "Item 2";
+
+/* Class = "NSTextFieldCell"; title = "JSON formatting:"; ObjectID = "zo1-37-dba"; */
+"zo1-37-dba.title" = "JSON formatting:";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "zrt-E7-tpc"; */
+"zrt-E7-tpc.title" = "Item 1";

@@ -1,0 +1,93 @@
+
+/* Class = "NSMenuItem"; title = "Edit Value…"; ObjectID = "2Ng-MO-QCL"; */
+"2Ng-MO-QCL.title" = "Edit Value…";
+
+/* Class = "NSMenuItem"; title = "Duplicate"; ObjectID = "2UG-Ug-lXl"; */
+"2UG-Ug-lXl.title" = "Duplicate";
+
+/* Class = "NSMenuItem"; title = "Add Child Key"; ObjectID = "2y0-vc-ycp"; */
+"2y0-vc-ycp.title" = "Add Child Key";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "BVe-Wt-rF8"; */
+"BVe-Wt-rF8.title" = "Delete";
+
+/* Class = "NSMenu"; title = "Add Sibling Key"; ObjectID = "FfZ-UF-f0N"; */
+"FfZ-UF-f0N.title" = "Add Sibling Key";
+
+/* Class = "NSMenuItem"; title = "<<do not localize>>"; ObjectID = "GS9-6M-RsJ"; */
+"GS9-6M-RsJ.title" = "<<do not localize>>";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "PqG-PR-Gcv"; */
+"PqG-PR-Gcv.title" = "Copy";
+
+/* Class = "NSMenuItem"; title = "Paste As Child"; ObjectID = "R02-72-tOd"; */
+"R02-72-tOd.title" = "Paste As Child";
+
+/* Class = "NSMenuItem"; title = "<<do not localize>>"; ObjectID = "Tdb-rn-4nj"; */
+"Tdb-rn-4nj.title" = "<<do not localize>>";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "Tyq-k2-Jy3"; */
+"Tyq-k2-Jy3.title" = "Cut";
+
+/* Class = "NSTableColumn"; headerCell.title = "Key"; ObjectID = "Vkz-03-Q0X"; */
+"Vkz-03-Q0X.headerCell.title" = "Key";
+
+/* Class = "NSMenuItem"; title = "New Child"; ObjectID = "b3c-2o-Yrs"; */
+"b3c-2o-Yrs.title" = "New Child";
+
+/* Class = "NSMenuItem"; title = "View As"; ObjectID = "d76-tr-O9n"; */
+"d76-tr-O9n.title" = "View As";
+
+/* Class = "NSMenuItem"; title = "Add Sibling Key"; ObjectID = "ddN-32-2wN"; */
+"ddN-32-2wN.title" = "Add Sibling Key";
+
+/* Class = "NSMenu"; title = "View By Subkey"; ObjectID = "dgH-bz-QpB"; */
+"dgH-bz-QpB.title" = "View By Subkey";
+
+/* Class = "NSMenuItem"; title = "<<do not localize>>"; ObjectID = "eGZ-Fz-fTu"; */
+"eGZ-Fz-fTu.title" = "<<do not localize>>";
+
+/* Class = "NSMenuItem"; title = "<<do not localize>>"; ObjectID = "eYB-aO-ZTn"; */
+"eYB-aO-ZTn.title" = "<<do not localize>>";
+
+/* Class = "NSTableColumn"; headerCell.title = "Class"; ObjectID = "ek1-Ee-wJ3"; */
+"ek1-Ee-wJ3.headerCell.title" = "Class";
+
+/* Class = "NSMenu"; title = "View As"; ObjectID = "f3D-K0-gKg"; */
+"f3D-K0-gKg.title" = "View As";
+
+/* Class = "NSMenuItem"; title = "<<do not localize>>"; ObjectID = "fXJ-Kc-9bM"; */
+"fXJ-Kc-9bM.title" = "<<do not localize>>";
+
+/* Class = "NSMenu"; title = "Sort By Subkey"; ObjectID = "hNy-yO-vFe"; */
+"hNy-yO-vFe.title" = "Sort By Subkey";
+
+/* Class = "NSMenuItem"; title = "View By Subkey"; ObjectID = "i5L-c5-T4e"; */
+"i5L-c5-T4e.title" = "View By Subkey";
+
+/* Class = "NSMenuItem"; title = "Sort Values"; ObjectID = "kC0-Fm-gVK"; */
+"kC0-Fm-gVK.title" = "Sort Values";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "nCc-HO-JPN"; */
+"nCc-HO-JPN.title" = "Paste";
+
+/* Class = "NSMenu"; title = "Add Child Key"; ObjectID = "oD0-8h-O7d"; */
+"oD0-8h-O7d.title" = "Add Child Key";
+
+/* Class = "NSMenuItem"; title = "New Sibling"; ObjectID = "pK6-1J-Zf7"; */
+"pK6-1J-Zf7.title" = "New Sibling";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "pwg-qs-aoI"; */
+"pwg-qs-aoI.title" = "Menu";
+
+/* Class = "NSMenuItem"; title = "Sort Keys"; ObjectID = "tCg-79-UkC"; */
+"tCg-79-UkC.title" = "Sort Keys";
+
+/* Class = "NSMenuItem"; title = "Sort By Subkey"; ObjectID = "udV-4X-YZc"; */
+"udV-4X-YZc.title" = "Sort By Subkey";
+
+/* Class = "NSTableColumn"; headerCell.title = "Value"; ObjectID = "wGA-l0-HGq"; */
+"wGA-l0-HGq.headerCell.title" = "Value";
+
+/* Class = "NSMenuItem"; title = "Set To Default Value"; ObjectID = "yNJ-aD-wls"; */
+"yNJ-aD-wls.title" = "Set To Default Value";

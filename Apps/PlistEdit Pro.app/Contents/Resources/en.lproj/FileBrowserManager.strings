@@ -1,0 +1,15 @@
+
+/* Class = "NSWindow"; title = "Saved Property List Browsers"; ObjectID = "1"; */
+"1.title" = "Saved Property List Browsers";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "10"; */
+"10.headerCell.title" = "Name";
+
+/* Class = "NSButtonCell"; title = "Rename"; ObjectID = "17"; */
+"17.title" = "Rename";
+
+/* Class = "NSButtonCell"; title = "Delete"; ObjectID = "19"; */
+"19.title" = "Delete";
+
+/* Class = "NSButtonCell"; title = "Open"; ObjectID = "21"; */
+"21.title" = "Open";

@@ -1,0 +1,15 @@
+
+/* Class = "NSWindow"; title = "Gesicherte Property-List-Browser"; ObjectID = "1"; */
+"1.title" = "Gesicherte Property-List-Browser";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "10"; */
+"10.headerCell.title" = "Name";
+
+/* Class = "NSButtonCell"; title = "Umbenennen"; ObjectID = "17"; */
+"17.title" = "Umbenennen";
+
+/* Class = "NSButtonCell"; title = "Löschen"; ObjectID = "19"; */
+"19.title" = "Löschen";
+
+/* Class = "NSButtonCell"; title = "Öffnen"; ObjectID = "21"; */
+"21.title" = "Öffnen";

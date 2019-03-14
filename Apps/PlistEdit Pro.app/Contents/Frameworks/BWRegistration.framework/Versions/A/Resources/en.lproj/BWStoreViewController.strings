@@ -1,0 +1,12 @@
+
+/* Class = "NSTabViewItem"; label = "Load"; ObjectID = "Del-IB-Ltx"; */
+"Del-IB-Ltx.label" = "Load";
+
+/* Class = "NSTabViewItem"; label = "Show"; ObjectID = "UF6-xW-3YB"; */
+"UF6-xW-3YB.label" = "Show";
+
+/* Class = "NSTextFieldCell"; title = "Thank you for purchasing PowerPhotos!\n\nYour copy of PowerPhotos has been registered, and you now have full access to all the features of the program. You will receive a copy of your purchase receipt and registration information shortly via email for your records."; ObjectID = "m6d-TN-lxV"; */
+"m6d-TN-lxV.title" = "Thank you for purchasing PowerPhotos!\n\nYour copy of PowerPhotos has been registered, and you now have full access to all the features of the program. You will receive a copy of your purchase receipt and registration information shortly via email for your records.";
+
+/* Class = "NSTextFieldCell"; title = "Loading Store…"; ObjectID = "ptm-ND-nnb"; */
+"ptm-ND-nnb.title" = "Loading Store…";

@@ -1,0 +1,40 @@
+/*
+ * General Preferences
+ */
+/* Class = "NSButtonCell"; title = "Show protected apps"; ObjectID = "ngu-Wo-iM6"; */
+"ngu-Wo-iM6.title" = "Visa skyddade appar";
+
+/* Class = "NSButtonCell"; title = "Protect default OS X apps"; ObjectID = "eVX-mB-D3L"; */
+"eVX-mB-D3L.title" = "Skydda OS X standard appar";
+
+/* Class = "NSButtonCell"; title = "Protect running apps"; ObjectID = "41B-Fy-fnh"; */
+"41B-Fy-fnh.title" = "Skydda appar som körs";
+
+/* Class = "NSTextFieldCell"; title = "Add additional apps to keep safe below."; ObjectID = "QOW-na-jta"; */
+"QOW-na-jta.title" = "Lägg till fler appar att skydda nedan.";
+
+
+/*
+ * SmartDelete Preferences
+ */
+/* Class = "NSTextFieldCell"; title = "ON"; ObjectID = "BOU-hK-Zlb"; */
+"BOU-hK-Zlb.title" = "PÅ";
+
+/* Class = "NSTextFieldCell"; title = "OFF"; ObjectID = "PMy-kg-2fC"; */
+"PMy-kg-2fC.title" = "AV";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "SmartDelete switch"; ObjectID = "rbZ-qR-LJj"; */
+"rbZ-qR-LJj.ibExternalAccessibilityDescription" = "SmartDelete switch";
+
+/* Class = "NSTextFieldCell"; title = "SmartDelete detects when apps are trashed and will automatically find and offer to remove related files."; ObjectID = "Uo5-Md-IvO"; */
+"Uo5-Md-IvO.title" = "SmartDelete upptäcker när appar kastas i papperskorgen och hittar och erbjuder automatiskt att ta bort relaterade filer.";
+
+
+/*
+ * Update Preferences
+ */
+/* Class = "NSButtonCell"; title = "Check updates automatically"; ObjectID = "BvJ-Mi-kWy"; */
+"BvJ-Mi-kWy.title" = "Leta automatiskt efter uppdateringar";
+
+/* Class = "NSButtonCell"; title = "Check for Updates"; ObjectID = "sNu-SJ-Yuc"; */
+"sNu-SJ-Yuc.title" = "Leta efter uppdateringar";

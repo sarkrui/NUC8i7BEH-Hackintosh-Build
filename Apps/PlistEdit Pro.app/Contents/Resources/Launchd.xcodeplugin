@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin name="Launchd" id="com.fatcatsoftware.launchd" version="1.0" xmlns:plisteditpro="http://www.fatcatsoftware.com/plisteditpro">
+    <extension point="com.apple.xcode.plist.structure-definition" name="Launchd" id="com.fatcatsoftware.launchd">
+        <definition name="_root_" localizedString="Launchd" class="Dictionary">
+            <dictionaryKeys>
+                <key name="AbandonProcessGroup" localizedString="AbandonProcessGroup" class="Boolean" use="optional"></key>
+                <key name="Debug" localizedString="Debug" class="Boolean" use="optional"></key>
+                <key name="Disabled" localizedString="Disabled" class="Boolean" use="optional"></key>
+                <key name="EnableGlobbing" localizedString="EnableGlobbing" class="Boolean" use="optional"></key>
+                <key name="Enabled" localizedString="Enabled" class="Boolean" use="optional"></key>
+                <key name="EnvironmentVariables" localizedString="EnvironmentVariables" class="StringDictionary" use="optional"></key>
+                <key name="ExitTimeOut" localizedString="ExitTimeOut" class="Number" use="optional"></key>
+                <key name="GID" localizedString="GID" class="Number" use="optional"></key>
+                <key name="GroupName" localizedString="GroupName" class="String" use="optional"></key>
+                <key name="HardResourceLimits" localizedString="HardResourceLimits" class="ResourceLimitDictionary" use="optional"></key>
+                <key name="HopefullyExitsFirst" localizedString="HopefullyExitsFirst" class="Boolean" use="optional"></key>
+                <key name="HopefullyExitsLast" localizedString="HopefullyExitsLast" class="Boolean" use="optional"></key>
+                <key name="InitGroups" localizedString="InitGroups" class="Boolean" use="optional"></key>
+                <key name="KeepAlive" localizedString="KeepAlive" class="Boolean" use="optional"></key>
+                <key name="Label" localizedString="Label" class="String" use="required"></key>
+                <key name="LaunchOnlyOnce" localizedString="LaunchOnlyOnce" class="Boolean" use="optional"></key>
+                <key name="LimitLoadFromHosts" localizedString="LimitLoadFromHosts" class="StringArray" use="optional"></key>
+                <key name="LimitLoadToHosts" localizedString="LimitLoadToHosts" class="StringArray" use="optional"></key>
+                <key name="LimitLoadToSessionType" localizedString="LimitLoadToSessionType" class="String" use="optional"></key>
+                <key name="LowPriorityIO" localizedString="LowPriorityIO" class="Boolean" use="optional"></key>
+                <key name="MachServices" localizedString="MachServices" class="BooleanDictionary" use="optional"></key>
+                <key name="Nice" localizedString="Nice" class="Number" use="optional"></key>
+                <key name="OnDemand" localizedString="OnDemand" class="Boolean" use="deprecated"></key>
+                <key name="Program" localizedString="Program" class="String" use="optional"></key>
+                <key name="ProgramArguments" localizedString="ProgramArguments" class="StringArray" use="required"></key>
+                <key name="QueueDirectories" localizedString="QueueDirectories" class="StringArray" use="optional"></key>
+                <key name="RootDirectory" localizedString="RootDirectory" class="String" use="optional"></key>
+                <key name="RunAtLoad" localizedString="RunAtLoad" class="Boolean" use="optional"></key>
+                <key name="ServiceDescription" localizedString="ServiceDescription" class="String" use="optional"></key>
+                <key name="ServiceIPC" localizedString="ServiceIPC" class="Boolean" use="optional"></key>
+                <key name="Sockets" localizedString="Sockets" class="SocketDictionaryDictionary" use="optional"></key>
+                <key name="SoftResourceLimits" localizedString="SoftResourceLimits" class="ResourceLimitDictionary" use="optional"></key>
+                <key name="StandardErrorPath" localizedString="StandardErrorPath" class="String" use="optional"></key>
+                <key name="StandardOutPath" localizedString="StandardOutPath" class="String" use="optional"></key>
+                <key name="StartCalendarInterval" localizedString="StartCalendarInterval" class="CalendarDictionary" use="optional"></key>
+                <key name="StartInterval" localizedString="StartInterval" class="Number" use="optional"></key>
+                <key name="StartOnMount" localizedString="StartOnMount" class="Boolean" use="optional"></key>
+                <key name="Tcl" localizedString="Tcl" class="String" use="optional"></key>
+                <key name="ThrottleInterval" localizedString="ThrottleInterval" class="Number" use="optional"></key>
+                <key name="TimeOut" localizedString="TimeOut" class="Number" use="optional"></key>
+                <key name="UID" localizedString="UID" class="Number" use="optional"></key>
+                <key name="Umask" localizedString="Umask" class="Number" use="optional"></key>
+                <key name="UserName" localizedString="UserName" class="String" use="optional"></key>
+                <key name="WaitForDebugger" localizedString="WaitForDebugger" class="Boolean" use="optional"></key>
+                <key name="WatchPaths" localizedString="WatchPaths" class="StringArray" use="optional"></key>
+                <key name="WorkingDirectory" localizedString="WorkingDirectory" class="String" use="optional"></key>
+                <key name="inetdCompatibility" localizedString="inetdCompatibility" class="InetdCompatibilityDictionary" use="optional"></key>
+            </dictionaryKeys>
+        </definition>
+        <definition name="SocketDictionaryDictionary" class="Dictionary" defaultDictionaryValueClass="SocketDictionary"></definition>
+        <definition name="CalendarDictionary" class="Dictionary">
+            <dictionaryKeys>
+                <key name="Day" localizedString="Day" class="Number" use="default"></key>
+                <key name="Hour" localizedString="Hour" class="Number" use="default"></key>
+                <key name="Minute" localizedString="Minute" class="Number" use="default"></key>
+                <key name="Month" localizedString="Month" class="Number" use="default"></key>
+                <key name="Weekday" localizedString="Weekday" class="Number" use="default"></key>
+            </dictionaryKeys>
+        </definition>
+        <definition name="InetdCompatibilityDictionary" class="Dictionary">
+            <dictionaryKeys>
+                <key name="Wait" localizedString="Wait" class="Boolean" use="default"></key>
+            </dictionaryKeys>
+        </definition>
+        <definition name="KeepAliveDictionary" class="Dictionary">
+            <dictionaryKeys>
+                <key name="NetworkState" localizedString="NetworkState" class="Boolean" use="optional"></key>
+                <key name="OtherJobEnabled" localizedString="OtherJobEnabled" class="BooleanDictionary" use="optional"></key>
+                <key name="PathState" localizedString="PathState" class="BooleanDictionary" use="optional"></key>
+                <key name="SuccessfulExit" localizedString="SuccessfulExit" class="Boolean" use="optional"></key>
+            </dictionaryKeys>
+        </definition>
+        <definition name="MachServiceDictionary" class="Dictionary">
+            <dictionaryKeys>
+                <key name="HideUntilCheckIn" localizedString="HideUntilCheckIn" class="Boolean" use="optional"></key>
+                <key name="ResetAtClose" localizedString="ResetAtClose" class="Boolean" use="optional"></key>
+            </dictionaryKeys>
+        </definition>
+        <definition name="ResourceLimitDictionary" class="Dictionary">
+            <dictionaryKeys>
+                <key name="CPU" localizedString="CPU" class="Number" use="optional"></key>
+                <key name="Core" localizedString="Core" class="Number" use="optional"></key>
+                <key name="Data" localizedString="Data" class="Number" use="optional"></key>
+                <key name="FileSize" localizedString="FileSize" class="Number" use="optional"></key>
+                <key name="MemoryLock" localizedString="MemoryLock" class="Number" use="optional"></key>
+                <key name="NumberOfFiles" localizedString="NumberOfFiles" class="Number" use="optional"></key>
+                <key name="NumberOfProcesses" localizedString="NumberOfProcesses" class="Number" use="optional"></key>
+                <key name="ResidentSetSize" localizedString="ResidentSetSize" class="Number" use="optional"></key>
+                <key name="Stack" localizedString="Stack" class="Number" use="optional"></key>
+            </dictionaryKeys>
+        </definition>
+        <definition name="SocketDictionary" class="Dictionary">
+            <dictionaryKeys>
+                <key name="Bonjour" localizedString="Bonjour" class="" use="optional"></key>
+                <key name="MulticastGroup" localizedString="MulticastGroup" class="String" use="optional"></key>
+                <key name="SecureSocketWithKey" localizedString="SecureSocketWithKey" class="String" use="optional"></key>
+                <key name="SockFamily" localizedString="SockFamily" class="String" use="optional"></key>
+                <key name="SockNodeName" localizedString="SockNodeName" class="String" use="optional"></key>
+                <key name="SockPassive" localizedString="SockPassive" class="Boolean" use="optional"></key>
+                <key name="SockPathMode" localizedString="SockPathMode" class="Number" use="optional"></key>
+                <key name="SockPathName" localizedString="SockPathName" class="String" use="optional"></key>
+                <key name="SockProtocol" localizedString="SockProtocol" class="String" use="optional"></key>
+                <key name="SockServiceName" localizedString="SockServiceName" class="String" use="optional"></key>
+                <key name="SockType" localizedString="SockType" class="String" use="optional"></key>
+            </dictionaryKeys>
+        </definition>
+        <definition name="StringDictionary" class="Dictionary" defaultDictionaryValueClass="String"></definition>
+        <definition name="BooleanDictionary" class="Dictionary" defaultDictionaryValueClass="Boolean"></definition>
+        <definition name="StringArray" class="Array" arrayElementClass="String"></definition>
+    </extension>
+</plugin>

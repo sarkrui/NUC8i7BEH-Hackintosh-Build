@@ -1,0 +1,162 @@
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "1"; */
+"1.title" = "Window";
+
+/* Class = "NSTableColumn"; headerCell.title = "Typname"; ObjectID = "16"; */
+"16.headerCell.title" = "Typname";
+
+/* Class = "NSTableColumn"; headerCell.title = "Lokalisierter Name"; ObjectID = "17"; */
+"17.headerCell.title" = "Lokalisierter Name";
+
+/* Class = "NSTableColumn"; headerCell.title = "Typ"; ObjectID = "20"; */
+"20.headerCell.title" = "Typ";
+
+/* Class = "NSTabViewItem"; label = "String"; ObjectID = "26"; */
+"26.label" = "String";
+
+/* Class = "NSTabViewItem"; label = "Array"; ObjectID = "27"; */
+"27.label" = "Array";
+
+/* Class = "NSTabViewItem"; label = "Dictionary"; ObjectID = "35"; */
+"35.label" = "Dictionary";
+
+/* Class = "NSTableColumn"; headerCell.title = "Wert"; ObjectID = "48"; */
+"48.headerCell.title" = "Wert";
+
+/* Class = "NSTableColumn"; headerCell.title = "Angezeigter Wert"; ObjectID = "49"; */
+"49.headerCell.title" = "Angezeigter Wert";
+
+/* Class = "NSTextFieldCell"; title = "Standardwert:"; ObjectID = "53"; */
+"53.title" = "Standardwert:";
+
+/* Class = "NSTextFieldCell"; title = "Standardtyp Arrayelemente:"; ObjectID = "63"; */
+"63.title" = "Standardtyp Arrayelemente:";
+
+/* Class = "NSTextFieldCell"; title = "Platzhalter:"; ObjectID = "67"; */
+"67.title" = "Platzhalter:";
+
+/* Class = "NSTableColumn"; headerCell.title = "Typ"; ObjectID = "75"; */
+"75.headerCell.title" = "Typ";
+
+/* Class = "NSTextFieldCell"; title = "Standardtyp Kindelemente:"; ObjectID = "88"; */
+"88.title" = "Standardtyp Kindelemente:";
+
+/* Class = "NSTextFieldCell"; title = "Standard-Schlüsselname:"; ObjectID = "96"; */
+"96.title" = "Standard-Schlüsselname:";
+
+/* Class = "NSTextFieldCell"; title = "Eindeutiger Schlüssel:"; ObjectID = "102"; */
+"102.title" = "Eindeutiger Schlüssel:";
+
+/* Class = "NSTableColumn"; headerCell.title = "Schlüssel"; ObjectID = "110"; */
+"110.headerCell.title" = "Schlüssel";
+
+/* Class = "NSTableColumn"; headerCell.title = "Lokalisierter String"; ObjectID = "111"; */
+"111.headerCell.title" = "Lokalisierter String";
+
+/* Class = "NSTableColumn"; headerCell.title = "Typ"; ObjectID = "114"; */
+"114.headerCell.title" = "Typ";
+
+/* Class = "NSTableColumn"; headerCell.title = "Verwendung"; ObjectID = "119"; */
+"119.headerCell.title" = "Verwendung";
+
+/* Class = "NSMenuItem"; title = "Standardwert"; ObjectID = "122"; */
+"122.title" = "Standardwert";
+
+/* Class = "NSMenuItem"; title = "Zwingend"; ObjectID = "123"; */
+"123.title" = "Zwingend";
+
+/* Class = "NSMenuItem"; title = "Optional"; ObjectID = "124"; */
+"124.title" = "Optional";
+
+/* Class = "NSMenuItem"; title = "Zurückgewiesen"; ObjectID = "125"; */
+"125.title" = "Zurückgewiesen";
+
+/* Class = "NSTextFieldCell"; title = "Erlaubte Werte:"; ObjectID = "187"; */
+"187.title" = "Erlaubte Werte:";
+
+/* Class = "NSMenuItem"; title = "Array"; ObjectID = "190"; */
+"190.title" = "Array";
+
+/* Class = "IBBindingConnection"; ibShadowedIsNilPlaceholder = "<none>"; ObjectID = "197"; */
+"197.ibShadowedIsNilPlaceholder" = "<none>";
+
+/* Class = "IBBindingConnection"; ibShadowedIsNilPlaceholder = "<none>"; ObjectID = "199"; */
+"199.ibShadowedIsNilPlaceholder" = "<none>";
+
+/* Class = "NSTabViewItem"; label = "Empty"; ObjectID = "210"; */
+"210.label" = "Empty";
+
+/* Class = "NSTabViewItem"; label = "VariantDictionary"; ObjectID = "212"; */
+"212.label" = "VariantDictionary";
+
+/* Class = "NSMenuItem"; title = "Boolean"; ObjectID = "242"; */
+"242.title" = "Boolean";
+
+/* Class = "NSMenuItem"; title = "Daten"; ObjectID = "243"; */
+"243.title" = "Daten";
+
+/* Class = "NSMenuItem"; title = "Datum"; ObjectID = "244"; */
+"244.title" = "Datum";
+
+/* Class = "NSMenuItem"; title = "Dictionary"; ObjectID = "245"; */
+"245.title" = "Dictionary";
+
+/* Class = "NSMenuItem"; title = "Zahl"; ObjectID = "246"; */
+"246.title" = "Zahl";
+
+/* Class = "NSMenuItem"; title = "String"; ObjectID = "247"; */
+"247.title" = "String";
+
+/* Class = "NSMenuItem"; title = "Varianten-Dictionary"; ObjectID = "248"; */
+"248.title" = "Varianten-Dictionary";
+
+/* Class = "NSTextFieldCell"; title = "Definitionsname:"; ObjectID = "265"; */
+"265.title" = "Definitionsname:";
+
+/* Class = "NSTextFieldCell"; title = "Identifier:"; ObjectID = "269"; */
+"269.title" = "Identifier:";
+
+/* Class = "NSTextFieldCell"; title = "Standard-Arrayelemente:"; ObjectID = "342"; */
+"342.title" = "Standard-Arrayelemente:";
+
+/* Class = "NSTableColumn"; headerCell.title = "Variante"; ObjectID = "373"; */
+"373.headerCell.title" = "Variante";
+
+/* Class = "NSTableColumn"; headerCell.title = "Dictionary-Typ"; ObjectID = "374"; */
+"374.headerCell.title" = "Dictionary-Typ";
+
+/* Class = "NSTableColumn"; headerCell.title = "Lokalisierter Name"; ObjectID = "377"; */
+"377.headerCell.title" = "Lokalisierter Name";
+
+/* Class = "NSTextFieldCell"; title = "Variantenschlüssel:"; ObjectID = "389"; */
+"389.title" = "Variantenschlüssel:";
+
+/* Class = "NSTextFieldCell"; title = "Variantenwert:"; ObjectID = "393"; */
+"393.title" = "Variantenwert:";
+
+/* Class = "IBBindingConnection"; ibShadowedIsNilPlaceholder = "None"; ObjectID = "425"; */
+"425.ibShadowedIsNilPlaceholder" = "None";
+
+/* Class = "NSTextFieldCell"; title = "Standard-Anzeigetyp:"; ObjectID = "430"; */
+"430.title" = "Standard-Anzeigetyp:";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "466"; */
+"466.title" = "Window";
+
+/* Class = "NSTextFieldCell"; title = "Plugin-Name:"; ObjectID = "472"; */
+"472.title" = "Plugin-Name:";
+
+/* Class = "NSTextFieldCell"; title = "Plugin-Identifier:"; ObjectID = "476"; */
+"476.title" = "Plugin-Identifier:";
+
+/* Class = "NSTextFieldCell"; title = "Version:"; ObjectID = "480"; */
+"480.title" = "Version:";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "482"; */
+"482.title" = "OK";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "493"; */
+"493.title" = "Box";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "497"; */
+"497.title" = "Box";

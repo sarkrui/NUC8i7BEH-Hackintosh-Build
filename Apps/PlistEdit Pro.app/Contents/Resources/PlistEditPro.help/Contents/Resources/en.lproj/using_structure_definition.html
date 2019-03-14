@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="css/applehelp.css" />
+<link rel="stylesheet" type="text/css" href="css/fatcatdocs.css" />
+<title>Using a structure definition when editing a property list</title>
+
+</head>
+<body>
+
+<div id="banner">
+	<div id="machelp">
+	<a class="bread" href="index.html">Table of Contents</a>
+	</div>
+</div>
+<div id="mainbox">
+	<div id="caticon">
+	<img width="32" height="32" alt="PlistEdit Pro Icon" src="images/PlistEditPro.png"/>
+	</div>
+</div>
+
+<div id="pagetitle">
+	<h1>Using a structure definition when editing a property list</h1><br/>
+</div>
+
+<p>Using a structure definition when editing your property lists provides several additional enhancements and features.</p>
+
+<p><strong>Choosing from a list of available keys</strong></p>
+
+<p>Some types of property list can involve a large number of different keys, which can be difficult to keep track of and result in digging through the documentation, trying to figure out what the exact key you need for a particular purpose is. Structure definitions document the commonly used keys in certain types of property list files, and allow you to select such a key from a list directly from the PlistEdit Pro interface, rather than having to look it up in the documentation. For example, when editing an Info.plist file, PlistEdit Pro will already know commonly used keys such as CFBundleName, NSPrincipalClass, CFBundleDocumentTypes, LSUIElement, and so forth. This functionality can be accessed in a few different ways:</p>
+
+<ul>
+  <li>When editing a key, PlistEdit Pro will autocomplete the key as you type it, based on the entries found in the structure definition for the property list you’re editing.</li>
+  <li>A pop-up menu is also provided next to the key when editing, which you can click to view a full list of all the known keys for the dictionary you’re currently working with.</li>
+  <li>The “Add Sibling Key” and “Add Child Key” items in the Operations menu also list any known keys, and allow you to add a new item to the dictionary using a key that you select</li>
+</ul>
+
+<p><strong>Human readable keys</strong></p>
+
+<p>Structure definitions can provide plain english names for property list keys, making it easier to tell what a particular key is used for.  For example, instead of seeing “NSJavaPath” displayed for that key in an Info.plist file, you’d instead see “Java classpaths”, which makes it a little more clear what exactly the purpose of that key is.</p>
+
+<p><strong>Choosing from a list of allowed values</strong></p>
+
+<p>Some property list keys only allow certain values to be entered for that key, or at least there may be some small set of values that are very commonly used for a particular key. Structure definitions can provide a list of such values and provide a pop-up list and autocompletion when editing such a key. For example, when editing the CFBundleTypeRoles key of a document type dictionary in an Info.plist file, the structure definition provides a list of commonly used values for this key, which are “Editor”, “Viewer”, “Shell”, and “None”, so that you don’t have to remember these values or look them up yourself.</p>
+
+<p>Additionally, for some keys which require non-string values, the structure definition will display textual representations of these values which are much easier to choose from.  For example, the “LSUIPresentationMode” key in an Info.plist file requires a number to be entered for its value. This number corresponds to the SystemUIMode typedef declared in MacApplication.h in the Carbon framework. Normally, you would need to figure out what numeric value to use for a given mode (e.g. 0 gives you the normal UI mode, 1 hides the menu bar but not the dock, 2 hides both the menu bark and the dock. etc.) and enter that yourself. Using a structure definition, you will instead see choices such as “Normal”, “Content hidden”, “All hidden”, etc., and selecting one of those choices will set the numeric value to the appropriate number behind the scenes.</p>
+
+<p><strong>Default values</strong></p>
+
+<p>Structure definitions can provide default values for particular keys and object types. When you create a new object in your property list, it will automatically be populated with a sensible default value, rather than just being blank and leaving you to guess what type of information you might need to enter.  Also, newly created dictionaries will be automatically populated with keys that are either required or present by default, so you don’t accidentally forget to include a required key for that dictionary.</p>
+
+<p><strong>Display type</strong></p>
+
+<p>A structure definition can also specify that a particular item or key be displayed as a different type, using PlistEdit Pro’s formatters (the same as you can assign using the “View As” submenu in the Edit menu). For example, if a four character code is being stored in a Number object as a 32 bit integer value, the structure definition can specify that that value should be display using the OSType formatter. This will result in you seeing the actual four character code rather than a very large plain numeric value, which isn’t particularly useful. Note: this functionality is only supported by PlistEdit Pro, and not by Apple’s Property List Editor or Xcode.</p>
+
+<p><strong>Identifying keys for dictionaries</strong></p>
+
+<p>A structure definition can specify that the value stored under a particular key should be used to identify a dictionary, making it easier to browse through a list of dictionaries to find the one you’re looking for. ßFor example, when looking at the list of document types stored under the CFBundleDocumentTypes key, each dictionary in that list has a CFBundleTypeName key which specifies the name of that document type. The Info.plist structure definition specifies this key as being the identifying key for document type dictionaries. When you look at this list in PlistEdit Pro using the Info.plist structure definition, each document type’s name will be displayed in the same row as the dictionary, making it easy to find a particular document type without having to expand each dictionary looking for the one whose name matches what you’re looking for. This is similar to the functionality provide by the “<a href="formatters.html">View By Subkey</a>” command, only it’s done automatically when viewing a property list when using a structure definition.</p>
+
+
+<div style="height: 30px;">
+
+
+
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+		
+
+	
+	
+	
+		<div style="float: left">&lt;&lt; <a href="structure_definitions.html">Property list structure definitions</a></div>
+	
+
+
+	
+	
+	
+		<div style="float: right"><a href="how_definitions_work.html">How structure definitions work &gt;&gt;</a></div>
+	
+
+
+
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,141 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="css/applehelp.css" />
+<link rel="stylesheet" type="text/css" href="css/fatcatdocs.css" />
+<title>Viewing data in different formats</title>
+
+</head>
+<body>
+
+<div id="banner">
+	<div id="machelp">
+	<a class="bread" href="index.html">Table of Contents</a>
+	</div>
+</div>
+<div id="mainbox">
+	<div id="caticon">
+	<img width="32" height="32" alt="PlistEdit Pro Icon" src="images/PlistEditPro.png"/>
+	</div>
+</div>
+
+<div id="pagetitle">
+	<h1>Viewing data in different formats</h1><br/>
+</div>
+
+<p>Property lists allow for storage of a wide variety of different data types. There are only seven basic types to work with, but data can be manipulated in many different ways to be stored as one of these seven types. However, this sometimes means transforming the data into a form that is not easily recognized or edited when viewing the property list.</p>
+
+<p><strong>Formatters</strong></p>
+
+<p>PlistEdit Pro helps alleviate this problem by providing formatters for many common types of data that have to be manipulated to be stored in a property list. To view a value using a formatter, select the row you want to view and select the data type you want to view it as using the “View As” submenu in the Edit menu (or by control-clicking and selecting from the contextual menu).
+Below is a list of the formatters that are included with the current version of PlistEdit Pro:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Number</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HMS (hours/minutes/seconds)</td>
+      <td>If a time value is stored in a number, this formatter can be used to interpret the number as a number of seconds and display the value divided up into hours, minutes, and seconds. For example, if the base value of the number is 3672, using the HMS formatter will display the value as 1:01:12 (one hour, one minute, and twelve seconds).</td>
+    </tr>
+    <tr>
+      <td>Hex (big-endian or little-endian)</td>
+      <td>Displays the number value as either big-endian or little-endian hexadecimal. Values are interpreted as signed integers and padded with zeros up to the nearest number of bytes that is a power of two. Any decimal portion of a floating-point number will be ignored.</td>
+    </tr>
+    <tr>
+      <td>OSType (a.k.a. four character codes)</td>
+      <td>OSType values are used in many ways in macOS as an easily readable four character code that is actually stored as a 32 bit integer. These values are often stored in property lists as their numeric value, which is not easily readable. Using this formatter will interpret and display a number as a four character OSType.</td>
+    </tr>
+    <tr>
+      <td>Storage size</td>
+      <td>Useful for numbers used to store file sizes as a raw number of bytes. The storage size formatter will instead display the number as a number of KB, MB, GB, or TB.</td>
+    </tr>
+    <tr>
+      <td>Time interval date</td>
+      <td>While property lists do provide a specific date type for storing dates, in some places you will still see dates stored as a time interval from a certain starting date. PlistEdit Pro provides formatters for interpreting these numbers as UNIX-style dates, using a reference date of 1/1/1970, Cocoa-style dates, which use a reference date of 1/1/2001, or Carbon style dates, which start at 1/1/1904.</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td><strong>Data</strong></td>
+      <td> </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Alias record</td>
+      <td>An alias record in macOS is an opaque data type that can be stored as a chunk of data. The most common storage method is in the resource fork of the alias files you can create using the Finder, but many programs also store aliases internally using data objects in property lists. This formatter will attempt to interpret the data object as an alias record and display the path the alias resolves to. If the data object is not an alias, or cannot be resolved, an error message is displayed instead of the path.</td>
+    </tr>
+    <tr>
+      <td>Strings (ASCII, MacOS Roman, UTF-8, or UTF-16)</td>
+      <td>This set of formatters will interpret the data object as a string encoded using a certain encoding.</td>
+    </tr>
+    <tr>
+      <td>Bookmark data</td>
+      <td>Bookmarks are data type that function very similarly to aliases, but are accessed through the CFURL/NSURL APIs. This formatter behaves the same as the one for alias records, only translating to/from bookmark data blobs instead of alias record data blobs.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Note that not only do formatters allow you to view data as different types, they also allow you to edit the data in the same form. For example, you can type in a new hex value for a number, or type in a new path to make an alias record point to a different location.</p>
+
+<p><strong>View By Subkey</strong></p>
+
+<p>When viewing a list of dictionaries, it’s often difficult to find a particular dictionary, since the only value that’s displayed by default for each dictionary is the number of key/value pairs it contains. If you select such a list and use the “View By Subkey” menu command, you can select a key whose value will be displayed next to the dictionary. This makes it easy to find a particular dictionary in a large list without having to open each dictionary to see its contents.</p>
+
+
+<div style="height: 30px;">
+
+
+
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+		
+
+	
+	
+	
+		<div style="float: left">&lt;&lt; <a href="sorting.html">Sorting property list</a></div>
+	
+
+
+	
+	
+	
+		<div style="float: right"><a href="editing_text.html">Editing raw property list text &gt;&gt;</a></div>
+	
+
+
+
+</div>
+
+</body>
+</html>
+

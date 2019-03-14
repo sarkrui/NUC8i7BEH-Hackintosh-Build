@@ -1,0 +1,40 @@
+/*
+ * General Preferences
+ */
+/* Class = "NSButtonCell"; title = "Show protected apps"; ObjectID = "ngu-Wo-iM6"; */
+"ngu-Wo-iM6.title" = "Mostra le applicazioni protette";
+
+/* Class = "NSButtonCell"; title = "Protect default OS X apps"; ObjectID = "eVX-mB-D3L"; */
+"eVX-mB-D3L.title" = "Proteggi le applicazioni preinstallate su OS X";
+
+/* Class = "NSButtonCell"; title = "Protect running apps"; ObjectID = "41B-Fy-fnh"; */
+"41B-Fy-fnh.title" = "Proteggi le applicazioni aperte";
+
+/* Class = "NSTextFieldCell"; title = "Add additional apps to keep safe below."; ObjectID = "QOW-na-jta"; */
+"QOW-na-jta.title" = "Aggiungi altre applicazioni da proteggere qui sotto.";
+
+
+/*
+ * SmartDelete Preferences
+ */
+/* Class = "NSTextFieldCell"; title = "ON"; ObjectID = "BOU-hK-Zlb"; */
+"BOU-hK-Zlb.title" = "ACCESO";
+
+/* Class = "NSTextFieldCell"; title = "OFF"; ObjectID = "PMy-kg-2fC"; */
+"PMy-kg-2fC.title" = "SPENTO";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "SmartDelete switch"; ObjectID = "rbZ-qR-LJj"; */
+"rbZ-qR-LJj.ibExternalAccessibilityDescription" = "Selettore di eliminazione intelligente";
+
+/* Class = "NSTextFieldCell"; title = "SmartDelete detects when apps are trashed and will automatically find and offer to remove related files."; ObjectID = "Uo5-Md-IvO"; */
+"Uo5-Md-IvO.title" = "L'eliminazione intelligente rileva il cestinamento delle applicazioni e automaticamente troverà ed offrirà di rimuovere gli elementi relativi.";
+
+
+/*
+ * Update Preferences
+ */
+/* Class = "NSButtonCell"; title = "Check updates automatically"; ObjectID = "BvJ-Mi-kWy"; */
+"BvJ-Mi-kWy.title" = "Controlla gli aggiornamenti automaticamente";
+
+/* Class = "NSButtonCell"; title = "Check for Updates"; ObjectID = "sNu-SJ-Yuc"; */
+"sNu-SJ-Yuc.title" = "Controlla gli aggiornamenti";

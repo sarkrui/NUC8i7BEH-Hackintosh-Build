@@ -1,0 +1,15 @@
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "Pxk-xN-qE0"; */
+"Pxk-xN-qE0.title" = "OK";
+
+/* Class = "NSTextFieldCell"; title = "Editing %d values"; ObjectID = "gfL-T4-yFD"; */
+"gfL-T4-yFD.title" = "Editing %d values";
+
+/* Class = "NSTextFieldCell"; title = "Small System Font Text"; ObjectID = "jWO-Xw-UbN"; */
+"jWO-Xw-UbN.title" = "Small System Font Text";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "sjM-Xw-MdK"; */
+"sjM-Xw-MdK.title" = "Cancel";
+
+/* Class = "NSWindow"; title = "Edit Value"; ObjectID = "yIk-eX-ZSr"; */
+"yIk-eX-ZSr.title" = "Edit Value";

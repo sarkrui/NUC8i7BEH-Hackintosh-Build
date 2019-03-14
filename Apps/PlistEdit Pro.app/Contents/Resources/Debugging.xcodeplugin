@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin name="" id="" version="1.0" xmlns:plisteditpro="http://www.fatcatsoftware.com/plisteditpro">
+    <extension point="com.apple.xcode.plist.structure-definition" name="Debugging Keys" id="com.fatcatsoftware.debugging-keys">
+        <definition name="_root_" localizedString="Untitled Definition" class="Dictionary">
+            <dictionaryKeys>
+                <key name="com.apple.CoreData.SQLDebug" localizedString="Core Data SQL debug log level" class="Number" use="optional"></key>
+                <key name="com.apple.CoreData.ThreadingDebug" localizedString="Core Data threading debug log level" class="Number" use="optional"></key>
+                <key name="NSShowAllViews" localizedString="Draw outlines around NSViews" class="StringYesNo" use="optional"></key>
+                <key name="NSShowAllDrawingColor" localizedString="Flash color" class="String" use="optional"></key>
+                <key name="NSShowAllDrawing" localizedString="Flash drawn rectangles" class="StringYesNo" use="optional"></key>
+                <key name="NSTraceEvents" localizedString="Log AppKit events" class="StringYesNo" use="optional"></key>
+                <key name="NSAccessibilityDebugLogLevel" localizedString="NSAccessibilityDebugLogLevel" class="Number" use="optional"></key>
+                <key name="NSDragManagerLogLevel" localizedString="NSDragManagerLogLevel" class="Number" use="optional"></key>
+            </dictionaryKeys>
+        </definition>
+        <definition name="StringYesNo" localizedString="StringYesNo" class="String" default="">
+            <allowableValues>
+                <value name="YES" localizedString="YES"></value>
+                <value name="NO" localizedString="NO"></value>
+            </allowableValues>
+        </definition>
+    </extension>
+</plugin>

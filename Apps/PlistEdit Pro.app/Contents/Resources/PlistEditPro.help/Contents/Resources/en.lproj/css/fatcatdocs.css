@@ -1,0 +1,51 @@
+ol.chapter {
+	counter-reset: chapter; 
+	list-style-type: none;
+}
+
+ol.chapter li:before  {
+	counter-increment: chapter; 
+	content: counter(chapter) ". "; 
+}
+
+ol.chapter ol.section {
+	counter-reset: section; 
+	list-style-type: none;
+}
+
+ol.chapter ol.section li:before {
+	counter-increment: section; 
+	content: counter(chapter) "." counter(section) ". ";
+}
+
+ol.chapter ol.section ol.subsection {
+	counter-reset: subsection; 
+	list-style-type: none;
+}
+
+ol.chapter ol.section ol.subsection li:before {
+	counter-increment: subsection; 
+	content: counter(chapter) "." counter(section) "." counter(subsection) ". ";
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 2px;
+    border:1px solid #000000;
+}
+
+th{
+    border:1px solid #000000;
+    padding: 2px;
+}
+
+td{
+    border:1px solid #000000;
+    padding: 2px;
+}
+
+.center-image {
+    margin: 0 auto;
+    display: block;
+}
+

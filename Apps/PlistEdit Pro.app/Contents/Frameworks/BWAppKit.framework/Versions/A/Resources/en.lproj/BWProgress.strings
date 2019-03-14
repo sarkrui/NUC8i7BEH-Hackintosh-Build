@@ -1,0 +1,9 @@
+
+/* Class = "NSWindow"; title = "Progress"; ObjectID = "5"; */
+"5.title" = "Progress";
+
+/* Class = "NSTextFieldCell"; title = "Progress message"; ObjectID = "19"; */
+"19.title" = "Progress message";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "20"; */
+"20.title" = "Cancel";

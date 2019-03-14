@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>allowedItemIdentifiers</key>
+	<array>
+		<string>Add Child</string>
+		<string>Add Sibling</string>
+		<string>Delete</string>
+		<string>Copy</string>
+		<string>Cut</string>
+		<string>Paste</string>
+		<string>Undo</string>
+		<string>Redo</string>
+		<string>EditValue</string>
+		<string>Find</string>
+		<string>PrefsBrowser</string>
+		<string>PlistFormat</string>
+		<string>Definition</string>
+		<string>ViewAs</string>
+		<string>NSToolbarSeparatorItem</string>
+		<string>NSToolbarSpaceItem</string>
+		<string>NSToolbarFlexibleSpaceItem</string>
+	</array>
+	<key>defaultItemIdentifiers</key>
+	<array>
+		<string>Add Child</string>
+		<string>Add Sibling</string>
+		<string>Duplicate</string>
+		<string>Delete</string>
+		<string>NSToolbarFlexibleSpaceItem</string>
+		<string>PlistFormat</string>
+		<string>ViewAs</string>
+	</array>
+	<key>toolbarItems</key>
+	<dict>
+		<key>Add Child</key>
+		<dict>
+			<key>action</key>
+			<string>addChild:</string>
+			<key>imageName</key>
+			<string>NewChild</string>
+			<key>label</key>
+			<string>New Child</string>
+			<key>menu</key>
+			<string>New Child</string>
+			<key>paletteLabel</key>
+			<string>New Child</string>
+			<key>tag</key>
+			<integer>-1</integer>
+			<key>toolTip</key>
+			<string>Add a new object as a child of the selected object</string>
+		</dict>
+		<key>Add Sibling</key>
+		<dict>
+			<key>action</key>
+			<string>addSibling:</string>
+			<key>imageName</key>
+			<string>NewSibling</string>
+			<key>label</key>
+			<string>New Sibling</string>
+			<key>menu</key>
+			<string>New Sibling</string>
+			<key>paletteLabel</key>
+			<string>New Sibling</string>
+			<key>tag</key>
+			<integer>-1</integer>
+			<key>toolTip</key>
+			<string>Add a new object as a sibling of the selected object</string>
+		</dict>
+		<key>Copy</key>
+		<dict>
+			<key>action</key>
+			<string>copy:</string>
+			<key>imageName</key>
+			<string>Copy</string>
+			<key>label</key>
+			<string>Copy</string>
+			<key>menu</key>
+			<string>Copy</string>
+			<key>paletteLabel</key>
+			<string>Copy</string>
+			<key>toolTip</key>
+			<string>Copy the selection to the clipboard</string>
+		</dict>
+		<key>Cut</key>
+		<dict>
+			<key>action</key>
+			<string>cut:</string>
+			<key>imageName</key>
+			<string>Cut</string>
+			<key>label</key>
+			<string>Cut</string>
+			<key>menu</key>
+			<string>Cut</string>
+			<key>paletteLabel</key>
+			<string>Cut</string>
+			<key>toolTip</key>
+			<string>Cut the selection to the clipboard</string>
+		</dict>
+		<key>Delete</key>
+		<dict>
+			<key>action</key>
+			<string>deletePlist:</string>
+			<key>imageName</key>
+			<string>Delete</string>
+			<key>label</key>
+			<string>Delete</string>
+			<key>menu</key>
+			<string>Delete</string>
+			<key>paletteLabel</key>
+			<string>Delete</string>
+			<key>toolTip</key>
+			<string>Delete the current selection</string>
+		</dict>
+		<key>Duplicate-disabled</key>
+		<dict>
+			<key>action</key>
+			<string>duplicate:</string>
+			<key>imageName</key>
+			<string>Duplicate</string>
+			<key>label</key>
+			<string>Duplicate</string>
+			<key>menu</key>
+			<string>Duplicate</string>
+			<key>paletteLabel</key>
+			<string>Duplicate</string>
+			<key>toolTip</key>
+			<string>Duplicate the currently selected object(s)</string>
+		</dict>
+		<key>EditValue</key>
+		<dict>
+			<key>action</key>
+			<string>showEditValueSheet:</string>
+			<key>imageName</key>
+			<string>EditValue</string>
+			<key>label</key>
+			<string>Edit Value</string>
+			<key>menu</key>
+			<string>Edit Value</string>
+			<key>paletteLabel</key>
+			<string>Edit Value</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>toolTip</key>
+			<string>Edit the selected object's value in a separate sheet</string>
+		</dict>
+		<key>Find</key>
+		<dict>
+			<key>action</key>
+			<string>performTextFinderAction:</string>
+			<key>imageName</key>
+			<string>ShowFindPanel</string>
+			<key>label</key>
+			<string>Find</string>
+			<key>menu</key>
+			<string>Find</string>
+			<key>paletteLabel</key>
+			<string>Find</string>
+			<key>tag</key>
+			<integer>1</integer>
+			<key>toolTip</key>
+			<string>Open the find panel</string>
+		</dict>
+		<key>Paste</key>
+		<dict>
+			<key>action</key>
+			<string>paste:</string>
+			<key>imageName</key>
+			<string>Paste</string>
+			<key>label</key>
+			<string>Paste</string>
+			<key>menu</key>
+			<string>Paste</string>
+			<key>paletteLabel</key>
+			<string>Paste</string>
+			<key>toolTip</key>
+			<string>Paste the contents of the clipboard</string>
+		</dict>
+		<key>PrefsBrowser</key>
+		<dict>
+			<key>action</key>
+			<string>showPrefsBrowser:</string>
+			<key>imageName</key>
+			<string>NSPreferencesGeneral</string>
+			<key>label</key>
+			<string>Prefs Browser</string>
+			<key>menu</key>
+			<string>Prefs Browser</string>
+			<key>paletteLabel</key>
+			<string>Prefs Browser</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>toolTip</key>
+			<string>Show prefs browser</string>
+		</dict>
+		<key>Redo</key>
+		<dict>
+			<key>action</key>
+			<string>redo:</string>
+			<key>imageName</key>
+			<string>Redo</string>
+			<key>label</key>
+			<string>Redo</string>
+			<key>menu</key>
+			<string>Redo</string>
+			<key>paletteLabel</key>
+			<string>Redo</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>toolTip</key>
+			<string>Redo the last change</string>
+		</dict>
+		<key>Undo</key>
+		<dict>
+			<key>action</key>
+			<string>undo:</string>
+			<key>imageName</key>
+			<string>Undo</string>
+			<key>label</key>
+			<string>Undo</string>
+			<key>menu</key>
+			<string>Undo</string>
+			<key>paletteLabel</key>
+			<string>Undo</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>toolTip</key>
+			<string>Undo the last change</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

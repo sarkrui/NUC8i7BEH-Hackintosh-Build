@@ -1,0 +1,189 @@
+
+/* Class = "NSWindow"; title = "Preferences"; ObjectID = "5"; */
+"5.title" = "Preferences";
+
+/* Class = "NSTabViewItem"; label = "General"; ObjectID = "9"; */
+"9.label" = "General";
+
+/* Class = "NSMenuItem"; title = "Array"; ObjectID = "24"; */
+"24.title" = "Array";
+
+/* Class = "NSMenuItem"; title = "String"; ObjectID = "25"; */
+"25.title" = "String";
+
+/* Class = "NSMenuItem"; title = "Number"; ObjectID = "27"; */
+"27.title" = "Number";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "28"; */
+"28.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Boolean"; ObjectID = "30"; */
+"30.title" = "Boolean";
+
+/* Class = "NSMenuItem"; title = "Data"; ObjectID = "31"; */
+"31.title" = "Data";
+
+/* Class = "NSMenuItem"; title = "Date"; ObjectID = "32"; */
+"32.title" = "Date";
+
+/* Class = "NSMenuItem"; title = "Dictionary"; ObjectID = "33"; */
+"33.title" = "Dictionary";
+
+/* Class = "NSTabViewItem"; label = "Definitions"; ObjectID = "38"; */
+"38.label" = "Definitions";
+
+/* Class = "NSTableColumn"; headerCell.title = "Definitions"; ObjectID = "41"; */
+"41.headerCell.title" = "Definitions";
+
+/* Class = "NSMenuItem"; title = "ASCII"; ObjectID = "67"; */
+"67.title" = "ASCII";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "68"; */
+"68.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Binary"; ObjectID = "69"; */
+"69.title" = "Binary";
+
+/* Class = "NSMenuItem"; title = "XML"; ObjectID = "70"; */
+"70.title" = "XML";
+
+/* Class = "NSTabViewItem"; label = "Browsing"; ObjectID = "104"; */
+"104.label" = "Browsing";
+
+/* Class = "NSTableColumn"; headerCell.title = "Extensions"; ObjectID = "106"; */
+"106.headerCell.title" = "Extensions";
+
+/* Class = "NSTabViewItem"; label = "Display"; ObjectID = "139"; */
+"139.label" = "Display";
+
+/* Class = "NSTextFieldCell"; title = "Text"; ObjectID = "272"; */
+"272.title" = "Text";
+
+/* Class = "NSTextFieldCell"; title = "Default class for new objects:"; ObjectID = "337"; */
+"337.title" = "Default class for new objects:";
+
+/* Class = "NSTextFieldCell"; title = "Default property list format:"; ObjectID = "338"; */
+"338.title" = "Default property list format:";
+
+/* Class = "NSButtonCell"; title = "Automatically check for updates"; ObjectID = "346"; */
+"346.title" = "Automatically check for updates";
+
+/* Class = "NSButtonCell"; title = "Ask to revert when file changes on disk"; ObjectID = "350"; */
+"350.title" = "Ask to revert when file changes on disk";
+
+/* Class = "NSButtonCell"; title = "Install command line tool"; ObjectID = "351"; */
+"351.title" = "Install command line tool";
+
+/* Class = "NSButtonCell"; title = "Reveal definitions folder"; ObjectID = "357"; */
+"357.title" = "Reveal definitions folder";
+
+/* Class = "NSTextFieldCell"; title = "Add files with extensions:"; ObjectID = "360"; */
+"360.title" = "Add files with extensions:";
+
+/* Class = "NSButtonCell"; title = "+"; ObjectID = "361"; */
+"361.title" = "+";
+
+/* Class = "NSButtonCell"; title = "-"; ObjectID = "362"; */
+"362.title" = "-";
+
+/* Class = "NSTextFieldCell"; title = "When adding files and folders to a browser, only files with the extensions displayed here will be added"; ObjectID = "364"; */
+"364.title" = "When adding files and folders to a browser, only files with the extensions displayed here will be added";
+
+/* Class = "NSTextFieldCell"; title = "Outline font:"; ObjectID = "366"; */
+"366.title" = "Outline font:";
+
+/* Class = "NSButtonCell"; title = "Choose..."; ObjectID = "368"; */
+"368.title" = "Choose...";
+
+/* Class = "NSTextFieldCell"; title = "Text font:"; ObjectID = "369"; */
+"369.title" = "Text font:";
+
+/* Class = "NSButtonCell"; title = "Choose..."; ObjectID = "371"; */
+"371.title" = "Choose...";
+
+/* Class = "NSButtonCell"; title = "Choose..."; ObjectID = "372"; */
+"372.title" = "Choose...";
+
+/* Class = "NSTextFieldCell"; title = "Browser font:"; ObjectID = "373"; */
+"373.title" = "Browser font:";
+
+/* Class = "NSButtonCell"; title = "Color XML tags"; ObjectID = "380"; */
+"380.title" = "Color XML tags";
+
+/* Class = "NSButtonCell"; title = "Case sensitive"; ObjectID = "382"; */
+"382.title" = "Case sensitive";
+
+/* Class = "NSButtonCell"; title = "Numeric"; ObjectID = "383"; */
+"383.title" = "Numeric";
+
+/* Class = "NSTextFieldCell"; title = "Use for files with extensions:"; ObjectID = "411"; */
+"411.title" = "Use for files with extensions:";
+
+/* Class = "NSTextFieldCell"; title = "Use for files with filenames:"; ObjectID = "417"; */
+"417.title" = "Use for files with filenames:";
+
+/* Class = "NSTextFieldCell"; title = "Path:"; ObjectID = "421"; */
+"421.title" = "Path:";
+
+/* Class = "NSButtonCell"; title = "Edit definition"; ObjectID = "423"; */
+"423.title" = "Edit definition";
+
+/* Class = "NSTextFieldCell"; title = "Type:"; ObjectID = "437"; */
+"437.title" = "Type:";
+
+/* Class = "NSTextFieldCell"; title = "<<do not localize>."; ObjectID = "439"; */
+"439.title" = "<<do not localize>.";
+
+/* Class = "BindingConnection"; ibShadowedDisplayPattern = "Path: %{value1}@"; ObjectID = "441"; */
+"441.ibShadowedDisplayPattern" = "Path: %{value1}@";
+
+/* Class = "NSMenuItem"; title = "JSON"; ObjectID = "456"; */
+"456.title" = "JSON";
+
+/* Class = "NSBox"; title = "Sort options"; ObjectID = "462"; */
+"462.title" = "Sort options";
+
+/* Class = "NSBox"; title = "JSON text formatting"; ObjectID = "463"; */
+"463.title" = "JSON text formatting";
+
+/* Class = "NSTextFieldCell"; title = "Display as:"; ObjectID = "465"; */
+"465.title" = "Display as:";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "467"; */
+"467.title" = "Radio";
+
+/* Class = "NSButtonCell"; title = "Indented"; ObjectID = "468"; */
+"468.title" = "Indented";
+
+/* Class = "NSButtonCell"; title = "Condensed"; ObjectID = "476"; */
+"476.title" = "Condensed";
+
+/* Class = "NSButtonCell"; title = "Condensed"; ObjectID = "479"; */
+"479.title" = "Condensed";
+
+/* Class = "NSButtonCell"; title = "Indented"; ObjectID = "480"; */
+"480.title" = "Indented";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "481"; */
+"481.title" = "Radio";
+
+/* Class = "NSTextFieldCell"; title = "Save as:"; ObjectID = "482"; */
+"482.title" = "Save as:";
+
+/* Class = "NSButtonCell"; title = "Remember formatter types by key"; ObjectID = "488"; */
+"488.title" = "Remember formatter types by key";
+
+/* Class = "NSBox"; title = "XML display"; ObjectID = "490"; */
+"490.title" = "XML display";
+
+/* Class = "NSTextFieldCell"; title = "When PlistEdit Pro is activated:"; ObjectID = "7U4-qJ-pKv"; */
+"7U4-qJ-pKv.title" = "When PlistEdit Pro is activated:";
+
+/* Class = "NSButtonCell"; title = "Do nothing"; ObjectID = "9dy-6q-Tbe"; */
+"9dy-6q-Tbe.title" = "Do nothing";
+
+/* Class = "NSButtonCell"; title = "Enable autosaving"; ObjectID = "Gq9-0m-16G"; */
+"Gq9-0m-16G.title" = "Enable autosaving";
+
+/* Class = "NSButtonCell"; title = "Create a new document"; ObjectID = "uWc-6A-Fx3"; */
+"uWc-6A-Fx3.title" = "Create a new document";

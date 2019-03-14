@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>allowedItemIdentifiers</key>
+	<array>
+		<string>RefreshFileList</string>
+		<string>RevealInFinder</string>
+		<string>MoveToTrash</string>
+		<string>EditBrowserItems</string>
+		<string>SaveBrowser</string>
+		<string>NSToolbarSeparatorItem</string>
+		<string>NSToolbarSpaceItem</string>
+		<string>NSToolbarFlexibleSpaceItem</string>
+		<string>NSToolbarCustomizeToolbarItem</string>
+	</array>
+	<key>defaultItemIdentifiers</key>
+	<array>
+		<string>RevealInFinder</string>
+		<string>MoveToTrash</string>
+		<string>RemoveFromFavorites</string>
+		<string>NSToolbarFlexibleSpaceItem</string>
+		<string>RefreshFileList</string>
+		<string>EditBrowserItems</string>
+		<string>SaveBrowser</string>
+	</array>
+	<key>toolbarItems</key>
+	<dict>
+		<key>EditBrowserItems</key>
+		<dict>
+			<key>action</key>
+			<string>editBrowserItems:</string>
+			<key>imageName</key>
+			<string>EditContent</string>
+			<key>label</key>
+			<string>Edit Content</string>
+			<key>menu</key>
+			<string>Edit Content</string>
+			<key>paletteLabel</key>
+			<string>Edit Content</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>toolTip</key>
+			<string>Edit the content shown by this browser</string>
+		</dict>
+		<key>MoveToTrash</key>
+		<dict>
+			<key>action</key>
+			<string>moveToTrash:</string>
+			<key>imageName</key>
+			<string>MoveToTrash</string>
+			<key>label</key>
+			<string>Move To Trash</string>
+			<key>menu</key>
+			<string>Move To Trash</string>
+			<key>paletteLabel</key>
+			<string>Move To Trash</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>toolTip</key>
+			<string>Move the selected file to the trash</string>
+		</dict>
+		<key>RefreshFileList</key>
+		<dict>
+			<key>action</key>
+			<string>refresh:</string>
+			<key>imageName</key>
+			<string>Refresh</string>
+			<key>label</key>
+			<string>Refresh List</string>
+			<key>menu</key>
+			<string>Refresh List</string>
+			<key>paletteLabel</key>
+			<string>Refresh List</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>toolTip</key>
+			<string>Refresh the list of preference files from disk</string>
+		</dict>
+		<key>RevealInFinder</key>
+		<dict>
+			<key>action</key>
+			<string>revealInFinder:</string>
+			<key>imageName</key>
+			<string>Reveal</string>
+			<key>label</key>
+			<string>Reveal In Finder</string>
+			<key>menu</key>
+			<string>Reveal In Finder</string>
+			<key>paletteLabel</key>
+			<string>Reveal In Finder</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>toolTip</key>
+			<string>Reveal the selected preference file in the Finder</string>
+		</dict>
+		<key>SaveBrowser</key>
+		<dict>
+			<key>action</key>
+			<string>saveBrowser:</string>
+			<key>imageName</key>
+			<string>SaveBrowser</string>
+			<key>label</key>
+			<string>Save Browser</string>
+			<key>menu</key>
+			<string>Save Browser</string>
+			<key>paletteLabel</key>
+			<string>Save Browser</string>
+			<key>tag</key>
+			<integer>0</integer>
+			<key>toolTip</key>
+			<string>Save the current browser configuration</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

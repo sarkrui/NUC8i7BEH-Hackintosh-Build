@@ -1,0 +1,538 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="css/applehelp.css" />
+<link rel="stylesheet" type="text/css" href="css/fatcatdocs.css" />
+<title>Release Notes</title>
+
+</head>
+<body>
+
+<div id="banner">
+	<div id="machelp">
+	<a class="bread" href="index.html">Table of Contents</a>
+	</div>
+</div>
+<div id="mainbox">
+	<div id="caticon">
+	<img width="32" height="32" alt="PlistEdit Pro Icon" src="images/PlistEditPro.png"/>
+	</div>
+</div>
+
+<div id="pagetitle">
+	<h1>Release Notes</h1><br/>
+</div>
+
+
+<p><strong>Version 1.9 (released 9/25/2018)</strong></p>
+
+<ul>
+  <li>Added support for dark mode on macOS Mojave</li>
+  <li>Now requires macOS 10.13 or later</li>
+  <li>Added rudimentary Touch Bar support</li>
+  <li>Fixed an issue where the “ask to revert” message shown when a document is modified elsewhere could be displayed several times instead of just once</li>
+  <li>Improved display of floating point numbers to avoid showing unnecessary fraction digits</li>
+</ul>
+
+<p></p>
+
+<p><strong>Version 1.8.7 (released 6/26/2017)</strong></p>
+
+<ul>
+  <li>Fixed a crash that would occur when launching on OS X Mavericks</li>
+</ul>
+
+<p></p>
+
+<p><strong>Version 1.8.6 (released 6/22/2017)</strong></p>
+
+<ul>
+  <li>Updated “Copy as Swift Literal” command for Swift 3</li>
+  <li>Fixed a crash that would occur when searching by content in a plist browser window</li>
+  <li>The AppleScript ‘sort’ command can now sort by subkey</li>
+  <li>Fixed a crash that could occur when dragging files or folders onto PlistEdit Pro in the dock</li>
+</ul>
+
+<p></p>
+
+<p><strong>Version 1.8.5 (released 11/16/2016)</strong></p>
+
+<ul>
+  <li>We now offer to move PlistEdit Pro to the Applications folder when quitting for the first time</li>
+  <li>Prefs for sandboxed apps are now listed in the preferences browser</li>
+  <li>Fixed a bug that preventing launching on macOS Mavericks</li>
+  <li>Fixed a bug on macOS Sierra that could cause a document to be marked as dirty immediately after opening</li>
+  <li>Fixed a crash that could occur when trying to edit a file in /Library/Preferences</li>
+</ul>
+
+<p></p>
+
+<p><strong>Version 1.8.4 (released 10/28/2016)</strong></p>
+
+<ul>
+  <li>Added “Copy as Swift Literal” and “Copy as Objective-C Literal” menu items</li>
+  <li>Removed some obsolete built-in structure definitions</li>
+  <li>Fixed a crash when sorting the prefs browser by the File Type column</li>
+  <li>‘pledit –help’ now prints basic usage info</li>
+  <li>Fixed a crasher when closing the “Edit Content” sheet on a property list browser window</li>
+  <li>Fixed an issue where the outline view would lose focus after editing a value and pressing the tab key</li>
+  <li>Added ability to view binary plists stored as data objects within another plist</li>
+  <li>Fixed a crasher when using the “Refresh Files” command in a property list browser</li>
+  <li>Fixed a crasher that could occur when closing a document</li>
+  <li>Fixed an error that would be displayed for some users when trying to create a new document with JSON as the default document format</li>
+</ul>
+
+<p></p>
+
+<p><strong>Version 1.8.3 (released 02/10/2016)</strong></p>
+
+<ul>
+  <li>Updated Sparkle framework to fix security vulnerability</li>
+  <li>Added a preference for whether to create a new document when activating PlistEdit Pro</li>
+  <li>Improved documents updating to reflect recent changes in their structure definition</li>
+  <li>Added a button to show NSURL resource values stored in bookmark data objects</li>
+  <li>Resizing a structure definition window smaller will no longer collapse any of its table views</li>
+  <li>The outline view no longer loses focus after pressing return to change a key or value</li>
+  <li>Prevent entering special characters when modifying file extensions for structure definitions</li>
+  <li>Fixed an issue with reading system preferences in /Library/Preferences</li>
+</ul>
+
+<p></p>
+
+<p><strong>Version 1.8.2 (released 09/25/2015)</strong></p>
+
+<ul>
+  <li>Fixed a crash that occur when changing fonts in the preferences window</li>
+  <li>Fixed a crash that could occur on El Capitan when closing a document</li>
+  <li>Fixed a bug where the “Replace” button in the find bar wouldn’t replace</li>
+  <li>If performing a find and replace results in an invalid value (e.g. an unparsable date), we now display an error message instead of doing nothing</li>
+  <li>We now install the pledit command line tool in /usr/local/bin, as per new requirements in El Capitan</li>
+  <li>Fixed a bug where changing an object to a different class would not work while the object’s value was still being edited</li>
+  <li>Fixed an issue where folders/packages could no longer be dropped on the dock icon</li>
+  <li>Fixed a bug where reordering items could lead to a crash</li>
+</ul>
+
+<p></p>
+
+<p><strong>Version 1.8.1 (released 12/17/2014)</strong></p>
+
+<ul>
+  <li>Changed claimed file types to prevent PlistEdit Pro document icon from appearing on generic documents in the Finder</li>
+  <li>Fixed a crash that could happen when creating a new plist object</li>
+  <li>Fixed a crash when using the Launch/Reveal Application buttons in the prefs browser</li>
+  <li>Fixed a crash that could occur when closing a document</li>
+  <li>When selecting a find result inside a long key or value, we now scroll left/right within the cell to show the selection</li>
+  <li>You can now double click the splitter to collapse the text view</li>
+  <li>Type ahead selection now ignores the value column and only looks at the key column</li>
+  <li>Fixed a crasher when using the “View by Subkey” menu command</li>
+  <li>Prevent the outline view from scrolling to the top after saving a document</li>
+</ul>
+
+<p></p>
+
+<p><strong>Version 1.8 (released 10/10/2014)</strong></p>
+
+<ul>
+  <li>PlistEdit Pro now requires OS X 10.9 or later</li>
+  <li>We now prevent changing the class of the root dictionary when editing a preferences file</li>
+  <li>Saving preferences plists on Mavericks and later now pushes changes to CFPreferences when appropriate</li>
+  <li>We can now read Xcode 5/6 structure definition files</li>
+  <li>Removed the autocompletion feature, due to buginess and lack of time to fix it</li>
+  <li>We do a one time “forgetting” of font prefs when launching on Yosemite, to ensure that new system fonts are used where appropriate. If you customized your fonts previously, you may need to reapply those changes.</li>
+  <li>Added a preference to enable or disable autosaving</li>
+  <li>When editing number values, we now omit the thousands separators to make copying values to other programs easier</li>
+  <li>We now automatically save the window configuration used when opening documents, rather than having an explicit “Save Window Configuration” menu item</li>
+  <li>We now save and restore the state of the “Show Raw Keys and Values” setting when opening documents</li>
+  <li>The “Paste as Child” command will now insert a copy into each selected object when there is a multiple selection</li>
+  <li>We now enforce that the root object of a JSON file is either an array or dictionary</li>
+  <li>Switching to save as JSON in the save panel no longer appends an extra .plist extension to the saved file</li>
+  <li>Fixed a bug where PlistEdit Pro could hang after trying to save a document with a syntax error</li>
+  <li>Fixed a crasher when re-reading a changed structure definition file from disk</li>
+  <li>Find/replace is now done using find bars in the outline/text views, rather than a separate find panel</li>
+  <li>Elements in a structure definition can now be dragged to reorder them</li>
+  <li>Save panel no longer tries to append a .plist extension when the default file format is JSON</li>
+  <li>After deleting an object, we now select the adjacent object rather than having an empty selection</li>
+  <li>Find/replace now works properly with localized key names when using a structure definition</li>
+  <li>Removed the preference to have the OS write prefs plists as XML, since it’s no longer supported</li>
+  <li>Fixed a hang/crash when performing a “Replace All” where the find string is a substring of the replacement string</li>
+  <li>Fixed an issue where the pledit command line tool would not open PlistEdit Pro properly</li>
+</ul>
+
+<p></p>
+
+<p><strong>Version 1.7.4 (released 07/11/2012)</strong></p>
+
+<ul>
+  <li>PlistEdit Pro’s crash reporter now waits until actually submitting a crash report to attempt accessing the address book (which causes a system prompt to appear on 10.8)</li>
+  <li>PlistEdit Pro is now signed for running with Gatekeeper on Mountain Lion</li>
+  <li>Added a workaround for a Mountain Lion bug that would cause PlistEdit Pro to “forget” any previously changed preferences settings and registration info</li>
+</ul>
+
+<p></p>
+
+<p><strong>Version 1.7.3 (released 12/05/2011)</strong></p>
+
+<ul>
+  <li>Fixed an issue where entered registration info wouldn’t “stick” for some users</li>
+</ul>
+
+<p></p>
+
+<p><strong>Version 1.7.2 (released 11/15/2011)</strong></p>
+
+<ul>
+  <li>Fixed a bug where PlistEdit Pro could hang or take up background CPU when editing with autocomplete enabled</li>
+</ul>
+
+<p></p>
+
+<p><strong>Version 1.7.1 (released 11/09/2011)</strong></p>
+
+<ul>
+  <li>We now read plists created by NSKeyedArchiver properly again (regression from 1.6)</li>
+  <li>Fixed a bug where, in certain circumstances, performing a find with the “Wrap around” option enabled would cause PlistEdit Pro to hang</li>
+  <li>Fixed a crash that could occur when reopening multiple documents at launch time when running on Lion</li>
+  <li>The registration panel now works properly when running with German as your primary language</li>
+  <li>When editing a data object, you can now enter hexadecimal text with newlines</li>
+  <li>Fixed a crasher that could occur when changing an object from a string to a date</li>
+  <li>Fixed a problem that could cause PlistEdit Pro to crash on launch when trying to read certain types of older registration info</li>
+</ul>
+
+<p></p>
+
+<p><strong>Version 1.7 (released 09/15/2011)</strong></p>
+
+<ul>
+  <li>Updated keyboard navigation to match system-wide behavior</li>
+  <li>Added “New Dictionary/Array With Selection” menu commands</li>
+  <li>PlistEdit Pro is now 64-bit and requires OS X 10.6 or later</li>
+  <li>Added support for autosaving and Versions in Lion</li>
+  <li>Added support for Resume on Lion, restoring all window state between launches</li>
+  <li>Fixed a bug where the format popup in the toolbar would initially read “XML” when opening a JSON file</li>
+  <li>Removed the preference to set a custom date formatting string</li>
+  <li>Fixed a bug where table columns would not be restored properly for some saved property list browsers</li>
+  <li>When converting from plist to JSON, data objects now get converted to equivalent hex strings</li>
+  <li>Added buttons to the save panel that let you specify indented/condensed formatting when saving a JSON file</li>
+  <li>Increased the maximum width of the “Value” column, for easier viewing of long strings</li>
+  <li>When saving to a file with a .json extension, we now automatically convert the underlying property list to JSON format if necessary</li>
+  <li>Removed Xcode integration preference, as it is no longer viable with Xcode 4</li>
+</ul>
+
+<p></p>
+
+<p><strong>Version 1.6 (released 01/28/2011)</strong></p>
+
+<ul>
+  <li>Updated iTunes and iPhoto structure definitions with new data from latest versions of iTunes/iPhoto</li>
+  <li>Property list browsers now refresh their file list after changing content find options</li>
+  <li>Trying to open a favorite whose file is missing now displays an error instead of prompting for admin privileges</li>
+  <li>PlistEdit Pro now supports reading and writing JSON files, and converting between plist and JSON formats</li>
+  <li>Removed the “Display alternating row colors in tables” preference (we now always use alternating row colors)</li>
+  <li>Removed the “Don’t shared find string with other applications” preference</li>
+  <li>The label portion of custom formatted data is now a lighter shade of gray when selected, for improved visibility</li>
+  <li>When a data object’s row is selected, the hexadecimal text is now drawn in white instead of black</li>
+  <li>We now always move dragged plist objects instead of copying, unless dragging an item into itself or to another document</li>
+  <li>Fixed a bug where changes made to the favorites list would not be remembered between launches</li>
+  <li>Fixed a bug where changing an item from a dictionary to an array could cause PlistEdit Pro to hang</li>
+  <li>Fixed a memory leak that would not reclaim some memory when closing documents</li>
+  <li>Tweaked a couple things to improve document load time (up to 25% improvement for large files)</li>
+  <li>Indexing for autocompletion is now performed in the background, improving the speed of opening documents</li>
+  <li>Fixed an issue that could slow down open and find operations when using a structure definition that uses allowable value lists for some elements</li>
+  <li>Fixed the “Open Help in Browser” menu item</li>
+  <li>Editing using the Storage Size formatter now accepts fractional values correctly</li>
+  <li>Fixed a bug where entering a negative floating point value for a number would not set the correct value</li>
+  <li>Fixed a crash that could occur when creating a child of a variant dictionary while using a structure definition</li>
+  <li>Variant keys and values are now saved properly in structure definitions</li>
+</ul>
+
+<p></p>
+
+<p><strong>Version 1.5 (released 10/31/2009)</strong></p>
+
+<ul>
+  <li>Added a structure definition for hidden Xcode preferences</li>
+  <li>Added a new data formatter for viewing/editing Snow Leopard bookmark data objects</li>
+  <li>Fixed a bug where keyboard shortcuts in the favorites browser would not appear in the correct rows</li>
+  <li>Removed the scripts menu, since it’s just as easy to use the system provided one now</li>
+  <li>Removed the “Automatically begin editing newly created objects” preference.  The new behavior is to always begin editing newly created objects.</li>
+  <li>We now provide a custom interface for creating and editing property list structure definitions</li>
+  <li>Added a “View By Subkey” command, to allow previewing a particular key in a list of dictionaries without having to expand each one</li>
+  <li>Added a “Sort By Subkey” command that allows sorting an array of dictionaries based on one of their keys</li>
+  <li>Fixed a bug where the incorrect row was colored red when a file in a property list browser could not be found</li>
+  <li>Fixed a problem that would cause PlistEdit Pro to hang when attempting to save a file on a read-only volume</li>
+  <li>Fixed some selection glitches when using the “Select All” command</li>
+  <li>Opening the find panel no longer causes Spaces to switch to a different space.</li>
+  <li>Improved speed of opening files when autocompletion is enabled.</li>
+  <li>We now support the new XML based property list structure definitions introduced by Xcode 3.1</li>
+  <li>Removed the preference to control undo levels</li>
+</ul>
+
+<p></p>
+
+<p><strong>Version 1.4.2 (released 08/25/2009)</strong></p>
+
+<ul>
+  <li>Fixed a bug where files would not open properly under Snow Leopard</li>
+</ul>
+
+<p></p>
+
+<p><strong>Version 1.4.1 (released 07/24/2008)</strong></p>
+
+<ul>
+  <li>Fixed a problem where some serial numbers would not work correctly on Tiger</li>
+  <li>Updated Sparkle framework to version 1.5</li>
+  <li>Fixed a few items in the German localization</li>
+  <li>Plist/preferences browsers now resolve aliases when scanning for plists</li>
+</ul>
+
+<p></p>
+
+<p><strong>Version 1.4 (released 04/17/2008)</strong></p>
+
+<ul>
+  <li>We now support editing any files on the system, prompting for an admin password to save changes when necessary</li>
+  <li>Added autocompletion when entering data. Suggestions for keys and values are provided based on existing content in the property list and information found in plist definitions</li>
+  <li>Plist definitions are now enabled by default. This makes autocompletion much more useful, especially when editing Info.plist files</li>
+  <li>Updated plist definition files with new keys for Leopard, and added new definitions for Xgrid, Podcast Producer, iPhoto, and iTunes</li>
+  <li>Added a new data formatter for viewing Carbon-style dates stored as a number of seconds since 01/01/1904</li>
+  <li>You can now set up and save property list browser configurations, which gives easy access to all plist files in one or more directories on your system</li>
+  <li>The minimum system requirement has changed from 10.3.9 to 10.4.0</li>
+</ul>
+
+<p></p>
+
+<p><strong>Version 1.3.1 (released 11/02/2007)</strong></p>
+
+<ul>
+  <li>Added new preferences for case sensitive and numeric sorting</li>
+  <li>Implemented ODB editor suite and Xcode editor interface, improving PlistEdit Pro’s ability to be used as an external editor</li>
+  <li>Fixed a bug where hex data would be displayed byte swapped on Intel machines</li>
+  <li>The search field is now focused by default when opening the preferences browser</li>
+  <li>Data items now display how many bytes they contain</li>
+  <li>We now use the new yellow find indicator in Leopard</li>
+</ul>
+
+<p></p>
+
+<p><strong>Version 1.3 (released 10/10/2006)</strong></p>
+
+<ul>
+  <li>Added syntax coloring for XML tags in the plist text view</li>
+  <li>New data formatters allow viewing of plist values interpreted as different data types. Formatters include:
+    <ul>
+      <li>View number objects as: four character code, storage size (KB, MB, etc.), hours/minutes/seconds, hexadecimal (big and little endian), or dates expressed as time intervals</li>
+      <li>View data objects as: alias records, strings (UTF-8, UTF-16, MacOS Roman, and ASCII encodings)</li>
+    </ul>
+  </li>
+  <li>Added Sparkle support, allowing for automatic downloading of updates</li>
+  <li>The edit value sheet and the preferences window now remembers their position and size</li>
+  <li>Double clicking on parentheses/brackets in the text view now selects to the matching parenthesis/bracket</li>
+  <li>Tooltips are now displayed for values to large to draw in the value column (Tiger only)</li>
+  <li>Copying drag and drop of plist objects now puts a textual version in the clipboard/drag</li>
+  <li>Added toolbar buttons for Edit Value and Prefs Browser</li>
+</ul>
+
+<p></p>
+
+<p><strong>Version 1.2.1 (released 06/05/2006)</strong></p>
+
+<ul>
+  <li>Updated to be a Universal binary which will run on both PPC and Intel Macs. The minimum system requirement is now OS X 10.3.9</li>
+  <li>Added a new improved German localization</li>
+  <li>Editing a long hex data value in the edit sheet now properly displays the entire value</li>
+  <li>Menu items are now enabled properly when triggering a pop-up menu in the main outline view via the space bar</li>
+  <li>Added a service to open plist text in PlistEdit Pro. This also allows dragging plist text onto the dock icon to open it (Tiger only).</li>
+  <li>Added pledit command line tool, which allows opening plists and piping plist text to PlistEdit Pro</li>
+</ul>
+
+<p></p>
+
+<p><strong>Version 1.2 (released 06/22/2005)</strong></p>
+
+<ul>
+  <li>Added “Goto Line” command for textual editing view</li>
+  <li>Long strings and other values can now be viewed/edited in a separate sheet</li>
+  <li>You can also assign a value to multiple items at once using the edit sheet</li>
+  <li>Added a column to view the format of property list files in property list browsers</li>
+  <li>You can now do batch validation and format conversion of plist files within a property list browser</li>
+  <li>Created new property list definitions for Info.plist, Core Image, sync schemas, and launchd plists</li>
+  <li>Added new menu items to add keys defined in property list definitions</li>
+  <li>Xcode integration can now be disabled</li>
+  <li>Added new “Select Parent” menu item</li>
+  <li>When running under Tiger, you can tell the system to write preference plists as XML instead of binary</li>
+  <li>You can now tell PlistEdit Pro to check for updates on the internet</li>
+  <li>When activated, PlistEdit Pro can now detect if a file has been changed on disk and ask the user if they want to read in the new changes</li>
+</ul>
+
+<p></p>
+
+<p><strong>Version 1.1.2 (released 04/25/2005)</strong></p>
+
+<ul>
+  <li>Fixed a problem that prevented the prefs browser from displaying on Tiger</li>
+  <li>The revert command now reads the contents of files that have been edited externally</li>
+  <li>Improved performance when opening large property list files with the text view hidden</li>
+  <li>Fixed a problem where some files would not display properly in property list browsers</li>
+</ul>
+
+<p></p>
+
+<p><strong>Version 1.1.1 (released 01/08/2005)</strong></p>
+
+<ul>
+  <li>Fixed some issues in the German localization</li>
+  <li>You can now use PlistEdit Pro as an external editor for Xcode/Project Builder</li>
+  <li>You can now add a plist file directly to an open Xcode project while saving</li>
+  <li>When opening a corrupt property list, you can now examine and fix the plist text</li>
+  <li>Property list browsers now support multiple selection</li>
+</ul>
+
+<p></p>
+
+<p><strong>Version 1.1 (released 08/10/2004)</strong></p>
+
+<ul>
+  <li>Added a favorites menu, with configurable keyboard shortcuts</li>
+  <li>The preferences browser now scans subfolders of the preferences folders</li>
+  <li>Added a generic property list browser, so you can view lists of plist files other than the preferences folder</li>
+  <li>Added the ability to drag a folder to the application and view all the property list files within</li>
+  <li>Added search by content in plist browsers</li>
+  <li>Added a scripts menu</li>
+  <li>Added a German localization</li>
+  <li>You can now choose what font to use in plist browsers</li>
+  <li>There is now an option to automatically start editing newly created objects</li>
+  <li>Fixed a bug with input of non-English formatted numbers</li>
+</ul>
+
+<p></p>
+
+<p><strong>Version 1.0.1 (released 3/10/2004)</strong></p>
+
+<ul>
+  <li>Numbers are now formatted correctly in non-US localizations</li>
+  <li>Added support for reading/writing ‘plst’ resources</li>
+  <li>We now handle page up/down and home/end keys in the outline view</li>
+</ul>
+
+<p></p>
+
+
+<div style="height: 30px;">
+
+
+
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+		
+
+	
+	
+	
+		<div style="float: left">&lt;&lt; <a href="support.html">Support</a></div>
+	
+
+
+	
+	
+	
+
+
+
+</div>
+
+</body>
+</html>
+

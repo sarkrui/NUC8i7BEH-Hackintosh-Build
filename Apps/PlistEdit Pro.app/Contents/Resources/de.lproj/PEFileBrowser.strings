@@ -1,0 +1,192 @@
+
+/* Class = "NSTableColumn"; headerCell.title = "Dateiname"; ObjectID = "6"; */
+"6.headerCell.title" = "Dateiname";
+
+/* Class = "NSWindow"; title = "Property-List-Browser"; ObjectID = "8"; */
+"8.title" = "Property-List-Browser";
+
+/* Class = "NSTableColumn"; headerCell.title = "Programm"; ObjectID = "9"; */
+"9.headerCell.title" = "Programm";
+
+/* Class = "NSButtonCell"; title = "Dateiname/Programm"; ObjectID = "49"; */
+"49.title" = "Dateiname/Programm";
+
+/* Class = "NSButtonCell"; title = "Inhalt"; ObjectID = "50"; */
+"50.title" = "Inhalt";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "60"; */
+"60.title" = "Window";
+
+/* Class = "NSButtonCell"; title = "Schlüssel & Werte"; ObjectID = "65"; */
+"65.title" = "Schlüssel & Werte";
+
+/* Class = "NSButtonCell"; title = "Nur Schlüssel"; ObjectID = "66"; */
+"66.title" = "Nur Schlüssel";
+
+/* Class = "NSButtonCell"; title = "Nur Werte"; ObjectID = "67"; */
+"67.title" = "Nur Werte";
+
+/* Class = "NSBox"; title = "Suchbereich"; ObjectID = "69"; */
+"69.title" = "Suchbereich";
+
+/* Class = "NSMenuItem"; title = "endet mit"; ObjectID = "72"; */
+"72.title" = "endet mit";
+
+/* Class = "NSMenuItem"; title = "beginnt mit"; ObjectID = "73"; */
+"73.title" = "beginnt mit";
+
+/* Class = "NSMenuItem"; title = "ist gleich"; ObjectID = "74"; */
+"74.title" = "ist gleich";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "77"; */
+"77.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "enthält"; ObjectID = "78"; */
+"78.title" = "enthält";
+
+/* Class = "NSBox"; title = "Optionen für Inhaltssuche"; ObjectID = "81"; */
+"81.title" = "Optionen für Inhaltssuche";
+
+/* Class = "NSMenu"; title = "Menü"; ObjectID = "100"; */
+"100.title" = "Menü";
+
+/* Class = "NSMenuItem"; title = "Öffnen"; ObjectID = "101"; */
+"101.title" = "Öffnen";
+
+/* Class = "NSMenuItem"; title = "Im Finder anzeigen"; ObjectID = "102"; */
+"102.title" = "Im Finder anzeigen";
+
+/* Class = "NSMenuItem"; title = "Format ändern"; ObjectID = "103"; */
+"103.title" = "Format ändern";
+
+/* Class = "NSMenu"; title = "Format ändern"; ObjectID = "104"; */
+"104.title" = "Format ändern";
+
+/* Class = "NSMenuItem"; title = "Binär"; ObjectID = "105"; */
+"105.title" = "Binär";
+
+/* Class = "NSMenuItem"; title = "Programm starten"; ObjectID = "106"; */
+"106.title" = "Programm starten";
+
+/* Class = "NSMenuItem"; title = "Programm zeigen"; ObjectID = "107"; */
+"107.title" = "Programm zeigen";
+
+/* Class = "NSMenuItem"; title = "ASCII"; ObjectID = "109"; */
+"109.title" = "ASCII";
+
+/* Class = "NSMenuItem"; title = "XML"; ObjectID = "110"; */
+"110.title" = "XML";
+
+/* Class = "NSMenuItem"; title = "In den Papierkorb legen"; ObjectID = "115"; */
+"115.title" = "In den Papierkorb legen";
+
+/* Class = "NSMenuItem"; title = "Validieren"; ObjectID = "118"; */
+"118.title" = "Validieren";
+
+/* Class = "NSMenuItem"; title = "Aus der Liste entfernen"; ObjectID = "120"; */
+"120.title" = "Aus der Liste entfernen";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "183"; */
+"183.title" = "Window";
+
+/* Class = "NSTableColumn"; headerCell.title = "Browser-Einträge"; ObjectID = "190"; */
+"190.headerCell.title" = "Browser-Einträge";
+
+/* Class = "NSTextFieldCell"; title = "Text"; ObjectID = "242"; */
+"242.title" = "Text";
+
+/* Class = "NSTextFieldCell"; title = "Suchen:"; ObjectID = "297"; */
+"297.title" = "Suchen:";
+
+/* Class = "NSButtonCell"; title = "Optionen..."; ObjectID = "298"; */
+"298.title" = "Optionen...";
+
+/* Class = "NSButtonCell"; title = "Nur oberste Ebene"; ObjectID = "300"; */
+"300.title" = "Nur oberste Ebene";
+
+/* Class = "NSButtonCell"; title = "Groß-/Kleinschreibung ignorieren"; ObjectID = "301"; */
+"301.title" = "Groß-/Kleinschreibung ignorieren";
+
+/* Class = "NSButtonCell"; title = "Treffer ausschließen"; ObjectID = "303"; */
+"303.title" = "Treffer ausschließen";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "304"; */
+"304.title" = "OK";
+
+/* Class = "NSButtonCell"; title = "Als Standard sichern"; ObjectID = "305"; */
+"305.title" = "Als Standard sichern";
+
+/* Class = "NSButtonCell"; title = "Fertig"; ObjectID = "308"; */
+"308.title" = "Fertig";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "309"; */
+"309.title" = "Radio";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "310"; */
+"310.title" = "Radio";
+
+/* Class = "NSMenuItem"; title = "JSON"; ObjectID = "320"; */
+"320.title" = "JSON";
+
+/* Class = "IBBindingConnection"; ibShadowedIsNilPlaceholder = "--"; ObjectID = "34A-tb-A00"; */
+"34A-tb-A00.ibShadowedIsNilPlaceholder" = "--";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "988-iz-ROL"; */
+"988-iz-ROL.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "Values only"; ObjectID = "9mc-7w-4v9"; */
+"9mc-7w-4v9.title" = "Nur Werte";
+
+/* Class = "NSTableColumn"; headerCell.title = "Shortcut"; ObjectID = "AoN-dO-HOI"; */
+"AoN-dO-HOI.headerCell.title" = "Tastatur";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "I9Q-tS-xSt"; */
+"I9Q-tS-xSt.title" = "Text Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "File Type"; ObjectID = "JJi-YG-RIM"; */
+"JJi-YG-RIM.headerCell.title" = "Dateityp";
+
+/* Class = "NSMenuItem"; title = "Pop Up"; ObjectID = "LQt-ZE-uy5"; */
+"LQt-ZE-uy5.title" = "Pop Up";
+
+/* Class = "NSTableColumn"; headerCell.title = "Valid"; ObjectID = "MPR-58-Oq3"; */
+"MPR-58-Oq3.headerCell.title" = "Gültig";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "QBr-6H-5Kc"; */
+"QBr-6H-5Kc.title" = "Text Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "Parent"; ObjectID = "Qeq-2O-nLn"; */
+"Qeq-2O-nLn.headerCell.title" = "Ort";
+
+/* Class = "NSTableColumn"; headerCell.title = "Date Created"; ObjectID = "U5D-dd-MiJ"; */
+"U5D-dd-MiJ.headerCell.title" = "Erstellungsdatum";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "W93-pG-32G"; */
+"W93-pG-32G.title" = "OtherViews";
+
+/* Class = "NSTableColumn"; headerCell.title = "Size"; ObjectID = "YkO-bW-wci"; */
+"YkO-bW-wci.headerCell.title" = "Größe";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "Z63-VW-TO2"; */
+"Z63-VW-TO2.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "Keys & Values"; ObjectID = "bec-Xu-I6t"; */
+"bec-Xu-I6t.title" = "Schlüssel & Werte";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "fBX-zW-aMM"; */
+"fBX-zW-aMM.title" = "Text Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "Date Modified"; ObjectID = "fcl-uy-N6K"; */
+"fcl-uy-N6K.headerCell.title" = "Änderungsdatum";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "l3Y-dG-XNX"; */
+"l3Y-dG-XNX.title" = "Text Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "Format"; ObjectID = "mzQ-qc-sFL"; */
+"mzQ-qc-sFL.headerCell.title" = "Format";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "n3s-g0-jbc"; */
+"n3s-g0-jbc.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "Keys only"; ObjectID = "pTW-9j-5PV"; */
+"pTW-9j-5PV.title" = "Nur Schlüssel";

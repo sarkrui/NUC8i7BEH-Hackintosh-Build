@@ -1,0 +1,40 @@
+/*
+ * General Preferences
+ */
+/* Class = "NSButtonCell"; title = "Show protected apps"; ObjectID = "ngu-Wo-iM6"; */
+"ngu-Wo-iM6.title" = "Prikaži zaštićene aplikacije";
+
+/* Class = "NSButtonCell"; title = "Protect default OS X apps"; ObjectID = "eVX-mB-D3L"; */
+"eVX-mB-D3L.title" = "Zaštiti zadane aplikacije OS X-a";
+
+/* Class = "NSButtonCell"; title = "Protect running apps"; ObjectID = "41B-Fy-fnh"; */
+"41B-Fy-fnh.title" = "Zaštiti pokrenute aplikacije";
+
+/* Class = "NSTextFieldCell"; title = "Add additional apps to keep safe below."; ObjectID = "QOW-na-jta"; */
+"QOW-na-jta.title" = "Dodaj dodatne aplikacije za zadržati ih sigurnim.";
+
+
+/*
+ * SmartDelete Preferences
+ */
+/* Class = "NSTextFieldCell"; title = "ON"; ObjectID = "BOU-hK-Zlb"; */
+"BOU-hK-Zlb.title" = "UKLJ.";
+
+/* Class = "NSTextFieldCell"; title = "OFF"; ObjectID = "PMy-kg-2fC"; */
+"PMy-kg-2fC.title" = "ISKLJ.";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "SmartDelete switch"; ObjectID = "rbZ-qR-LJj"; */
+"rbZ-qR-LJj.ibExternalAccessibilityDescription" = "Odabir smart brisanja";
+
+/* Class = "NSTextFieldCell"; title = "SmartDelete detects when apps are trashed and will automatically find and offer to remove related files."; ObjectID = "Uo5-Md-IvO"; */
+"Uo5-Md-IvO.title" = "Smart brisanje detektira kada su aplikacije u smeću i automatski će pronaći i ponuditi uklanjanje povezanih datoteka.";
+
+
+/*
+ * Update Preferences
+ */
+/* Class = "NSButtonCell"; title = "Check updates automatically"; ObjectID = "BvJ-Mi-kWy"; */
+"BvJ-Mi-kWy.title" = "Automatska provjera ažuriranja";
+
+/* Class = "NSButtonCell"; title = "Check for Updates"; ObjectID = "sNu-SJ-Yuc"; */
+"sNu-SJ-Yuc.title" = "Provjera ažuriranja";

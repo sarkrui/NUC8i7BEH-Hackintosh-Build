@@ -1,0 +1,40 @@
+/*
+ * General Preferences
+ */
+/* Class = "NSButtonCell"; title = "Show protected apps"; ObjectID = "ngu-Wo-iM6"; */
+"ngu-Wo-iM6.title" = "Afficher les apps protégées";
+
+/* Class = "NSButtonCell"; title = "Protect default OS X apps"; ObjectID = "eVX-mB-D3L"; */
+"eVX-mB-D3L.title" = "Protéger les apps OS X par défaut";
+
+/* Class = "NSButtonCell"; title = "Protect running apps"; ObjectID = "41B-Fy-fnh"; */
+"41B-Fy-fnh.title" = "Protéger les apps ouvertes";
+
+/* Class = "NSTextFieldCell"; title = "Add additional apps to keep safe below."; ObjectID = "QOW-na-jta"; */
+"QOW-na-jta.title" = "Ajouter les apps supplémentaires à protéger ci-dessous.";
+
+
+/*
+ * SmartDelete Preferences
+ */
+/* Class = "NSTextFieldCell"; title = "ON"; ObjectID = "BOU-hK-Zlb"; */
+"BOU-hK-Zlb.title" = "ON";
+
+/* Class = "NSTextFieldCell"; title = "OFF"; ObjectID = "PMy-kg-2fC"; */
+"PMy-kg-2fC.title" = "OFF";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "SmartDelete switch"; ObjectID = "rbZ-qR-LJj"; */
+"rbZ-qR-LJj.ibExternalAccessibilityDescription" = "Interrupteur SmartDelete";
+
+/* Class = "NSTextFieldCell"; title = "SmartDelete detects when apps are trashed and will automatically find and offer to remove related files."; ObjectID = "Uo5-Md-IvO"; */
+"Uo5-Md-IvO.title" = "SmartDelete détecte lorsque une app est placée dans la corbeille et propose alors de supprimer les fichiers liés.";
+
+
+/*
+ * Update Preferences
+ */
+/* Class = "NSButtonCell"; title = "Check updates automatically"; ObjectID = "BvJ-Mi-kWy"; */
+"BvJ-Mi-kWy.title" = "Vérifier les mises à jour automatiquement";
+
+/* Class = "NSButtonCell"; title = "Check for Updates"; ObjectID = "sNu-SJ-Yuc"; */
+"sNu-SJ-Yuc.title" = "Vérifier les mises à jour";

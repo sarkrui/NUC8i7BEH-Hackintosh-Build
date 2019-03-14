@@ -1,0 +1,162 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="css/applehelp.css" />
+<link rel="stylesheet" type="text/css" href="css/fatcatdocs.css" />
+<title>Preferences</title>
+
+</head>
+<body>
+
+<div id="banner">
+	<div id="machelp">
+	<a class="bread" href="index.html">Table of Contents</a>
+	</div>
+</div>
+<div id="mainbox">
+	<div id="caticon">
+	<img width="32" height="32" alt="PlistEdit Pro Icon" src="images/PlistEditPro.png"/>
+	</div>
+</div>
+
+<div id="pagetitle">
+	<h1>Preferences</h1><br/>
+</div>
+
+<p>PlistEdit Pro provides several ways to customize the program to the way you work. You can access these preferences by selecting the Preferences menu item in the PlistEdit Pro menu, or by pressing command-comma.</p>
+
+<p><strong>General tab</strong></p>
+
+<ul>
+  <li><strong>Default class for new objects</strong>: Selects what type of object you would like to create when adding a new child or sibling to your property list.</li>
+  <li><strong>Default property list format</strong>: Selects what format (XML, ASCII, binary, or JSON) you want newly created property lists to be stored in.</li>
+  <li><strong>Ask to revert when file changes on disk</strong>: When this option is enabled, PlistEdit Pro will watch the files you have open to see if they have changed on disk since you last opened them. When you bring PlistEdit Pro to the front, it will automatically ask you if you want to revert to the version on disk for any files that have changed.</li>
+  <li><strong>Automatically check for updates</strong>: Checking this box will make PlistEdit Pro check on the internet for new versions at regular intervals. Checking the “Check at startup” You can also check for updates manually using the “Check For Updates” menu item.</li>
+  <li><strong>Remember formatter type by key</strong>: When enabled, if you use the “View As” menu to view an item under a particular key of a dictionary as a different type, PlistEdit Pro will remember the type you chose for that key and automatically display any items under that key as that same type. For example, if you choose to view a data object under the key “_NSAlias” as an alias record, PlistEdit Pro will then display all data objects it finds under the “_NSAlias” key as alias records without you having to change each one manually.</li>
+  <li><strong>Enable autosaving</strong>: Enables in-place <a href="https://support.apple.com/en-us/HT202255">autosave and Versions</a> for plist documents. If you don’t want PlistEdit Pro to save changes you’ve made unless you explicitly use the Save menu item, you can disable autosaving. Note that autosave is not compatible with PlistEdit Pro’s ability to edit files that require admin privileges, so having autosave enabled will mean you will not be able to authenticate in order to save root owned files.</li>
+  <li><strong>When PlistEdit Pro is activated</strong>: Defines what PlistEdit Pro when you click its dock icon in the dock if no windows are currently open.</li>
+  <li><strong>Install Command Line Tool</strong>: Installs the <a href="pledit.html">pledit command line tool</a></li>
+</ul>
+
+<p><strong>Display tab</strong></p>
+
+<ul>
+  <li><strong>Outline font</strong>: Selects the font that the outline view uses to display property list content. Click the Choose… button to select a different font from the font panel.</li>
+  <li><strong>Text font</strong>: Selects the font that the text view uses to display property list content. Click the Choose… button to select a different font from the font panel.</li>
+  <li><strong>Browser font</strong>: Selects the font that property list browser use to display their file lists. Click the Choose… button to select a different font from the font panel.</li>
+  <li><strong>Color XML tags</strong>: Allows you to choose a color with which to color the tags in the raw text of an XML formatted property list</li>
+  <li><strong>Sort options</strong>: Allows you to customize how sorting is done in PlistEdit Pro. Case sensitive sorting will cause all uppercase characters to be sorted before all lowercase characters, and enabling numeric sorting will cause any numeric values to be treated and sorted as numbers, rather than as alphabetic characters.</li>
+  <li><strong>JSON text formatting</strong>: Allows you to specify whether you would like PlistEdit Pro to generated condensed JSON text (i.e. with all whitespace stripped out), or indented (i.e. with whitespace and indentation included). There are two separate settings for the formatting used in the plist document window versus the formatting used when actually saving the file. For example, this lets you view the text in PlistEdit Pro as indented, to make it easier to read, but save as condensed, to have a smaller file size.</li>
+</ul>
+
+<p><strong>Definitions tab</strong></p>
+
+<p>This tab displays all the structure definitions that are installed on your system. Refer to “<a href="manage_definitions.html">Managing installed structure definitions</a>” for more details on this tab.</p>
+
+<p><strong>Browsing tab</strong></p>
+
+<p>This tab contains settings that affect <a href="plist_browsers.html">property list browsers</a>. When creating a new browser from a folder, or adding new items to an existing browser window, you can tell PlistEdit Pro what file extensions to scan the newly added folder for. Only files that match an extension in the list will be added. PlistEdit Pro can also read the ‘plst’ resource from the resource fork of a file (used by non-bundled Carbon applications). Checking the “Scan resource forks” checkbox will add any file that has a resource fork with a ‘plst’ resource whose ID is 0. Be aware that enabling this option can cause the scanning process to take significantly longer.</p>
+
+
+<div style="height: 30px;">
+
+
+
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+		
+
+	
+	
+	
+		<div style="float: left">&lt;&lt; <a href="manage_definitions.html">Managing installed structure definitions</a></div>
+	
+
+
+	
+	
+	
+		<div style="float: right"><a href="scripting.html">Scripting PlistEdit Pro &gt;&gt;</a></div>
+	
+
+
+
+</div>
+
+</body>
+</html>
+

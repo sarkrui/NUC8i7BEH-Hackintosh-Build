@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>allowedItemIdentifiers</key>
+	<array>
+		<string>newDefinition</string>
+		<string>deleteDefinition</string>
+		<string>editPluginInfo</string>
+		<string>selectedDefinition</string>
+		<string>NSToolbarSeparatorItem</string>
+		<string>NSToolbarSpaceItem</string>
+		<string>NSToolbarFlexibleSpaceItem</string>
+		<string>NSToolbarCustomizeToolbarItem</string>
+	</array>
+	<key>defaultItemIdentifiers</key>
+	<array>
+		<string>newDefinition</string>
+		<string>deleteDefinition</string>
+		<string>NSToolbarFlexibleSpaceItem</string>
+		<string>editPluginInfo</string>
+		<string>selectedDefinition</string>
+	</array>
+	<key>toolbarItems</key>
+	<dict>
+		<key>deleteDefinition</key>
+		<dict>
+			<key>action</key>
+			<string>removeDefinition:</string>
+			<key>imageName</key>
+			<string>remove_button</string>
+			<key>label</key>
+			<string>Delete Definition</string>
+			<key>menu</key>
+			<string>Delete Definition</string>
+			<key>paletteLabel</key>
+			<string>Delete Definition</string>
+			<key>toolTip</key>
+			<string>Delete the selected structure definition</string>
+		</dict>
+		<key>editPluginInfo</key>
+		<dict>
+			<key>action</key>
+			<string>editPluginInfo:</string>
+			<key>imageName</key>
+			<string>info</string>
+			<key>label</key>
+			<string>Plugin Info</string>
+			<key>menu</key>
+			<string>Plugin Info</string>
+			<key>paletteLabel</key>
+			<string>Plugin Info</string>
+			<key>toolTip</key>
+			<string>View/edit the information for this structure definition plugin</string>
+		</dict>
+		<key>newDefinition</key>
+		<dict>
+			<key>action</key>
+			<string>newDefinition:</string>
+			<key>imageName</key>
+			<string>add_button</string>
+			<key>label</key>
+			<string>New Definition</string>
+			<key>menu</key>
+			<string>New Definition</string>
+			<key>paletteLabel</key>
+			<string>New Definition</string>
+			<key>toolTip</key>
+			<string>Create a new structure definition</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

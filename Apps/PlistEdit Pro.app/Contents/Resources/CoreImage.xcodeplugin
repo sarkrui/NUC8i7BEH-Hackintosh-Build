@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin name="" id="" version="">
+    <extension point="com.apple.xcode.plist.structure-definition" name="Core Image" id="com.fatcatsoftware.core-image">
+        <definition name="PluginFilterDictionaryDictionary" class="Dictionary" defaultDictionaryValueClass="PluginFilterDictionary"></definition>
+        <definition name="_root_" localizedString="Core Image" class="Dictionary">
+            <dictionaryKeys>
+                <key name="CIPlugInFilterList" localizedString="CIPlugInFilterList" class="PluginFilterDictionaryDictionary" use="optional"></key>
+                <key name="CIPlugInVersion" localizedString="CIPlugInVersion" class="Number" use="optional"></key>
+            </dictionaryKeys>
+        </definition>
+        <definition name="AttributeTypeString" class="String" default="CIAttributeTypeScalar">
+            <allowableValues>
+                <value name="CIAttributeTypeOffset" localizedString="Offset"></value>
+                <value name="CIAttributeTypePosition3" localizedString="3-D Position"></value>
+                <value name="CIAttributeTypeOpaqueColor" localizedString="Opaque Color"></value>
+                <value name="CIAttributeTypeScalar" localizedString="Scalar"></value>
+                <value name="CIAttributeTypePosition" localizedString="Position"></value>
+                <value name="CIAttributeTypeBoolean" localizedString="Boolean"></value>
+                <value name="CIAttributeTypeAngle" localizedString="Angle"></value>
+                <value name="CIAttributeTypeGradient" localizedString="Gradient Image"></value>
+                <value name="CIAttributeTypeRectangle" localizedString="Rectangle"></value>
+                <value name="CIAttributeTypeTime" localizedString="Time"></value>
+                <value name="CIAttributeTypeDistance" localizedString="Distance"></value>
+            </allowableValues>
+        </definition>
+        <definition name="InputParameterDictionaryArray" class="Array" arrayElementClass="InputParameterDictionary"></definition>
+        <definition name="FilterCategoryStringArray" class="Array" arrayElementClass="FilterCategoryString"></definition>
+        <definition name="FilterAttributesDictionary" class="Dictionary" identifyingKey="CIAttributeFilterDisplayName">
+            <dictionaryKeys>
+                <key name="CIAttributeFilterDisplayName" localizedString="CIAttributeFilterDisplayName" class="String" use="optional"></key>
+                <key name="CIInputs" localizedString="CIInputs" class="InputParameterDictionaryArray" use="optional"></key>
+                <key name="CIAttributeFilterName" localizedString="CIAttributeFilterName" class="String" use="optional"></key>
+                <key name="CIAttributeFilterCategories" localizedString="CIAttributeFilterCategories" class="FilterCategoryStringArray" use="optional"></key>
+            </dictionaryKeys>
+        </definition>
+        <definition name="FilterCategoryString" class="String" default="">
+            <allowableValues>
+                <value name="CICategorySharpen" localizedString="Sharpen"></value>
+                <value name="CICategoryGeometryAdjustment" localizedString="Geometry Adjustment"></value>
+                <value name="CICategoryGenerator" localizedString="Generator"></value>
+                <value name="CICategoryNonSquarePixels" localizedString="Nonsquare Pixels"></value>
+                <value name="CICategoryStillImage" localizedString="Still Image"></value>
+                <value name="CICategoryHalftoneEffect" localizedString="Halftone Effect"></value>
+                <value name="CICategoryTileEffect" localizedString="Tile Effect"></value>
+                <value name="CICategoryColorAdjustment" localizedString="Color Adjustment"></value>
+                <value name="CICategoryCompositeOperation" localizedString="Composite Operation"></value>
+                <value name="CICategoryTransition" localizedString="Transition"></value>
+                <value name="CICategoryVideo" localizedString="Video"></value>
+                <value name="CICategoryDistortionEffect" localizedString="Distortion Effect"></value>
+                <value name="CICategoryHighDynamicRange" localizedString="High Dynamic Range"></value>
+                <value name="CICategoryBlur" localizedString="Blur"></value>
+                <value name="CICategoryInterlaced" localizedString="Interlaced"></value>
+                <value name="CICategoryBuiltIn" localizedString="Built-In"></value>
+                <value name="CICategoryColorEffect" localizedString="Color Effect"></value>
+                <value name="CICategoryGradient" localizedString="Gradient"></value>
+                <value name="CICategoryStylize" localizedString="Stylize"></value>
+            </allowableValues>
+        </definition>
+        <definition name="InputParameterDictionary" class="Dictionary" identifyingKey="CIAttributeName">
+            <dictionaryKeys>
+                <key name="CIAttributeDefault" localizedString="CIAttributeDefault" class="Number" use="default"></key>
+                <key name="CIAttributeMin" localizedString="CIAttributeMin" class="Number" use="default"></key>
+                <key name="CIAttributeName" localizedString="CIAttributeName" class="String" use="default"></key>
+                <key name="CIAttributeType" localizedString="CIAttributeType" class="AttributeTypeString" use="optional"></key>
+                <key name="CIAttributeDisplayName" localizedString="CIAttributeDisplayName" class="String" use="default"></key>
+                <key name="CIAttributeIdentity" localizedString="CIAttributeIdentity" class="Number" use="default"></key>
+                <key name="CIAttributeMax" localizedString="CIAttributeMax" class="Number" use="optional"></key>
+                <key name="CIAttributeSliderMax" localizedString="CIAttributeSliderMax" class="Number" use="default"></key>
+                <key name="CIAttributeClass" localizedString="CIAttributeClass" class="String" use="default"></key>
+                <key name="CIAttributeSliderMin" localizedString="CIAttributeSliderMin" class="Number" use="default"></key>
+            </dictionaryKeys>
+        </definition>
+        <definition name="PluginFilterDictionary" class="Dictionary" identifyingKey="CIFilterDisplayName">
+            <dictionaryKeys>
+                <key name="CIKernelFile" localizedString="CIKernelFile" class="String" use="optional"></key>
+                <key name="CIFilterDisplayName" localizedString="CIFilterDisplayName" class="String" use="optional"></key>
+                <key name="CIFilterAttributes" localizedString="CIFilterAttributes" class="FilterAttributesDictionary" use="optional"></key>
+                <key name="CIHasCustomInterface" localizedString="CIHasCustomInterface" class="Boolean" use="optional"></key>
+                <key name="CIFilterClass" localizedString="CIFilterClass" class="String" use="optional"></key>
+            </dictionaryKeys>
+        </definition>
+    </extension>
+</plugin>

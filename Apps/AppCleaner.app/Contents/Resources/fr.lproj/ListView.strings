@@ -1,0 +1,29 @@
+
+/* Class = "NSMenuItem"; title = "Applications"; ObjectID = "6Ti-RA-IzA"; */
+"6Ti-RA-IzA.title" = "Applications";
+
+/* Class = "NSMenuItem"; title = "Widgets"; ObjectID = "o1C-a9-k7e"; */
+"o1C-a9-k7e.title" = "Widgets";
+
+/* Class = "NSMenuItem"; title = "Plugins"; ObjectID = "CH2-LI-vG6"; */
+"CH2-LI-vG6.title" = "Plugins";
+
+/* Class = "NSTextFieldCell"; title = "Select an item to view its related files."; ObjectID = "uxw-Y4-LFc"; */
+"uxw-Y4-LFc.title" = "Sélectionner un élément pour afficher ses fichiers liés.";
+
+/* Class = "NSMenuItem"; title = "Reveal in Finder"; ObjectID = "omc-T5-JzG"; */
+"omc-T5-JzG.title" = "Afficher dans le Finder";
+
+
+/* DO NOT LOCALIZE BELOW */
+/* Class = "NSTextFieldCell"; title = "<Group Title>"; ObjectID = "Dot-do-cfd"; */
+"Dot-do-cfd.title" = "<Group Title>";
+
+/* Class = "NSTextFieldCell"; title = "<Name>"; ObjectID = "uR6-kl-1EH"; */
+"uR6-kl-1EH.title" = "<Name>";
+
+/* Class = "NSTextFieldCell"; title = "<Path>"; ObjectID = "fyN-3X-aDd"; */
+"fyN-3X-aDd.title" = "<Path>";
+
+/* Class = "NSTextFieldCell"; title = "<v1.0>"; ObjectID = "7Cd-Sn-bTY"; */
+"7Cd-Sn-bTY.title" = "<v1.0>";

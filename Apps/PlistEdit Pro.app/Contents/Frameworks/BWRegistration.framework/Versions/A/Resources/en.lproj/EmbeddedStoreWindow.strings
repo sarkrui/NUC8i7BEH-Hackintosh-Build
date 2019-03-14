@@ -1,0 +1,15 @@
+
+/* Class = "NSWindow"; title = "Purchase PowerPhotos"; ObjectID = "1"; */
+"1.title" = "Purchase PowerPhotos";
+
+/* Class = "NSTextFieldCell"; title = "Thank you for purchasing PowerPhotos!\n\nYour copy of PowerPhotos has been registered, and you now have full access to all the features of the program. You will receive a copy of your purchase receipt and registration information shortly via email for your records."; ObjectID = "126"; */
+"126.title" = "Thank you for purchasing PowerPhotos!\n\nYour copy of PowerPhotos has been registered, and you now have full access to all the features of the program. You will receive a copy of your purchase receipt and registration information shortly via email for your records.";
+
+/* Class = "NSTabViewItem"; label = "Show"; ObjectID = "130"; */
+"130.label" = "Show";
+
+/* Class = "NSTabViewItem"; label = "Load"; ObjectID = "132"; */
+"132.label" = "Load";
+
+/* Class = "NSTextFieldCell"; title = "Loading Store…"; ObjectID = "136"; */
+"136.title" = "Loading Store…";

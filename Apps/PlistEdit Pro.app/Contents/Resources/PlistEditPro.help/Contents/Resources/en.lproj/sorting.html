@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="css/applehelp.css" />
+<link rel="stylesheet" type="text/css" href="css/fatcatdocs.css" />
+<title>Sorting property list</title>
+
+</head>
+<body>
+
+<div id="banner">
+	<div id="machelp">
+	<a class="bread" href="index.html">Table of Contents</a>
+	</div>
+</div>
+<div id="mainbox">
+	<div id="caticon">
+	<img width="32" height="32" alt="PlistEdit Pro Icon" src="images/PlistEditPro.png"/>
+	</div>
+</div>
+
+<div id="pagetitle">
+	<h1>Sorting property list</h1><br/>
+</div>
+
+<p>PlistEdit Pro provide a number of different ways to sort your property lists, making it easier to browse through larger lists and find various items. Note that sorting a dictionary will not be persisted when saving the property list, since dictionaries are always saved with their keys sorted alphabetically. The order of sorted arrays will be saved though.</p>
+
+<p><strong>Sort Keys</strong></p>
+
+<p>Selecting a dictionary and selecting the “Sort Keys” command from the Operations menu will rearrange the objects in the dictionary in order by their keys. Dictionaries are sorted alphabetically by default when opening a property list, but this order can be changed when renaming items or creating new items, so this allows you to restore the sort order.  Additionally, the “Sort All Keys” menu command will apply the same sorting to all dictionaries in the entire property list.</p>
+
+<p><strong>Sort Values</strong></p>
+
+<p>Similarly, the “Sort Values” command will sort items in either an array or dictionary by the “Value” column, rather than the “Key” column. If the array/dictionary contains objects of mixed types (e.g. some strings, some numbers, some dates, etc.) the items will be grouped by type, and then sorted within each type.</p>
+
+<p><strong>Sort By Subkey</strong></p>
+
+<p>The “Sort By Subkey” command can be used on an array or dictionary containing only dictionaries, and will sort those dictionaries based on a particular key that those dictionaries contain.  For example, if you are editing an Info.plist file for a document based application and select the array of document types supported by the application, you can sort that list by any of the keys that appear in the document type dictionaries, e.g. “CFBundleTypeName”, “NSDocumentClass”, etc.  PlistEdit Pro will reorder the dictionaries sorted based on the key you select. Any dictionaries that don’t contain a value for that key will be sorted to the end of the list. This can be combined with the “View By Subkey” command to easily browse through large lists of dictionaries based on any key contained by those dictionaries.</p>
+
+<p><a href="https://www.fatcatsoftware.com/plisteditpro/VersionedDocs/v1/screenshots/sort_subkey.png"><img src="https://www.fatcatsoftware.com/plisteditpro/VersionedDocs/v1/screenshots/sort_subkey.png" width="100%" /></a></p>
+
+<p><strong>Sorting Options</strong></p>
+
+<p>The <a href="preferences.html">preferences</a> window allows you to specify whether you want your sorting to be performed case sensitively or numerically. Case sensitive sorting will sort all capital letters before lowercase letters, and numeric sorting will sort numbers based on their numeric value, rather than treating them as alphabetic strings.</p>
+
+
+
+<div style="height: 30px;">
+
+
+
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+		
+
+	
+	
+	
+		<div style="float: left">&lt;&lt; <a href="find_replace.html">Find and replace</a></div>
+	
+
+
+	
+	
+	
+		<div style="float: right"><a href="formatters.html">Viewing data in different formats &gt;&gt;</a></div>
+	
+
+
+
+</div>
+
+</body>
+</html>
+

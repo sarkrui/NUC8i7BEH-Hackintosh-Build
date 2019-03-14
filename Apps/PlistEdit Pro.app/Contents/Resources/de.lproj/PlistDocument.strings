@@ -1,0 +1,48 @@
+
+/* Class = "PEWindow"; title = "Window"; ObjectID = "5"; */
+"5.title" = "Window";
+
+/* Class = "NSMenuItem"; title = "ASCII"; ObjectID = "64"; */
+"64.title" = "ASCII";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "65"; */
+"65.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Binär"; ObjectID = "66"; */
+"66.title" = "Binär";
+
+/* Class = "NSMenuItem"; title = "XML"; ObjectID = "67"; */
+"67.title" = "XML";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Text automatisch aktualisieren, sobald sich die Strukturansicht ändert"; ObjectID = "135"; */
+"135.ibShadowedToolTip" = "Text automatisch aktualisieren, sobald sich die Strukturansicht ändert";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Text aktualisieren und Änderungen an der Strukturansicht übernehmen"; ObjectID = "136"; */
+"136.ibShadowedToolTip" = "Text aktualisieren und Änderungen an der Strukturansicht übernehmen";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Strukturansicht aktualisieren und Änderungen am Text übernehmen"; ObjectID = "137"; */
+"137.ibShadowedToolTip" = "Strukturansicht aktualisieren und Änderungen am Text übernehmen";
+
+/* Class = "NSWindow"; title = "Gehe zu"; ObjectID = "177"; */
+"177.title" = "Gehe zu";
+
+/* Class = "NSButtonCell"; title = "Text automatisch synchronisieren"; ObjectID = "277"; */
+"277.title" = "Text automatisch synchronisieren";
+
+/* Class = "NSButtonCell"; title = "Text synchronisieren ↓"; ObjectID = "278"; */
+"278.title" = "Text synchronisieren ↓";
+
+/* Class = "NSButtonCell"; title = "Strukturansicht synchronisieren ↑"; ObjectID = "279"; */
+"279.title" = "Strukturansicht synchronisieren ↑";
+
+/* Class = "NSTextFieldCell"; title = "Gehe zu Zeile:"; ObjectID = "281"; */
+"281.title" = "Gehe zu Zeile:";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "283"; */
+"283.title" = "OK";
+
+/* Class = "NSButtonCell"; title = "Abbrechen"; ObjectID = "284"; */
+"284.title" = "Abbrechen";
+
+/* Class = "NSMenuItem"; title = "JSON"; ObjectID = "328"; */
+"328.title" = "JSON";

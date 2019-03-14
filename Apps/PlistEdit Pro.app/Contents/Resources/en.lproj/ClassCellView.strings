@@ -1,0 +1,24 @@
+
+/* Class = "NSMenuItem"; title = "Array"; ObjectID = "2Zr-1Q-gL6"; */
+"2Zr-1Q-gL6.title" = "Array";
+
+/* Class = "NSMenuItem"; title = "Date"; ObjectID = "M8n-0z-HOn"; */
+"M8n-0z-HOn.title" = "Date";
+
+/* Class = "NSMenuItem"; title = "Data"; ObjectID = "V3q-bN-1Rr"; */
+"V3q-bN-1Rr.title" = "Data";
+
+/* Class = "NSMenuItem"; title = "Boolean"; ObjectID = "eKd-BG-uhx"; */
+"eKd-BG-uhx.title" = "Boolean";
+
+/* Class = "NSMenuItem"; title = "String"; ObjectID = "f7e-Od-UCf"; */
+"f7e-Od-UCf.title" = "String";
+
+/* Class = "NSMenuItem"; title = "Dictionary"; ObjectID = "hEf-pI-QwW"; */
+"hEf-pI-QwW.title" = "Dictionary";
+
+/* Class = "NSMenuItem"; title = "Number"; ObjectID = "oDa-IC-RJX"; */
+"oDa-IC-RJX.title" = "Number";
+
+/* Class = "NSMenuItem"; title = "Null"; ObjectID = "pAk-fb-aQa"; */
+"pAk-fb-aQa.title" = "Null";

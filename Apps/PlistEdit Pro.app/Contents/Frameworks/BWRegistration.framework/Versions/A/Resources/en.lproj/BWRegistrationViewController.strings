@@ -1,0 +1,27 @@
+
+/* Class = "NSTextFieldCell"; title = "Name:"; ObjectID = "3RH-PG-8hD"; */
+"3RH-PG-8hD.title" = "Name:";
+
+/* Class = "NSTextFieldCell"; title = "Registration message <<do not localize>>"; ObjectID = "JFr-Ia-wyW"; */
+"JFr-Ia-wyW.title" = "Registration message <<do not localize>>";
+
+/* Class = "NSTextFieldCell"; title = "Serial number:"; ObjectID = "KIS-hR-TZX"; */
+"KIS-hR-TZX.title" = "Serial number:";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "OQZ-lD-mDC"; */
+"OQZ-lD-mDC.title" = "Cancel";
+
+/* Class = "NSButtonCell"; title = "Purchase..."; ObjectID = "WWx-jB-KvD"; */
+"WWx-jB-KvD.title" = "Purchase...";
+
+/* Class = "NSTextFieldCell"; title = "Company:"; ObjectID = "WZV-W2-ybI"; */
+"WZV-W2-ybI.title" = "Company:";
+
+/* Class = "NSButtonCell"; title = "Edit Registration"; ObjectID = "Zgo-VA-Vgs"; */
+"Zgo-VA-Vgs.title" = "Edit Registration";
+
+/* Class = "NSButtonCell"; title = "I Lost My Serial"; ObjectID = "bXQ-gq-YyS"; */
+"bXQ-gq-YyS.title" = "I Lost My Serial";
+
+/* Class = "NSTextFieldCell"; title = "2 user license <<do not localize>>"; ObjectID = "iAg-aj-uNq"; */
+"iAg-aj-uNq.title" = "2 user license <<do not localize>>";
