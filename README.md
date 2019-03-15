@@ -9,6 +9,10 @@ This guide derives from @Rehabman's [[Guide] Booting the OS X installer on LAPTO
 
 ![image-20190313124640383](https://i.imgur.com/0VkvCy7.png)
 
+![image-20190315211457246](https://i.imgur.com/mfY5yko.png)
+
+![image-20190315212301135](https://i.imgur.com/NuSigQV.png)
+
 
 
 #### Specs
@@ -16,6 +20,7 @@ This guide derives from @Rehabman's [[Guide] Booting the OS X installer on LAPTO
 * **HyperX Impact** DDR4 SODIMM 16GB * 1 (Recommend two sticks in dual-channel, 16GB of RAM works fine so far for me)  *Crucial DDR4 SODIMM 16GB* I bought was **not compatible** with my NUC8. For more information about the recommended RAMs by Intel, see [Memory Modules](http://compatibleproducts.intel.com/ProductDetails/ExportPeripheralInfo?moduleName=Intel%C2%AE%20NUC&productType=Kits&productName=Intel%C2%AE%20NUC%20Kit%20NUC8i7BEH) 
 * **Crucial MX500** 1000G SATAIII SSD (I need the M.2 slot for Wi-FI/Bluetooth.)
 * **BCM943602CDP** Wi-Fi/Bluetooth + [M.2 NGFF Key B+M Adapter](https://www.ebay.co.uk/itm/Wireless-Card-Module-to-M-2-NGFF-Key-B-M-Adapter-BCM94360CD-for-Mac-OS-12-6-Pin/264001220361?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2057872.m2749.l2649) 
+* **[LT Link Dual Thunderbolt 3 eGPU Dock](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.3c192e8dU8dSse&id=565055158328&_u=gbd9jfbd9ba)** + **Sapphire RX 460 4G** (firmware upgraded to RX 560)
 * **Mojave 10.14.2** Final Cut Pro has better performance on 10.14.2, less exporting time and better stability than the performance on 10.14.3.
 
 
@@ -25,14 +30,15 @@ This guide derives from @Rehabman's [[Guide] Booting the OS X installer on LAPTO
 * **AirDrop, Handoff** (Apple Wi-Fi/Bluetooth required)
 * **iMessage** (complete serial required) 
 * **All USB3.1 Gen1/USB2.0 ports**
-* **USB3.1 Type-c Hotplug**
-* **Hardware Acceleration supported.** (Final Cut Pro X, VideoProc, Compressor tested.)
+* **USB3.1 Type-c Hotplugging**
+* **Hardware Acceleration** (Final Cut Pro X, VideoProc, Compressor tested.)
+* **Thunderbolt 3 eGPU** (Final Cut Pro X, VideoProc, Compressor tested.)
 
 
 
-#### *Not Validated Yet*
+#### Not working
 
-* Thunderbolt 3 eGPU *(WIP)*
+* Thunderbolt 3 eGPU Hotplugging 
 
 
 
