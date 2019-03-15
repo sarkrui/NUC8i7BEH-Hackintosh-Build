@@ -16,7 +16,7 @@ This guide derives from @Rehabman's [[Guide] Booting the OS X installer on LAPTO
 * **HyperX Impact** DDR4 SODIMM 16GB * 1 (Recommend two sticks in dual-channel, 16GB of RAM works fine so far for me)  *Crucial DDR4 SODIMM 16GB* I bought was **not compatible** with my NUC8. For more information about the recommended RAMs by Intel, see [Memory Modules](http://compatibleproducts.intel.com/ProductDetails/ExportPeripheralInfo?moduleName=Intel%C2%AE%20NUC&productType=Kits&productName=Intel%C2%AE%20NUC%20Kit%20NUC8i7BEH) 
 * **Crucial MX500** 1000G SATAIII SSD (I need the M.2 slot for Wi-FI/Bluetooth.)
 * **BCM943602CDP** Wi-Fi/Bluetooth + [M.2 NGFF Key B+M Adapter](https://www.ebay.co.uk/itm/Wireless-Card-Module-to-M-2-NGFF-Key-B-M-Adapter-BCM94360CD-for-Mac-OS-12-6-Pin/264001220361?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2057872.m2749.l2649) 
-* **Mojave 10.14.2** Final Cut Pro has better performance on 10.14.2, less exporting time and stable than the 10.14.3.
+* **Mojave 10.14.2** Final Cut Pro has better performance on 10.14.2, less exporting time and better stability than the performance on 10.14.3.
 
 
 
@@ -24,13 +24,13 @@ This guide derives from @Rehabman's [[Guide] Booting the OS X installer on LAPTO
 
 * **AirDrop, Handoff** (Apple Wi-Fi/Bluetooth required)
 * **iMessage** (complete serial required) 
-* **All USB3.1 Gen1/USB2.0 ports **
+* **All USB3.1 Gen1/USB2.0 ports**
 * **USB3.1 Type-c Hotplug**
 * **Hardware Acceleration supported.** (Final Cut Pro X, VideoProc, Compressor tested.)
 
 
 
-#### Not Validated Yet
+#### *Not Validated Yet*
 
 * Thunderbolt 3 eGPU *(WIP)*
 
@@ -87,7 +87,7 @@ Download the latest EFI Clover (see [release](https://github.com/sarkrui))
 
 #### FRC Reverse Proxy
 
-Frp is a fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet. As of now, it supports tcp & udp, as well as http and https protocols, where requests can be forwarded to internal services by domain name. For example, with Frp, VNC port (5900), SSH port (22), and FTP port (445) on Macs behind a NAT, can be exposed to the public. Therefore, a user can have access to use **Screen Sharing**, **File Sharing** remotely.
+Frp is a fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet. As of now, it supports tcp & udp, as well as http and https protocols, where requests can be forwarded to internal services by domain name. For example, with Frp, VNC port (5900), SSH port (22), and FTP port (445) on Macs behind a NAT, can be exposed to the public. Therefore, a user can have access to **Screen Sharing**, **File Sharing** remotely.
 
 ### Credit
 
