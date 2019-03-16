@@ -11,7 +11,7 @@ This guide derives from @Rehabman's [[Guide] Booting the OS X installer on LAPTO
 
 ![image-20190315211457246](https://i.imgur.com/mfY5yko.png)
 
-![image-20190315212301135](https://i.imgur.com/NuSigQV.png)
+![Untitled-1](https://i.imgur.com/m4vil9s.jpg)
 
 
 
@@ -95,11 +95,9 @@ Download the latest EFI Clover (see [release](https://github.com/sarkrui))
 
 Frp is a fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet. As of now, it supports tcp & udp, as well as http and https protocols, where requests can be forwarded to internal services by domain name. For example, with Frp, VNC port (5900), SSH port (22), and FTP port (445) on Macs behind a NAT, can be exposed to the public. Therefore, a user can have access to **Screen Sharing**, **File Sharing** remotely.
 
-### Credit
+### Credit 
 
-This project is highly 
+* Thanks [@RehabMan](https://www.tonymacx86.com/members/rehabman.429483/) for the initial development of installing guide for NUC series. 
 
-* [@RehabMan](https://www.tonymacx86.com/members/rehabman.429483/)
-
-* [@Daliansky](https://blog.daliansky.net)
-* [@GoingDark](https://www.tonymacx86.com/members/2192833/)
+* Thanks [@Daliansky](https://blog.daliansky.net) for providing the installing guide and clover config library for common PCs.
+* Thanks [@GoingDark](https://www.tonymacx86.com/members/2192833/) for contributing the internal USB headers id.
