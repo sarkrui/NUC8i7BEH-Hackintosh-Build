@@ -3,6 +3,8 @@
 
 This guide derives from @Rehabman's [[Guide] Booting the OS X installer on LAPTOPS](https://www.tonymacx86.com/threads/guide-booting-the-os-x-installer-on-laptops-with-clover.148093/) and [[Guide] Intel NUC7NUC8 using Clover UEFI (NUC7i7Bxx,NUC8i7Bxx,etc)](https://www.tonymacx86.com/threads/guide-intel-nuc7-nuc8-using-clover-uefi-nuc7i7bxx-nuc8i7bxx-etc.261711/) but the procedure has been simplied in order to provide a quick guide to install Mojave on the NUC8i7BEH. 
 
+![92DB212A-A555-4BBD-81B8-854E1ED8B555](https://i.imgur.com/QnDA298.jpg)
+
 ### Performance
 
 ![image-20190313124555196](https://i.imgur.com/UJxsDaw.png)
@@ -55,7 +57,7 @@ Then change:
 - Boot -> Boot Configuration, disable "**Network Boot**"
 - Power -> Secondary Power Settings, "**Wake on LAN from S4/S5**", set to "**Stay Off**"
 - Boot -> Secure Boot, disable "**Secure Boot**" 
-- Devices -> OnBoard Devices, disable "**Bluetooth**" 
+- Devices -> OnBoard Devices, disable "**Bluetooth**" (macOS is not compatible well with Intel Wi-Fi/Bluetooth)
 
 Suggested:
 
@@ -65,22 +67,29 @@ Suggested:
 
 ### Installation
 
-#### Solution 1 (WIP) Recommended
+#### Option 1: GUI (recommended)
 
-* [Mojabe 10.14.2 Download](https://blog.daliansky.net/macOS-Mojave-10.14.2-18C54-official-version-with-Clover-4792-original-image.html)
+* [Mojave 10.14.2 Download](https://blog.daliansky.net/macOS-Mojave-10.14.2-18C54-official-version-with-Clover-4792-original-image.html) (Clover EFI with config will be automatically installed with this ISO)
 * [Install macOS with etcher](https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html)
 
-#### Solution 2 (WIP)
+#### Option 2: Command-line
 
+* Download Mojave 10.14.2 from App Store
 * [[Guide] Installing macOS Mojave (10.14.2) on Intel NUCi5BEH using Clover UEFI](https://www.tonymacx86.com/threads/guide-installing-macos-mojave-10-14-2-on-intel-nuci5beh-using-clover-uefi.268502/)
+
+
 
 ### Post-installation
 
 #### Clover EFI 
 
-Download the latest EFI Clover (see [release](https://github.com/sarkrui))
+* Download the latest EFI Clover (see [release](https://github.com/sarkrui/NUC8i7BEH-Hackintosh-Build/releases))
+* Mount EFI folder with *EFI Mounter V3* or *Clover Configurator*
+* Place the downloaded EFI folder in your local EFI drive
 
-#### Wi-Fi/Bluetooth Adapter
+#### Fixing Continuity 
+
+##### Wi-Fi/Bluetooth Adapter
 
 ![Untitled-1](https://i.imgur.com/YxZvkLv.jpg)
 
@@ -90,6 +99,10 @@ Download the latest EFI Clover (see [release](https://github.com/sarkrui))
 ##### Scheme 
 
 ![BT_InternalUSBHeader_Scheme](https://i.imgur.com/nqRlweB.png)
+
+##### Continuity Activation Tool (C.A.T)
+
+To enable conitinuity, you must have an invaild serial number (meaning never been used by other Macs), for detailed information, please check [Generating invaild serial number from hackintosher](https://hackintosher.com/guides/quick-fixes-facetime-icloud-imessage-hackintosh-not-working/). If everything is ready and yet you still cannot have **AirDrop** and **Handoff**, please try **C.A.T** to activate continuity. 
 
 #### FRC Reverse Proxy
 
