@@ -1,7 +1,7 @@
 # [GUIDE] Building a Mac mini beast with NUC8i7BEH
 ### Overview
 
-This guide derives from @Rehabman's [[Guide] Booting the OS X installer on LAPTOPS](https://www.tonymacx86.com/threads/guide-booting-the-os-x-installer-on-laptops-with-clover.148093/) and [[Guide] Intel NUC7NUC8 using Clover UEFI (NUC7i7Bxx,NUC8i7Bxx,etc)](https://www.tonymacx86.com/threads/guide-intel-nuc7-nuc8-using-clover-uefi-nuc7i7bxx-nuc8i7bxx-etc.261711/) but the procedure has been simplied in order to provide a quick guide to install Mojave on the NUC8i7BEH. 
+This guide derives from @Rehabman's [[Guide] Booting the OS X installer on LAPTOPS](https://www.tonymacx86.com/threads/guide-booting-the-os-x-installer-on-laptops-with-clover.148093/) and [[Guide] Intel NUC7NUC8 using Clover UEFI (NUC7i7Bxx,NUC8i7Bxx,etc)](https://www.tonymacx86.com/threads/guide-intel-nuc7-nuc8-using-clover-uefi-nuc7i7bxx-nuc8i7bxx-etc.261711/) but the procedure has been simplified in order to provide a quick guide to install Mojave on the NUC8i7BEH. 
 
 ![92DB212A-A555-4BBD-81B8-854E1ED8B555](https://i.imgur.com/QnDA298.jpg)
 
@@ -22,7 +22,7 @@ This guide derives from @Rehabman's [[Guide] Booting the OS X installer on LAPTO
 * **HyperX Impact** DDR4 SODIMM 16GB * 1 (Recommend two sticks in dual-channel, 16GB of RAM works fine so far for me)  *Crucial DDR4 SODIMM 16GB* I bought was **not compatible** with my NUC8. For more information about the recommended RAMs by Intel, see [Memory Modules](http://compatibleproducts.intel.com/ProductDetails/ExportPeripheralInfo?moduleName=Intel%C2%AE%20NUC&productType=Kits&productName=Intel%C2%AE%20NUC%20Kit%20NUC8i7BEH) 
 * **Crucial MX500** 1000G SATAIII SSD (I need the M.2 slot for Wi-FI/Bluetooth.)
 * **BCM943602CDP** Wi-Fi/Bluetooth + [M.2 NGFF Key B+M Adapter](https://www.ebay.co.uk/itm/Wireless-Card-Module-to-M-2-NGFF-Key-B-M-Adapter-BCM94360CD-for-Mac-OS-12-6-Pin/264001220361?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2057872.m2749.l2649) 
-* **[LT Link Dual Thunderbolt 3 eGPU Dock](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.3c192e8dU8dSse&id=565055158328&_u=gbd9jfbd9ba)** + **Sapphire RX 460 4G** (firmware upgraded to RX 560)
+* [LT Link Dual Thunderbolt 3 eGPU Dock](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.3c192e8dU8dSse&id=565055158328&_u=gbd9jfbd9ba) + **Sapphire RX 460 4G** (firmware upgraded to RX 560)
 * **Mojave 10.14.2** Final Cut Pro has better performance on 10.14.2, less exporting time and better stability than the performance on 10.14.3.
 
 
@@ -106,7 +106,7 @@ To enable conitinuity, you must have an invaild serial number (meaning never bee
 
 #### FRC Reverse Proxy
 
-Frp is a fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet. As of now, it supports tcp & udp, as well as http and https protocols, where requests can be forwarded to internal services by domain name. For example, with Frp, VNC port (5900), SSH port (22), and FTP port (445) on Macs behind a NAT, can be exposed to the public. Therefore, a user can have access to **Screen Sharing**, **File Sharing** remotely.
+Frp is a fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet. As of now, it supports TCP & UDP, as well as http and https protocols, where requests can be forwarded to internal services by domain name. For example, with Frp, **VNC** port (5900), **SSH** port (22), and **FTP** port (445) on Macs behind a NAT, can be exposed to the public. Therefore, a user can have access to **Screen Sharing**, **File Sharing** remotely.
 
 ### Credit 
 
