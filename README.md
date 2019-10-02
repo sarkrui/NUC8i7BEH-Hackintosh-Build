@@ -100,6 +100,12 @@ Suggested:
 
 ![BT_InternalUSBHeader_Scheme](https://i.imgur.com/nqRlweB.png)
 
+##### IPEX1 Antennas
+
+The original antennas on NUC are using `IPEX4` connector while the `BCM943602CD`P is using `IPEX1`. Thus, I completely removed the original ones and replaced them with four IPEX1. However, it's worth mentioning that the quality of the signal drops after the replacement (for both Wi-Fi and Bluetooth). 
+
+![](https://i.imgur.com/fcDCRIV.jpg)
+
 ##### Continuity Activation Tool (C.A.T)
 
 To enable conitinuity, you must have an invaild serial number (meaning never been used by other Macs), for detailed information, please check [Generating invaild serial number from hackintosher](https://hackintosher.com/guides/quick-fixes-facetime-icloud-imessage-hackintosh-not-working/). If everything is ready and yet you still cannot have **AirDrop** and **Handoff**, please try **C.A.T** to activate continuity. 
