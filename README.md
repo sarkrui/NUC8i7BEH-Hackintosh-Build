@@ -21,7 +21,9 @@ This guide derives from @Rehabman's [[Guide] Booting the OS X installer on LAPTO
 
 * **HyperX Impact** DDR4 SODIMM 16GB * 1 (Recommend two sticks in dual-channel, 16GB of RAM works fine so far for me)  *Crucial DDR4 SODIMM 16GB* I bought was **not compatible** with my NUC8. For more information about the recommended RAMs by Intel, see [Memory Modules](http://compatibleproducts.intel.com/ProductDetails/ExportPeripheralInfo?moduleName=Intel%C2%AE%20NUC&productType=Kits&productName=Intel%C2%AE%20NUC%20Kit%20NUC8i7BEH) 
 * **Crucial MX500** 1000G SATAIII SSD (I need the M.2 slot for Wi-FI/Bluetooth.)
-* **BCM943602CDP** Wi-Fi/Bluetooth + [M.2 NGFF Key B+M Adapter](https://www.ebay.co.uk/itm/Wireless-Card-Module-to-M-2-NGFF-Key-B-M-Adapter-BCM94360CD-for-Mac-OS-12-6-Pin/264001220361?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2057872.m2749.l2649) 
+* **Wi-Fi/Bluetooth**
+  * **BCM943602CDP** (4 antenna, IPEX1 connector) Wi-Fi/Bluetooth + [M.2 NGFF Key B+M Adapter](https://nl.aliexpress.com/item/32947752122.html), *Intel antenna replacement is required.* 
+  * **BCM94360CS2** (2 antenna IPEX4 connector) Wi-Fi/Bluetooth + [M.2 NGFF Key B+M Adapter](https://nl.aliexpress.com/item/32947752122.html). *Intel antenna replacement is NOT required but  2.4 GHz  will have conflicts with bluetooth as they share the same connector.* 
 * [LT Link Dual Thunderbolt 3 eGPU Dock](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.3c192e8dU8dSse&id=565055158328&_u=gbd9jfbd9ba) + **Sapphire RX 460 4G** (firmware upgraded to RX 560)
 * **Mojave 10.14.2** Final Cut Pro has better performance on 10.14.2, less exporting time and better stability than the performance on 10.14.3.
 
