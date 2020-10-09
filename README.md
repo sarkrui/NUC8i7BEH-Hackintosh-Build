@@ -86,7 +86,7 @@ Suggested:
 * Download Mojave 10.14.2 from App Store
 * [[Guide] Installing macOS Mojave (10.14.2) on Intel NUCi5BEH using Clover UEFI](https://www.tonymacx86.com/threads/guide-installing-macos-mojave-10-14-2-on-intel-nuci5beh-using-clover-uefi.268502/)
 
-
+Note: If you get an error that says "This copy of the Install macOS Mojave.app application is damaged, and can’t be used to install macOS", then open up a terminal and set the date to March 3rd, 2019 at 00:00 with `date 030300002019`
 
 ### Post-installation
 
