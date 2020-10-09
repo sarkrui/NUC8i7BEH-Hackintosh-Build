@@ -1,0 +1,252 @@
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "number"; ObjectID = "25N-fC-6b4"; */
+"25N-fC-6b4.ibShadowedIsNilPlaceholder" = "number";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "<key>ATI</key>\n<array>\n\t<dict>\n\t<key>IOPCIPrimaryMatch</key>\n\t<string>0x10021234</string>\n\t<key>IOPCISubDevId</key>\n\t<string>0x106b</string>\n\t<key>LoadVBios</key>\n\t<true/>\n\t<key>Model</key>\n\t<string>AMD very cool card</string>\n\t<key>VRAM</key>\n\t<integer>8192</integer>\n\t<key>VideoPorts</key>\n\t<integer>4</integer>\n\t</dict>\n</array>\n\nMore than one AMD video cards? Add info under Graphics->ATI as an array of dictionaries:\n\n- IOPCIPrimaryMatch, device id\n- IOPCISubDevId, sub vendor id of your card\n- LoadVBios, load video bios\n- Model, name to be displayed\n- VRAM, the amount of video RAM, cosmetic only\n- VideoPorts, the ports available for this card"; ObjectID = "2E4-Ux-C7E"; */
+"2E4-Ux-C7E.ibShadowedToolTip" = "<key>ATI</key>\n<array>\n\t<dict>\n\t<key>IOPCIPrimaryMatch</key>\n\t<string>0x10021234</string>\n\t<key>IOPCISubDevId</key>\n\t<string>0x106b</string>\n\t<key>LoadVBios</key>\n\t<true/>\n\t<key>Model</key>\n\t<string>AMD very cool card</string>\n\t<key>VRAM</key>\n\t<integer>8192</integer>\n\t<key>VideoPorts</key>\n\t<integer>4</integer>\n\t</dict>\n</array>\n\nMore than one AMD video cards? Add info under Graphics->ATI as an array of dictionaries:\n\n- IOPCIPrimaryMatch, device id\n- IOPCISubDevId, sub vendor id of your card\n- LoadVBios, load video bios\n- Model, name to be displayed\n- VRAM, the amount of video RAM, cosmetic only\n- VideoPorts, the ports available for this card";
+
+/* Class = "NSTextFieldCell"; title = "ProductID"; ObjectID = "3p4-vG-tT7"; */
+"3p4-vG-tT7.title" = "ProductID";
+
+/* Class = "NSTextFieldCell"; title = "NVCAP"; ObjectID = "3wr-yh-UDo"; */
+"3wr-yh-UDo.title" = "NVCAP";
+
+/* Class = "NSTableColumn"; headerCell.title = "Model"; ObjectID = "3yk-pP-O2b"; */
+"3yk-pP-O2b.headerCell.title" = "Model";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "0x10DEXXXX"; ObjectID = "4db-4g-rnO"; */
+"4db-4g-rnO.ibShadowedIsNilPlaceholder" = "0x10DEXXXX";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "0x11"; ObjectID = "4iw-62-ebB"; */
+"4iw-62-ebB.ibShadowedIsNilPlaceholder" = "0x11";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "0x"; ObjectID = "5Af-la-hQy"; */
+"5Af-la-hQy.ibShadowedIsNilPlaceholder" = "0x";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedNoSelectionPlaceholder = "0x"; ObjectID = "5Af-la-hQy"; */
+"5Af-la-hQy.ibShadowedNoSelectionPlaceholder" = "0x";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Enable/Disable Clover's injection for NVidia's GPUs"; ObjectID = "5lf-Yf-tCI"; */
+"5lf-Yf-tCI.ibShadowedToolTip" = "Enable/Disable Clover's injection for NVidia's GPUs";
+
+/* Class = "NSButtonCell"; title = "Inject NVidia"; ObjectID = "6U0-ce-YRL"; */
+"6U0-ce-YRL.title" = "Inject NVidia";
+
+/* Class = "NSBox"; title = "PatchVBios"; ObjectID = "8O6-lT-HAq"; */
+"8O6-lT-HAq.title" = "PatchVBios";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "HEX value"; ObjectID = "9Pk-hp-bb6"; */
+"9Pk-hp-bb6.ibShadowedIsNilPlaceholder" = "HEX value";
+
+/* Class = "NSTableColumn"; headerCell.title = "IOPCIPrimaryMatch"; ObjectID = "9Qj-KQ-elN"; */
+"9Qj-KQ-elN.headerCell.title" = "IOPCIPrimaryMatch";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>NvidiaGeneric</key>\n<true/>\n\nIf this true then generic name for Videocard will be used. For example instead of\nGigabyte Geforce 7300LE \nYou will see\nNVIDIA Geforce 7300LE"; ObjectID = "A8W-lA-vZO"; */
+"A8W-lA-vZO.ibShadowedToolTip" = "<key>NvidiaGeneric</key>\n<true/>\n\nIf this true then generic name for Videocard will be used. For example instead of\nGigabyte Geforce 7300LE \nYou will see\nNVIDIA Geforce 7300LE";
+
+/* Class = "NSButtonCell"; title = "NvidiaGeneric"; ObjectID = "BgG-Eu-Y6R"; */
+"BgG-Eu-Y6R.title" = "NvidiaGeneric";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "number"; ObjectID = "Cxs-xM-Pp3"; */
+"Cxs-xM-Pp3.ibShadowedIsNilPlaceholder" = "number";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>PatchVBios</key>\n<true/>\nClover applies corrections to the shadow ROM at address 0xC0000 to allow support of the highest monitor resolution. For instance, a monitor's EDID contains the mode 1920x1080 but the video bios does not. Clover will apply it as the first mode to be used. In case the monitor does not produce an EDID, it can be injected manually.\n\nIn case ScreenResolution in section GUI is set, it will be used for this patch.\n\nShould the automatic patch fail, then you can specify a manual one."; ObjectID = "DJ3-O6-phs"; */
+"DJ3-O6-phs.ibShadowedToolTip" = "<key>PatchVBios</key>\n<true/>\nClover applies corrections to the shadow ROM at address 0xC0000 to allow support of the highest monitor resolution. For instance, a monitor's EDID contains the mode 1920x1080 but the video bios does not. Clover will apply it as the first mode to be used. In case the monitor does not produce an EDID, it can be injected manually.\n\nIn case ScreenResolution in section GUI is set, it will be used for this patch.\n\nShould the automatic patch fail, then you can specify a manual one.";
+
+/* Class = "NSTextFieldCell"; title = "Dual Link"; ObjectID = "ESj-Ip-vqI"; */
+"ESj-Ip-vqI.title" = "Dual Link";
+
+/* Class = "NSTableColumn"; headerCell.title = "IOPCISubDevId"; ObjectID = "G5P-e4-lQn"; */
+"G5P-e4-lQn.headerCell.title" = "IOPCISubDevId";
+
+/* Class = "NSTableColumn"; headerCell.title = "VRAM"; ObjectID = "GdW-mg-f1W"; */
+"GdW-mg-f1W.headerCell.title" = "VRAM";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>VideoPorts</key>\n<integer>2</integer>\nThe amount of ports on a video card, including TVO and/or HDMI. The chosen Apple framebuffer may not correspond to our real video card."; ObjectID = "HtU-h4-2EC"; */
+"HtU-h4-2EC.ibShadowedToolTip" = "<key>VideoPorts</key>\n<integer>2</integer>\nThe amount of ports on a video card, including TVO and/or HDMI. The chosen Apple framebuffer may not correspond to our real video card.";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "MBytes"; ObjectID = "INc-ym-JP0"; */
+"INc-ym-JP0.ibShadowedIsNilPlaceholder" = "MBytes";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>ig-platform-id</key>\n<string>0x01620005</string>\nThis parameter is used to enable the internal Intel HD 4000 video card. Until now no common rule for selecting a value was found, so either let Clover handle this parameter or use another one if it does not work.\n\nHere is a table with possible values:\n\nValue|Type|Ports :---|:---|:--- 0x01660000|Mobile|4 ports: 1 LVDS, 3 DP 0x01660001|Mobile|4 ports: 1 LVDS, 1 HDMI, 2 DP 0x01660002|Mobile|1 port: LVDS 0x01660003|Mobile|4 ports: 1 LVDS, 1 HDMI e 2 DP 0x01660004|Mobile|1 port: LVDS 0x01620005|Desktop|3 ports: DP 0x01620006|Desktop|0 ports 0x01620007|Desktop|0 ports 0x01660008|Mobile|3 ports: 1 LVDS, 2 DP 0x01660009|Mobile|3 ports: 1 LVDS, 2 DP 0x0166000a|Mobile|3 ports: 2 DP, 1 HDMI 0x0166000b|Mobile|3 ports: 2 DP, 1 HDMI"; ObjectID = "IRG-f1-fId"; */
+"IRG-f1-fId.ibShadowedToolTip" = "<key>ig-platform-id</key>\n<string>0x01620005</string>\nThis parameter is used to enable the internal Intel HD 4000 video card. Until now no common rule for selecting a value was found, so either let Clover handle this parameter or use another one if it does not work.\n\nHere is a table with possible values:\n\nValue|Type|Ports :---|:---|:--- 0x01660000|Mobile|4 ports: 1 LVDS, 3 DP 0x01660001|Mobile|4 ports: 1 LVDS, 1 HDMI, 2 DP 0x01660002|Mobile|1 port: LVDS 0x01660003|Mobile|4 ports: 1 LVDS, 1 HDMI e 2 DP 0x01660004|Mobile|1 port: LVDS 0x01620005|Desktop|3 ports: DP 0x01620006|Desktop|0 ports 0x01620007|Desktop|0 ports 0x01660008|Mobile|3 ports: 1 LVDS, 2 DP 0x01660009|Mobile|3 ports: 1 LVDS, 2 DP 0x0166000a|Mobile|3 ports: 2 DP, 1 HDMI 0x0166000b|Mobile|3 ports: 2 DP, 1 HDMI";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "Jrc-fS-99G"; */
+"Jrc-fS-99G.title" = "Box";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "0x1006"; ObjectID = "KS4-4B-20d"; */
+"KS4-4B-20d.ibShadowedIsNilPlaceholder" = "0x1006";
+
+/* Class = "NSTableColumn"; headerCell.title = "VideoPorts"; ObjectID = "NjL-84-2Lh"; */
+"NjL-84-2Lh.headerCell.title" = "VideoPorts";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "MBytes"; ObjectID = "PxK-Hh-U4Z"; */
+"PxK-Hh-U4Z.ibShadowedIsNilPlaceholder" = "MBytes";
+
+/* Class = "NSBox"; title = "NVIDIA"; ObjectID = "RWV-gV-PWA"; */
+"RWV-gV-PWA.title" = "NVIDIA";
+
+/* Class = "NSTableColumn"; headerCell.title = "VRAM"; ObjectID = "S4P-y7-KUo"; */
+"S4P-y7-KUo.headerCell.title" = "VRAM";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>VideoInputSignal</key>\n<string>0xA0</string>\n\nVideoInputSignal - this is additional patch for the same problem but I found no inluence.\nDefinition of the value is follow\nBit 7=1\nDigital input. If set, the following bit definitions apply:\n\nBits 6–4 Bit depth: 000=undefined, 001=6, 010=8, 011=10, 100=12, 101=14, 110=16 bits per color, 111=reserved Bits 3–0 Video interface: 0000=undefined, 0001=HDMIa, 0010=HDMIb, 0100=MDDI, 0101=DisplayPort\n\nMy default values for desktop 0x80 (Digital, all undefined), for laptop 0x90 -6bits per color?! - not good.\nIt seems value 0xA0 will be better if used.\nAnd I don't know interface for intenal screen."; ObjectID = "SMy-mc-QWc"; */
+"SMy-mc-QWc.ibShadowedToolTip" = "<key>VideoInputSignal</key>\n<string>0xA0</string>\n\nVideoInputSignal - this is additional patch for the same problem but I found no inluence.\nDefinition of the value is follow\nBit 7=1\nDigital input. If set, the following bit definitions apply:\n\nBits 6–4 Bit depth: 000=undefined, 001=6, 010=8, 011=10, 100=12, 101=14, 110=16 bits per color, 111=reserved Bits 3–0 Video interface: 0000=undefined, 0001=HDMIa, 0010=HDMIb, 0100=MDDI, 0101=DisplayPort\n\nMy default values for desktop 0x80 (Digital, all undefined), for laptop 0x90 -6bits per color?! - not good.\nIt seems value 0xA0 will be better if used.\nAnd I don't know interface for intenal screen.";
+
+/* Class = "NSTextFieldCell"; title = "Video Ports"; ObjectID = "SP1-WM-7bJ"; */
+"SP1-WM-7bJ.title" = "Video Ports";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Enable/Disable Clover's injection for Intel's iGPUs"; ObjectID = "Tj9-VD-Udo"; */
+"Tj9-VD-Udo.ibShadowedToolTip" = "Enable/Disable Clover's injection for Intel's iGPUs";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "0x106B"; ObjectID = "TkB-O7-DiS"; */
+"TkB-O7-DiS.ibShadowedIsNilPlaceholder" = "0x106B";
+
+/* Class = "NSTextFieldCell"; title = "VendorID"; ObjectID = "UAQ-Jt-Em7"; */
+"UAQ-Jt-Em7.title" = "VendorID";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>RadeonDeInit</key>\n<true/>\n\nRev 4296\nA possibility to de-init Radeon cards.\nIt was very old problem since ElCapitan that AMD Radeon HD6xxx and up will not wake after sleep if used as first card.\nIf the card is secondary and CSM enabled then the card works fine. So the differences is initialisation.\nThe solution was found by vit9696 and used in private WhateverGreen.kext. Then Mieze proposed the solution as ACPI patch.\nNow I included this into Clover.\nYou have to set in config.plist"; ObjectID = "UTZ-9I-Mss"; */
+"UTZ-9I-Mss.ibShadowedToolTip" = "<key>RadeonDeInit</key>\n<true/>\n\nRev 4296\nA possibility to de-init Radeon cards.\nIt was very old problem since ElCapitan that AMD Radeon HD6xxx and up will not wake after sleep if used as first card.\nIf the card is secondary and CSM enabled then the card works fine. So the differences is initialisation.\nThe solution was found by vit9696 and used in private WhateverGreen.kext. Then Mieze proposed the solution as ACPI patch.\nNow I included this into Clover.\nYou have to set in config.plist";
+
+/* Class = "NSButtonCell"; title = "Patch VBios"; ObjectID = "XgX-Jz-Fiz"; */
+"XgX-Jz-Fiz.title" = "Patch VBios";
+
+/* Class = "NSTextFieldCell"; title = "VRAM"; ObjectID = "XuG-aC-IxA"; */
+"XuG-aC-IxA.title" = "VRAM";
+
+/* Class = "NSBox"; title = "Custom EDID [HEX]"; ObjectID = "Yle-1C-wIg"; */
+"Yle-1C-wIg.title" = "Custom EDID [HEX]";
+
+/* Class = "NSTableColumn"; headerCell.title = "Replace* [HEX]"; ObjectID = "ZqR-YD-VUX"; */
+"ZqR-YD-VUX.headerCell.title" = "Replace* [HEX]";
+
+/* Class = "NSTableColumn"; headerCell.title = "LoadVBios"; ObjectID = "a1h-h1-T2g"; */
+"a1h-h1-T2g.headerCell.title" = "LoadVBios";
+
+/* Class = "NSTableColumn"; headerCell.title = "Find* [HEX]"; ObjectID = "aJc-cD-qIz"; */
+"aJc-cD-qIz.headerCell.title" = "Find* [HEX]";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>FBName</key>\n<string>Macaque</string>\nThis parameter is specific to AMD Radeon cards, which have a bunch of different framebuffers without any specific pattern. For a wide range of common video cards Clover will automatically choose a suiting framebuffer name. Feel free to set your own if you want. If you do not know what to write here, delete this parameter completely.\n\nDo not use Macaque! It is solely used for absurdity. But no - people still use it in their configurations!\n\nSmall guidance table:\n\nSeries v / Type >|Mobile|Desktop :---|:---|:--- HD 5000|Alouatta|Baboon HD 6000|Cttail|Ipomoea HD 7000|Pondweed|Futomaki"; ObjectID = "b8m-kf-9cV"; */
+"b8m-kf-9cV.ibShadowedToolTip" = "<key>FBName</key>\n<string>Macaque</string>\nThis parameter is specific to AMD Radeon cards, which have a bunch of different framebuffers without any specific pattern. For a wide range of common video cards Clover will automatically choose a suiting framebuffer name. Feel free to set your own if you want. If you do not know what to write here, delete this parameter completely.\n\nDo not use Macaque! It is solely used for absurdity. But no - people still use it in their configurations!\n\nSmall guidance table:\n\nSeries v / Type >|Mobile|Desktop :---|:---|:--- HD 5000|Alouatta|Baboon HD 6000|Cttail|Ipomoea HD 7000|Pondweed|Futomaki";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "0x9XXX"; ObjectID = "bES-8Y-5oh"; */
+"bES-8Y-5oh.ibShadowedIsNilPlaceholder" = "0x9XXX";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>NVCAP</key>\n<string>04000000000003000C0000000000000A00000000</string>\nThis parameter is only useful for Nvidia video cards and configures types and usage of video ports. The example line contains 40 capitalised hexadecimal digits. Theory is missing in this case and praxis shows controversial results.\n\nYou can also find other methods on calculating a correct value for this line.\n\nClover will try to generate one according to the video bios."; ObjectID = "bf1-cI-er9"; */
+"bf1-cI-er9.ibShadowedToolTip" = "<key>NVCAP</key>\n<string>04000000000003000C0000000000000A00000000</string>\nThis parameter is only useful for Nvidia video cards and configures types and usage of video ports. The example line contains 40 capitalised hexadecimal digits. Theory is missing in this case and praxis shows controversial results.\n\nYou can also find other methods on calculating a correct value for this line.\n\nClover will try to generate one according to the video bios.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Inject</key>\n<true/>\n\nInject, if true, your EDID->Custom"; ObjectID = "cr7-K5-nzi"; */
+"cr7-K5-nzi.ibShadowedToolTip" = "<key>Inject</key>\n<true/>\n\nInject, if true, your EDID->Custom";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Enable/Disable Clover's injection for AMD/ATI GPUs/APUs"; ObjectID = "cu0-HH-4QS"; */
+"cu0-HH-4QS.ibShadowedToolTip" = "Enable/Disable Clover's injection for AMD/ATI GPUs/APUs";
+
+/* Class = "NSTextFieldCell"; title = "ig-platform-id"; ObjectID = "dCW-1q-qLG"; */
+"dCW-1q-qLG.title" = "ig-platform-id";
+
+/* Class = "NSButtonCell"; title = "Inject EDID"; ObjectID = "dCc-Ws-R6K"; */
+"dCc-Ws-R6K.title" = "Inject EDID";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "0x1002XXXX"; ObjectID = "dvj-Pp-if9"; */
+"dvj-Pp-if9.ibShadowedIsNilPlaceholder" = "0x1002XXXX";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "<key>PatchVBiosBytes</key>\n<array>\n    <dict>\n        <key>Find</key>\n        <data>gAeoAqAF</data>\n        <key>Replace</key>\n        <data>gAeoAjgE</data>\n    </dict>\n</array>\n\nThis example applied to an AMD Radeon HD 6670 video bios, resulting in a replacement of mode 1920x1440 with mode 1920x1080. \nIt is advised to choose a mode with the same horizontal resolution.\n\nIt is possible to apply multiple patches. An Nvidia video bios, for instance, was successfully modified with four patches."; ObjectID = "eeh-6p-NEB"; */
+"eeh-6p-NEB.ibShadowedToolTip" = "<key>PatchVBiosBytes</key>\n<array>\n    <dict>\n        <key>Find</key>\n        <data>gAeoAqAF</data>\n        <key>Replace</key>\n        <data>gAeoAjgE</data>\n    </dict>\n</array>\n\nThis example applied to an AMD Radeon HD 6670 video bios, resulting in a replacement of mode 1920x1440 with mode 1920x1080. \nIt is advised to choose a mode with the same horizontal resolution.\n\nIt is possible to apply multiple patches. An Nvidia video bios, for instance, was successfully modified with four patches.";
+
+/* Class = "NSButtonCell"; title = "NvidiaNoEFI"; ObjectID = "fvj-gz-fFb"; */
+"fvj-gz-fFb.title" = "NvidiaNoEFI";
+
+/* Class = "NSButtonCell"; title = "Load VBios"; ObjectID = "gnq-h7-b8g"; */
+"gnq-h7-b8g.title" = "Load VBios";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "0x106B"; ObjectID = "h17-d2-Mdv"; */
+"h17-d2-Mdv.ibShadowedIsNilPlaceholder" = "0x106B";
+
+/* Class = "NSTextFieldCell"; title = "VideoInputSignal"; ObjectID = "hab-XY-5Kd"; */
+"hab-XY-5Kd.title" = "VideoInputSignal";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>VendorID</key>\n<string>0x11BF</string>\n\nOverrides and inject your Display Vendor id.\nSome time, your Display's EEPROM is not good and OEM manufacturers usually install\nfor a good result the OS customized with the right EDID data ignoring what's on the EEPROM.\nSo if the EEPROM is damaged you have to inject correct info."; ObjectID = "iB3-Ov-vXN"; */
+"iB3-Ov-vXN.ibShadowedToolTip" = "<key>VendorID</key>\n<string>0x11BF</string>\n\nOverrides and inject your Display Vendor id.\nSome time, your Display's EEPROM is not good and OEM manufacturers usually install\nfor a good result the OS customized with the right EDID data ignoring what's on the EEPROM.\nSo if the EEPROM is damaged you have to inject correct info.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>ProductID</key>\n<string>0x06DE</string>\n\nOverrides and inject your Display product id.\nSome time, your Display's EEPROM is not good and OEM manufacturers usually install\nfor a good result the OS customized with the right EDID data ignoring what's on the EEPROM.\nSo if the EEPROM is damaged you have to inject correct info.<string>0x11BF</string>\n\nOverrides and inject your Display Vendor id.\nSome time, your Display's EEPROM is not good and OEM manufacturers usually install\nfor a good result the OS customized with the right EDID data ignoring what's on the EEPROM.\nSo if the EEPROM is damaged you have to inject correct info."; ObjectID = "j0a-hX-BLv"; */
+"j0a-hX-BLv.ibShadowedToolTip" = "<key>ProductID</key>\n<string>0x06DE</string>\n\nOverrides and inject your Display product id.\nSome time, your Display's EEPROM is not good and OEM manufacturers usually install\nfor a good result the OS customized with the right EDID data ignoring what's on the EEPROM.\nSo if the EEPROM is damaged you have to inject correct info.<string>0x11BF</string>\n\nOverrides and inject your Display Vendor id.\nSome time, your Display's EEPROM is not good and OEM manufacturers usually install\nfor a good result the OS customized with the right EDID data ignoring what's on the EEPROM.\nSo if the EEPROM is damaged you have to inject correct info.";
+
+/* Class = "NSButtonCell"; title = "NvidiaSingle"; ObjectID = "lf3-pM-5zH"; */
+"lf3-pM-5zH.title" = "NvidiaSingle";
+
+/* Class = "NSTextFieldCell"; title = "Display-cfg"; ObjectID = "m0Z-0x-ds5"; */
+"m0Z-0x-ds5.title" = "Display-cfg";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "<key>DualLink</key>\n<integer>0</integer>\nDefault is 1.\n\nSome systems show a quartered screen. Use 0 to solve this problem, as showed in the example above."; ObjectID = "m64-hn-3cg"; */
+"m64-hn-3cg.ibShadowedToolTip" = "<key>DualLink</key>\n<integer>0</integer>\nDefault is 1.\n\nSome systems show a quartered screen. Use 0 to solve this problem, as showed in the example above.";
+
+/* Class = "NSTableColumn"; headerCell.title = "LoadVBios"; ObjectID = "m80-IH-kcC"; */
+"m80-IH-kcC.headerCell.title" = "LoadVBios";
+
+/* Class = "NSTextFieldCell"; title = "BootDisplay"; ObjectID = "myC-cS-tvp"; */
+"myC-cS-tvp.title" = "BootDisplay";
+
+/* Class = "NSTableColumn"; headerCell.title = "Model"; ObjectID = "no0-fu-M1Y"; */
+"no0-fu-M1Y.headerCell.title" = "Model";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>HorizontalSyncPulseWidth</key>\n<integer>100</integer>\n\nHorizontalSyncPulseWidth - this patch helps to resolve garbled screen at boot with Intel graphics. Known problem of 8 apples.\nI see that the patch is still needed\n\n<dict>\n<key>Comment</key>\n<string>Patch 8 apples</string>\n<key>Disabled</key>\n<false/>\n<key>Find</key>\n<data>AQAAdRc=</data>\n<key>MatchOS</key>\n<string>10.11</string>\n<key>Name</key>\n<string>IOGraphicsFamily</string>\n<key>Replace</key>\n<data>AQAA6xc=</data>\n</dict>\n\nbut this patch alone is not full solution. The apple is broken for a several seconds and then restored.\nWith new Clover setting HorizontalSyncPulseWidth = 100 there is a full solution. The image is good and not jumped."; ObjectID = "o0y-Gr-iUz"; */
+"o0y-Gr-iUz.ibShadowedToolTip" = "<key>HorizontalSyncPulseWidth</key>\n<integer>100</integer>\n\nHorizontalSyncPulseWidth - this patch helps to resolve garbled screen at boot with Intel graphics. Known problem of 8 apples.\nI see that the patch is still needed\n\n<dict>\n<key>Comment</key>\n<string>Patch 8 apples</string>\n<key>Disabled</key>\n<false/>\n<key>Find</key>\n<data>AQAAdRc=</data>\n<key>MatchOS</key>\n<string>10.11</string>\n<key>Name</key>\n<string>IOGraphicsFamily</string>\n<key>Replace</key>\n<data>AQAA6xc=</data>\n</dict>\n\nbut this patch alone is not full solution. The apple is broken for a several seconds and then restored.\nWith new Clover setting HorizontalSyncPulseWidth = 100 there is a full solution. The image is good and not jumped.";
+
+/* Class = "NSTextFieldCell"; title = "FB Name"; ObjectID = "oow-qe-zgk"; */
+"oow-qe-zgk.title" = "FB Name";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>NvidiaSingle</key>\n<true/>\n\nImplemented NvidiaSingle\nIf you have two cards Nvidia and wants to inject only first one:\nthen you can set this parameter."; ObjectID = "qbi-hO-FhU"; */
+"qbi-hO-FhU.ibShadowedToolTip" = "<key>NvidiaSingle</key>\n<true/>\n\nImplemented NvidiaSingle\nIf you have two cards Nvidia and wants to inject only first one:\nthen you can set this parameter.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "parameter is for providing custom EDID when it's missing. The main requirement is to have a correct maximal resolution.\n\nAnother possibility is to use ViewSonic EDID Editor v3.1.5 that can easily be ported to Mac, if needed.\n\nAn EDID from a Dell Inspiron will be used in the sample configuration file with a matrix of 1440x900.\n\nA custom EDID will also be used for automatic video bios patching. Look above.\n\nYou can override VendorID and ProductID in EDID."; ObjectID = "qrY-PP-Osn"; */
+"qrY-PP-Osn.ibShadowedToolTip" = "parameter is for providing custom EDID when it's missing. The main requirement is to have a correct maximal resolution.\n\nAnother possibility is to use ViewSonic EDID Editor v3.1.5 that can easily be ported to Mac, if needed.\n\nAn EDID from a Dell Inspiron will be used in the sample configuration file with a matrix of 1440x900.\n\nA custom EDID will also be used for automatic video bios patching. Look above.\n\nYou can override VendorID and ProductID in EDID.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>VRAM</key>\n<integer>1024</integer>\nAmount of video memory in MB. It is determined automatically but no one will be harmed if you write a correct value. However, changing it has not helped anyone yet."; ObjectID = "qtF-e6-lNk"; */
+"qtF-e6-lNk.ibShadowedToolTip" = "<key>VRAM</key>\n<integer>1024</integer>\nAmount of video memory in MB. It is determined automatically but no one will be harmed if you write a correct value. However, changing it has not helped anyone yet.";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "HEX value"; ObjectID = "s4T-rc-I13"; */
+"s4T-rc-I13.ibShadowedIsNilPlaceholder" = "HEX value";
+
+/* Class = "NSTableColumn"; headerCell.title = "IOPCIPrimaryMatch"; ObjectID = "tyQ-WL-gQa"; */
+"tyQ-WL-gQa.headerCell.title" = "IOPCIPrimaryMatch";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>display-cfg</key>\n<string>03010300FFFF0001</string>\nThis parameter is also just for Nvidia cards. However the listed examples are controversial. Apparently it is best to just let Clover handle this value. Leave it out completely and let Clover do the calculation."; ObjectID = "uFv-WW-DKn"; */
+"uFv-WW-DKn.ibShadowedToolTip" = "<key>display-cfg</key>\n<string>03010300FFFF0001</string>\nThis parameter is also just for Nvidia cards. However the listed examples are controversial. Apparently it is best to just let Clover handle this value. Leave it out completely and let Clover do the calculation.";
+
+/* Class = "NSTableColumn"; headerCell.title = "VideoPorts"; ObjectID = "uqj-6E-WFJ"; */
+"uqj-6E-WFJ.headerCell.title" = "VideoPorts";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "framebuffer"; ObjectID = "vUX-ax-DYA"; */
+"vUX-ax-DYA.ibShadowedIsNilPlaceholder" = "framebuffer";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "0xA1"; ObjectID = "wLY-r7-6EP"; */
+"wLY-r7-6EP.ibShadowedIsNilPlaceholder" = "0xA1";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "<key>NVIDIA</key>\n<array>\n\t<dict>\n\t<key>IOPCIPrimaryMatch</key>\n\t<string>0x10de5665</string>\n\t<key>IOPCISubDevId</key>\n\t<string>0x106b</string>\n\t<key>LoadVBios</key>\n\t<true/>\n\t<key>Model</key>\n\t<string>NVidia very cool card</string>\n\t<key>VRAM</key>\n\t<integer>8192</integer>\n\t<key>VideoPorts</key>\n\t<integer>4</integer>\n\t</dict>\n</array>\n\nMore than one NVidia video cards? Add info under Graphics->NVIDIA as an array of dictionaries:\n\n- IOPCIPrimaryMatch, device id\n- IOPCISubDevId, sub vendor id of your card\n- LoadVBios, load video bios\n- Model, name to be displayed\n- VRAM, the amount of video RAM, cosmetic only\n- VideoPorts, the ports available for this card"; ObjectID = "wQc-iv-n48"; */
+"wQc-iv-n48.ibShadowedToolTip" = "<key>NVIDIA</key>\n<array>\n\t<dict>\n\t<key>IOPCIPrimaryMatch</key>\n\t<string>0x10de5665</string>\n\t<key>IOPCISubDevId</key>\n\t<string>0x106b</string>\n\t<key>LoadVBios</key>\n\t<true/>\n\t<key>Model</key>\n\t<string>NVidia very cool card</string>\n\t<key>VRAM</key>\n\t<integer>8192</integer>\n\t<key>VideoPorts</key>\n\t<integer>4</integer>\n\t</dict>\n</array>\n\nMore than one NVidia video cards? Add info under Graphics->NVIDIA as an array of dictionaries:\n\n- IOPCIPrimaryMatch, device id\n- IOPCISubDevId, sub vendor id of your card\n- LoadVBios, load video bios\n- Model, name to be displayed\n- VRAM, the amount of video RAM, cosmetic only\n- VideoPorts, the ports available for this card";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "MBytes"; ObjectID = "wxs-SX-jxM"; */
+"wxs-SX-jxM.ibShadowedIsNilPlaceholder" = "MBytes";
+
+/* Class = "NSButtonCell"; title = "Inject ATI"; ObjectID = "xHW-vO-ZWg"; */
+"xHW-vO-ZWg.title" = "Inject ATI";
+
+/* Class = "NSBox"; title = "ATI"; ObjectID = "xQv-pV-Y0b"; */
+"xQv-pV-Y0b.title" = "ATI";
+
+/* Class = "NSTextFieldCell"; title = "HorizontalSync\nPulseWidth"; ObjectID = "xjJ-kN-bpt"; */
+"xjJ-kN-bpt.title" = "HorizontalSync\nPulseWidth";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>LoadVBios</key>\n<true/>\nLoads a video bios from a file, which needs to be stored at the directory EFI/CLOVER/OEM/[model]/ROM or EFI/CLOVER/ROM with the name [vendor]_[device].rom, for instance 1002_68d8.rom. Sometimes it makes sense to load video bios manually, for example when you need a patched version or when the video card does not show it to the system - like mobile Radeon cards. In this case it is enough to set this parameter to Yes without providing any file. Clover will read the video bios from legacy memory at 0xC0000, where it is present most of the times, and enable functionality.\nApparently the video bios written to the card's ROM does not match the one stored at address 0xC0000 - the shadow ROM. In short:\n\n<true/> - Use for mobile Radeon cards without any external file.\nCan also be used to supply a legacy video bios to cards, which only contain a UEFI video bios.\n<false/> - For all other variants"; ObjectID = "xyg-JY-TIM"; */
+"xyg-JY-TIM.ibShadowedToolTip" = "<key>LoadVBios</key>\n<true/>\nLoads a video bios from a file, which needs to be stored at the directory EFI/CLOVER/OEM/[model]/ROM or EFI/CLOVER/ROM with the name [vendor]_[device].rom, for instance 1002_68d8.rom. Sometimes it makes sense to load video bios manually, for example when you need a patched version or when the video card does not show it to the system - like mobile Radeon cards. In this case it is enough to set this parameter to Yes without providing any file. Clover will read the video bios from legacy memory at 0xC0000, where it is present most of the times, and enable functionality.\nApparently the video bios written to the card's ROM does not match the one stored at address 0xC0000 - the shadow ROM. In short:\n\n<true/> - Use for mobile Radeon cards without any external file.\nCan also be used to supply a legacy video bios to cards, which only contain a UEFI video bios.\n<false/> - For all other variants";
+
+/* Class = "NSTableColumn"; headerCell.title = "IOPCISubDevId"; ObjectID = "ycu-IU-5bG"; */
+"ycu-IU-5bG.headerCell.title" = "IOPCISubDevId";
+
+/* Class = "NSButtonCell"; title = "RadeonDeInit"; ObjectID = "ytd-YO-bYX"; */
+"ytd-YO-bYX.title" = "RadeonDeInit";
+
+/* Class = "NSButtonCell"; title = "Inject Intel"; ObjectID = "zO0-H0-wzL"; */
+"zO0-H0-wzL.title" = "Inject Intel";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>NvidiaNoEFI</key>\n<true/>\n\nIf your card have a bad EFI bios just don't use it:\n\n\t\"NVDA,noEFI\", \n\tBuffer (0x05)\n\t{\n           \"true\"\n\t},"; ObjectID = "zd9-VZ-weX"; */
+"zd9-VZ-weX.ibShadowedToolTip" = "<key>NvidiaNoEFI</key>\n<true/>\n\nIf your card have a bad EFI bios just don't use it:\n\n\t\"NVDA,noEFI\", \n\tBuffer (0x05)\n\t{\n           \"true\"\n\t},";

@@ -1,0 +1,42 @@
+
+/* Class = "NSBox"; title = "Efi Partitions"; ObjectID = "R3W-HU-gjm"; */
+"R3W-HU-gjm.title" = "Efi Partitions";
+
+/* Class = "NSTextFieldCell"; title = "Volume Name"; ObjectID = "UTH-Gu-XSO"; */
+"UTH-Gu-XSO.title" = "Volume Name";
+
+/* Class = "NSBox"; title = "Partition Scheme"; ObjectID = "WMg-0X-tKT"; */
+"WMg-0X-tKT.title" = "Partition Scheme";
+
+/* Class = "NSTextFieldCell"; title = "Disk UUID"; ObjectID = "XxG-gW-RBV"; */
+"XxG-gW-RBV.title" = "Disk UUID";
+
+/* Class = "NSButtonCell"; title = "unMount partition"; ObjectID = "ZTm-48-oGJ"; */
+"ZTm-48-oGJ.title" = "unMount partition";
+
+/* Class = "NSTextFieldCell"; title = "Size:"; ObjectID = "cON-h5-vOX"; */
+"cON-h5-vOX.title" = "Size:";
+
+/* Class = "NSTextFieldCell"; title = "Device BSD Name"; ObjectID = "ja2-AA-pAd"; */
+"ja2-AA-pAd.title" = "Device BSD Name";
+
+/* Class = "NSTextFieldCell"; title = "N/A"; ObjectID = "ldt-Fp-0e0"; */
+"ldt-Fp-0e0.title" = "N/A";
+
+/* Class = "NSButtonCell"; title = "Update Partitions"; ObjectID = "qcX-Pt-zEL"; */
+"qcX-Pt-zEL.title" = "Update Partitions";
+
+/* Class = "NSTextFieldCell"; title = "Volume UUID"; ObjectID = "ryn-C4-hvX"; */
+"ryn-C4-hvX.title" = "Volume UUID";
+
+/* Class = "NSTextFieldCell"; title = "Mount Point"; ObjectID = "wMs-xC-ejv"; */
+"wMs-xC-ejv.title" = "Mount Point";
+
+/* Class = "NSSegmentedCell"; xhz-iZ-TBE.ibShadowedLabels[0] = "Open Partition"; ObjectID = "xhz-iZ-TBE"; */
+"xhz-iZ-TBE.ibShadowedLabels[0]" = "Open Partition";
+
+/* Class = "NSSegmentedCell"; xhz-iZ-TBE.ibShadowedLabels[1] = "Mount Partition"; ObjectID = "xhz-iZ-TBE"; */
+"xhz-iZ-TBE.ibShadowedLabels[1]" = "Mount Partition";
+
+/* Class = "NSTextFieldCell"; title = "Disk Type"; ObjectID = "zZ9-8F-7dd"; */
+"zZ9-8F-7dd.title" = "Disk Type";

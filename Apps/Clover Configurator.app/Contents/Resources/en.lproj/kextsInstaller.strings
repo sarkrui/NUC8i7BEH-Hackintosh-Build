@@ -1,0 +1,96 @@
+
+/* Class = "NSButton"; ibShadowedToolTip = "Delete"; ObjectID = "0kj-tk-Ra5"; */
+"0kj-tk-Ra5.ibShadowedToolTip" = "Delete";
+
+/* Class = "NSTableColumn"; headerCell.title = "Version"; ObjectID = "47E-if-04p"; */
+"47E-if-04p.headerCell.title" = "Version";
+
+/* Class = "NSButtonCell"; title = "Download"; ObjectID = "595-HL-14W"; */
+"595-HL-14W.title" = "Download";
+
+/* Class = "NSTableColumn"; headerCell.title = "Description"; ObjectID = "5cR-bY-mO3"; */
+"5cR-bY-mO3.headerCell.title" = "Description";
+
+/* Class = "NSTextFieldCell"; title = "Partition:"; ObjectID = "79o-aA-pLd"; */
+"79o-aA-pLd.title" = "Partition:";
+
+/* Class = "NSTextFieldCell"; title = "Location:"; ObjectID = "8aE-3t-oaj"; */
+"8aE-3t-oaj.title" = "Location:";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Reload Data"; ObjectID = "Ap6-xX-set"; */
+"Ap6-xX-set.ibShadowedToolTip" = "Reload Data";
+
+/* Class = "NSButtonCell"; title = "SMCBatteryManager"; ObjectID = "DP1-0y-uvH"; */
+"DP1-0y-uvH.title" = "SMCBatteryManager";
+
+/* Class = "NSWindow"; title = "VirtualSMC Detected"; ObjectID = "DZf-L0-Ccs"; */
+"DZf-L0-Ccs.title" = "VirtualSMC Detected";
+
+/* Class = "NSButtonCell"; title = "Select"; ObjectID = "DeU-Fy-NFa"; */
+"DeU-Fy-NFa.title" = "Select";
+
+/* Class = "NSWindow"; title = "FakeSMC Detected"; ObjectID = "FGS-1E-nPl"; */
+"FGS-1E-nPl.title" = "FakeSMC Detected";
+
+/* Class = "NSButtonCell"; title = "Install"; ObjectID = "LJ1-X4-7ca"; */
+"LJ1-X4-7ca.title" = "Install";
+
+/* Class = "NSButtonCell"; title = "CPUSensors"; ObjectID = "Nmi-OF-fvm"; */
+"Nmi-OF-fvm.title" = "CPUSensors";
+
+/* Class = "NSTextFieldCell"; title = "[*]drag and drop to table for manual installation"; ObjectID = "Qh2-M3-dsa"; */
+"Qh2-M3-dsa.title" = "[*]drag and drop to table for manual installation";
+
+/* Class = "NSButtonCell"; title = "LPCSensors"; ObjectID = "RDf-1l-Vvr"; */
+"RDf-1l-Vvr.title" = "LPCSensors";
+
+/* Class = "NSBox"; title = "Status"; ObjectID = "WDq-gw-UKY"; */
+"WDq-gw-UKY.title" = "Status";
+
+/* Class = "NSTableColumn"; headerCell.title = "Category"; ObjectID = "WWR-nS-bcy"; */
+"WWR-nS-bcy.headerCell.title" = "Category";
+
+/* Class = "NSButtonCell"; title = "Install"; ObjectID = "ZT9-y1-tyY"; */
+"ZT9-y1-tyY.title" = "Install";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "aFd-JL-zgE"; */
+"aFd-JL-zgE.headerCell.title" = "Name";
+
+/* Class = "NSButtonCell"; title = "HWMonitor"; ObjectID = "bsB-YR-cVP"; */
+"bsB-YR-cVP.title" = "HWMonitor";
+
+/* Class = "NSButtonCell"; title = "SMCSuperIO"; ObjectID = "eLS-fe-Y6W"; */
+"eLS-fe-Y6W.title" = "SMCSuperIO";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Open Folder"; ObjectID = "hJo-dP-I6B"; */
+"hJo-dP-I6B.ibShadowedToolTip" = "Open Folder";
+
+/* Class = "NSWindow"; title = "NoVPAJpeg Selection"; ObjectID = "hc6-JT-NeL"; */
+"hc6-JT-NeL.title" = "NoVPAJpeg Selection";
+
+/* Class = "NSButtonCell"; title = "GPUSensors"; ObjectID = "nRt-kv-FYD"; */
+"nRt-kv-FYD.title" = "GPUSensors";
+
+/* Class = "NSButtonCell"; title = "SMCProcessor"; ObjectID = "rdb-JA-YDB"; */
+"rdb-JA-YDB.title" = "SMCProcessor";
+
+/* Class = "NSTableColumn"; headerCell.title = "Author"; ObjectID = "rds-t0-l3t"; */
+"rds-t0-l3t.headerCell.title" = "Author";
+
+/* Class = "NSButtonCell"; title = "SMMSensors"; ObjectID = "sc1-cG-w6f"; */
+"sc1-cG-w6f.title" = "SMMSensors";
+
+/* Class = "NSButtonCell"; title = "ACPISensors"; ObjectID = "szQ-Ns-CYf"; */
+"szQ-Ns-CYf.title" = "ACPISensors";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "tek-Ca-hJp"; */
+"tek-Ca-hJp.title" = "Box";
+
+/* Class = "NSButtonCell"; title = "Backup kext"; ObjectID = "uqS-yf-kgK"; */
+"uqS-yf-kgK.title" = "Backup kext";
+
+/* Class = "NSTextFieldCell"; title = "OS Version:"; ObjectID = "vmg-9C-ci7"; */
+"vmg-9C-ci7.title" = "OS Version:";
+
+/* Class = "NSButtonCell"; title = "SMCLightSensor"; ObjectID = "vwg-Sq-aeZ"; */
+"vwg-Sq-aeZ.title" = "SMCLightSensor";

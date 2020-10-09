@@ -1,0 +1,363 @@
+
+/* Class = "NSButtonCell"; title = "Text Only"; ObjectID = "0Cp-EL-EOP"; */
+"0Cp-EL-EOP.title" = "Text Only";
+
+/* Class = "NSTextFieldCell"; title = "Theme"; ObjectID = "0eh-WU-BHe"; */
+"0eh-WU-BHe.title" = "Theme";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Volume - A volume name or GUID to be used when scanning for loader."; ObjectID = "0qX-lt-njN"; */
+"0qX-lt-njN.ibShadowedToolTip" = "Volume - A volume name or GUID to be used when scanning for loader.";
+
+/* Class = "NSButtonCell"; title = "Enabled"; ObjectID = "15I-oy-BbF"; */
+"15I-oy-BbF.title" = "Enabled";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Image - Path to a custom image file. Search path is root directory of entry volume, theme directory, clover directory, clover volume root directory, and finally os icon names."; ObjectID = "1Cq-u6-Uz6"; */
+"1Cq-u6-Uz6.ibShadowedToolTip" = "Image - Path to a custom image file. Search path is root directory of entry volume, theme directory, clover directory, clover volume root directory, and finally os icon names.";
+
+/* Class = "NSTableColumn"; headerCell.title = "Hotkey"; ObjectID = "1Pu-Ra-p5M"; */
+"1Pu-Ra-p5M.headerCell.title" = "Hotkey";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Scan</key>\n<dict>\n  <key>Tool</key>\n  <true/>\n</dict>\nEnable or disable the automatic UEFI tool scan."; ObjectID = "31b-eE-tBc"; */
+"31b-eE-tBc.ibShadowedToolTip" = "<key>Scan</key>\n<dict>\n  <key>Tool</key>\n  <true/>\n</dict>\nEnable or disable the automatic UEFI tool scan.";
+
+/* Class = "NSTextFieldCell"; title = "AddArguments"; ObjectID = "3jm-e0-t30"; */
+"3jm-e0-t30.title" = "AddArguments";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Arguments - Arguments that are to be passed to the loader. Overides the default boot arguments in Boot / Arguments."; ObjectID = "3q2-xi-dUv"; */
+"3q2-xi-dUv.ibShadowedToolTip" = "Arguments - Arguments that are to be passed to the loader. Overides the default boot arguments in Boot / Arguments.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Scan</key>\n<dict>\n  <key>Kernel</key>\n  <string>All/Newest/Oldest/First/Last/MostRecent/Earliest/None</string>\n</dict>\nEnable or disable automatic Linux kernel scan. Additionally you may choose between several options:\n\nAll - all found kernels (default)\nNewest - newest file modification date\nOldest - oldest file modification date\nFirst - first matching\nLast - last matching\nMostRecent - most recent version\nEarliest - earliest version\nNone - no kernel scan"; ObjectID = "44V-tv-ajz"; */
+"44V-tv-ajz.ibShadowedToolTip" = "<key>Scan</key>\n<dict>\n  <key>Kernel</key>\n  <string>All/Newest/Oldest/First/Last/MostRecent/Earliest/None</string>\n</dict>\nEnable or disable automatic Linux kernel scan. Additionally you may choose between several options:\n\nAll - all found kernels (default)\nNewest - newest file modification date\nOldest - oldest file modification date\nFirst - first matching\nLast - last matching\nMostRecent - most recent version\nEarliest - earliest version\nNone - no kernel scan";
+
+/* Class = "NSComboBox"; ibShadowedToolTip = "CustomLogo - Defines the boot screen logo style. For further information read Boot / CustomLogo"; ObjectID = "4Ll-i2-Jnh"; */
+"4Ll-i2-Jnh.ibShadowedToolTip" = "CustomLogo - Defines the boot screen logo style. For further information read Boot / CustomLogo";
+
+/* Class = "NSButton"; ibShadowedToolTip = "NoCaches - Skip caches. For OSX, OSXInstaller and OSXRecovery type entries."; ObjectID = "4fw-qB-P0O"; */
+"4fw-qB-P0O.ibShadowedToolTip" = "NoCaches - Skip caches. For OSX, OSXInstaller and OSXRecovery type entries.";
+
+/* Class = "NSTableColumn"; headerCell.title = "Hidden"; ObjectID = "4xN-i7-Nl5"; */
+"4xN-i7-Nl5.headerCell.title" = "Hidden";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "VolumeType - The type of volume you want your custom entry to match. Can be a string with one type or an array with multiple types. \n             Valid volume types are Internal, External, Optical and FireWire."; ObjectID = "5qd-Vb-BZc"; */
+"5qd-Vb-BZc.ibShadowedToolTip" = "VolumeType - The type of volume you want your custom entry to match. Can be a string with one type or an array with multiple types. \n             Valid volume types are Internal, External, Optical and FireWire.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>TextOnly</key>\n<false/>\n\nText-only menu mode for a minimal GUI and faster loading times."; ObjectID = "5tY-Is-CuG"; */
+"5tY-Is-CuG.ibShadowedToolTip" = "<key>TextOnly</key>\n<false/>\n\nText-only menu mode for a minimal GUI and faster loading times.";
+
+/* Class = "NSTextFieldCell"; title = "Console Mode"; ObjectID = "6X4-aF-yhF"; */
+"6X4-aF-yhF.title" = "Console Mode";
+
+/* Class = "NSTextFieldCell"; title = "Language"; ObjectID = "6xm-W4-fzr"; */
+"6xm-W4-fzr.title" = "Language";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "7pV-KZ-BSf"; */
+"7pV-KZ-BSf.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "DriveImage"; ObjectID = "94H-gv-m1X"; */
+"94H-gv-m1X.title" = "DriveImage";
+
+/* Class = "NSTextFieldCell"; title = "Image"; ObjectID = "9Z5-tJ-Y3d"; */
+"9Z5-tJ-Y3d.title" = "Image";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>CustomIcons</key>\n<true/>\n\nEnabling this key will load the icon from the partition itself. \nYou may assign your own icons to each volume, and you can use different icons for different volumes,\neven when they have the same OS."; ObjectID = "9tH-LL-2Fx"; */
+"9tH-LL-2Fx.ibShadowedToolTip" = "<key>CustomIcons</key>\n<true/>\n\nEnabling this key will load the icon from the partition itself. \nYou may assign your own icons to each volume, and you can use different icons for different volumes,\neven when they have the same OS.";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "RGBA string"; ObjectID = "ANH-DA-QgF"; */
+"ANH-DA-QgF.ibShadowedIsNilPlaceholder" = "RGBA string";
+
+/* Class = "NSMenuItem"; title = "get UUID disk"; ObjectID = "BSO-kM-je8"; */
+"BSO-kM-je8.title" = "get UUID disk";
+
+/* Class = "NSTextFieldCell"; title = "Path"; ObjectID = "C5H-9Y-Kbj"; */
+"C5H-9Y-Kbj.title" = "Path";
+
+/* Class = "NSTextFieldCell"; title = "Type*"; ObjectID = "CTa-Gq-VCt"; */
+"CTa-Gq-VCt.title" = "Type*";
+
+/* Class = "NSTableColumn"; headerCell.title = "Disable"; ObjectID = "DW4-R5-08J"; */
+"DW4-R5-08J.headerCell.title" = "Disable";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "BootBgColor - Specifies the boot screen's background color. For OSX, OSXInstaller and OSXRecovery type entries."; ObjectID = "EWi-hF-dQQ"; */
+"EWi-hF-dQQ.ibShadowedToolTip" = "BootBgColor - Specifies the boot screen's background color. For OSX, OSXInstaller and OSXRecovery type entries.";
+
+/* Class = "NSTableColumn"; headerCell.title = "Title/FullTitle*"; ObjectID = "EtX-5F-7b0"; */
+"EtX-5F-7b0.headerCell.title" = "Title/FullTitle*";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Scan</key>\n<dict>\n  <key>Legacy</key>\n  <string>Last</string>\n</dict>\nEnable or disable automatic legacy scan. Also choose from First to list in the beginning, Last to list it in the end."; ObjectID = "F2m-kh-Sxc"; */
+"F2m-kh-Sxc.ibShadowedToolTip" = "<key>Scan</key>\n<dict>\n  <key>Legacy</key>\n  <string>Last</string>\n</dict>\nEnable or disable automatic legacy scan. Also choose from First to list in the beginning, Last to list it in the end.";
+
+/* Class = "NSTextFieldCell"; placeholderString = "RGBA string"; ObjectID = "GsF-AW-aux"; */
+"GsF-AW-aux.placeholderString" = "RGBA string";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Path - Location to scan for the efi loader."; ObjectID = "Gy2-Z3-GZx"; */
+"Gy2-Z3-GZx.ibShadowedToolTip" = "Path - Location to scan for the efi loader.";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "\"First\" to list in the beginning\n\"Last\" to list it in the end."; ObjectID = "Ih3-c5-dKa"; */
+"Ih3-c5-dKa.ibShadowedToolTip" = "\"First\" to list in the beginning\n\"Last\" to list it in the end.";
+
+/* Class = "NSComboBox"; ibShadowedToolTip = "Set resolution of console mode"; ObjectID = "KCB-wM-PyG"; */
+"KCB-wM-PyG.ibShadowedToolTip" = "Set resolution of console mode";
+
+/* Class = "NSTableColumn"; headerCell.title = "AddArguments"; ObjectID = "LKy-hv-bUK"; */
+"LKy-hv-bUK.headerCell.title" = "AddArguments";
+
+/* Class = "NSButtonCell"; title = "Ignore"; ObjectID = "LhG-gG-QAl"; */
+"LhG-gG-QAl.title" = "Ignore";
+
+/* Class = "NSBox"; title = "Custom Entries"; ObjectID = "M9e-fL-BbU"; */
+"M9e-fL-BbU.title" = "Custom Entries";
+
+/* Class = "NSTextFieldCell"; placeholderString = "1000"; ObjectID = "MgY-OM-Bxv"; */
+"MgY-OM-Bxv.placeholderString" = "1000";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedNoSelectionPlaceholder = " "; ObjectID = "Mvf-oG-ahl"; */
+"Mvf-oG-ahl.ibShadowedNoSelectionPlaceholder" = " ";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedNotApplicablePlaceholder = " "; ObjectID = "Mvf-oG-ahl"; */
+"Mvf-oG-ahl.ibShadowedNotApplicablePlaceholder" = " ";
+
+/* Class = "NSTableColumn"; headerCell.title = "Title/FullTitle*"; ObjectID = "N9X-vV-voq"; */
+"N9X-vV-voq.headerCell.title" = "Title/FullTitle*";
+
+/* Class = "NSTextFieldCell"; placeholderString = "1000"; ObjectID = "NLS-sS-ibd"; */
+"NLS-sS-ibd.placeholderString" = "1000";
+
+/* Class = "NSTableColumn"; headerCell.title = "CommonSettings"; ObjectID = "Q5g-Yz-uHY"; */
+"Q5g-Yz-uHY.headerCell.title" = "CommonSettings";
+
+/* Class = "NSTextFieldCell"; title = "Speed"; ObjectID = "QXw-qM-BeC"; */
+"QXw-qM-BeC.title" = "Speed";
+
+/* Class = "NSTextFieldCell"; title = "Hotkey"; ObjectID = "Rc2-f3-UEG"; */
+"Rc2-f3-UEG.title" = "Hotkey";
+
+/* Class = "NSButtonCell"; title = "Linux"; ObjectID = "RqN-qE-FSF"; */
+"RqN-qE-FSF.title" = "Linux";
+
+/* Class = "NSComboBox"; ibShadowedToolTip = "<key>Language</key>\n<string>en:0</string>\n\nSets language of Clover's help menu, that can be accessed with shortcut F1. \nFurthermore, this setting is passed to the OS and can have an influence on the language."; ObjectID = "SYV-Up-yMI"; */
+"SYV-Up-yMI.ibShadowedToolTip" = "<key>Language</key>\n<string>en:0</string>\n\nSets language of Clover's help menu, that can be accessed with shortcut F1. \nFurthermore, this setting is passed to the OS and can have an influence on the language.";
+
+/* Class = "NSMenuItem"; title = "disks"; ObjectID = "SiF-lm-Uj8"; */
+"SiF-lm-Uj8.title" = "disks";
+
+/* Class = "NSButtonCell"; title = "Multiple selection"; ObjectID = "T4G-Bd-iF3"; */
+"T4G-Bd-iF3.title" = "Multiple selection";
+
+/* Class = "NSComboBox"; ibShadowedToolTip = "<key>ScreenResolution</key>\n<string>1024x768</string>\n\nYou can set the desired screen resolution if it is supported by the video card and the monitor. \nClover will try to set the highest available resolution, however it might fail. \nYou can check the list of supported resolutions in the boot log. \nIn case PatchVBios=Yes is used in the Graphics section,\nyou will get the highest resolution supported by the monitor.\nIn that case this parameter may be obsolete. \nThe default value is 1024x768."; ObjectID = "Thd-sP-BKO"; */
+"Thd-sP-BKO.ibShadowedToolTip" = "<key>ScreenResolution</key>\n<string>1024x768</string>\n\nYou can set the desired screen resolution if it is supported by the video card and the monitor. \nClover will try to set the highest available resolution, however it might fail. \nYou can check the list of supported resolutions in the boot log. \nIn case PatchVBios=Yes is used in the Graphics section,\nyou will get the highest resolution supported by the monitor.\nIn that case this parameter may be obsolete. \nThe default value is 1024x768.";
+
+/* Class = "NSTableColumn"; headerCell.title = "Path*"; ObjectID = "U8M-Qa-tgK"; */
+"U8M-Qa-tgK.headerCell.title" = "Path*";
+
+/* Class = "NSTableColumn"; headerCell.title = "Hotkey"; ObjectID = "UO9-Gn-yb4"; */
+"UO9-Gn-yb4.headerCell.title" = "Hotkey";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "AddArguments - Adds to the default boot arguments. For a SubEntry it adds to the arguments of the main entry."; ObjectID = "Uk1-wV-CPW"; */
+"Uk1-wV-CPW.ibShadowedToolTip" = "AddArguments - Adds to the default boot arguments. For a SubEntry it adds to the arguments of the main entry.";
+
+/* Class = "NSTextFieldCell"; title = "Arguments"; ObjectID = "Uqj-Cg-qLs"; */
+"Uqj-Cg-qLs.title" = "Arguments";
+
+/* Class = "NSTableColumn"; headerCell.title = "Ignore"; ObjectID = "VQy-wz-JG6"; */
+"VQy-wz-JG6.headerCell.title" = "Ignore";
+
+/* Class = "NSTextFieldCell"; title = "VolumeType"; ObjectID = "VV9-PL-XBd"; */
+"VV9-PL-XBd.title" = "VolumeType";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Scan</key>\n<dict>\n  <key>Entries</key>\n  <true/>\n</dict>\nEnable or disable the automatic UEFI entries scan."; ObjectID = "Vci-XX-vTI"; */
+"Vci-XX-vTI.ibShadowedToolTip" = "<key>Scan</key>\n<dict>\n  <key>Entries</key>\n  <true/>\n</dict>\nEnable or disable the automatic UEFI entries scan.";
+
+/* Class = "NSButtonCell"; title = "ShowOptimus"; ObjectID = "VvU-YR-FH8"; */
+"VvU-YR-FH8.title" = "ShowOptimus";
+
+/* Class = "NSButtonCell"; title = "Kernel"; ObjectID = "Vxg-YB-BJg"; */
+"Vxg-YB-BJg.title" = "Kernel";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedNoSelectionPlaceholder = " "; ObjectID = "WHl-UM-DAX"; */
+"WHl-UM-DAX.ibShadowedNoSelectionPlaceholder" = " ";
+
+/* Class = "NSTextFieldCell"; title = "Timezone"; ObjectID = "Wnm-LB-wI5"; */
+"Wnm-LB-wI5.title" = "Timezone";
+
+/* Class = "NSBox"; title = "Hide Volume"; ObjectID = "WsU-0s-ibL"; */
+"WsU-0s-ibL.title" = "Hide Volume";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "<key>Tool</key>\n<array>\n  <dict>\n    <key>Volume</key>\n    <string>Volume name or GUID</string>\n    <key>Path</key>\n    <string>Loader path</string>\n    <key>Arguments</key>\n    <string>Load options</string>\n    <key>Hotkey</key>\n    <string>G</string>\n    <key>Title</key>\n    <string>Display title</string>\n    <key>FullTitle</key>\n    <string>Full Display title</string>\n    <key>Hidden</key>\n    <false/>\n    <key>Disabled</key>\n    <false/>\n    <key>Ignore</key>\n    <true/>\n  </dict>\n  ...\n</array>"; ObjectID = "WzW-Qr-yVn"; */
+"WzW-Qr-yVn.ibShadowedToolTip" = "<key>Tool</key>\n<array>\n  <dict>\n    <key>Volume</key>\n    <string>Volume name or GUID</string>\n    <key>Path</key>\n    <string>Loader path</string>\n    <key>Arguments</key>\n    <string>Load options</string>\n    <key>Hotkey</key>\n    <string>G</string>\n    <key>Title</key>\n    <string>Display title</string>\n    <key>FullTitle</key>\n    <string>Full Display title</string>\n    <key>Hidden</key>\n    <false/>\n    <key>Disabled</key>\n    <false/>\n    <key>Ignore</key>\n    <true/>\n  </dict>\n  ...\n</array>";
+
+/* Class = "NSTableColumn"; headerCell.title = "Title/FullTitle*"; ObjectID = "XZH-u5-dt5"; */
+"XZH-u5-dt5.headerCell.title" = "Title/FullTitle*";
+
+/* Class = "NSTableColumn"; headerCell.title = "Arguments"; ObjectID = "Z4e-lJ-PUU"; */
+"Z4e-lJ-PUU.headerCell.title" = "Arguments";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Hidden - Hides the entry. If value is true the entry can be shown by pressing F3. \n         If value is Always the entry can never be show."; ObjectID = "Z5j-X3-qcv"; */
+"Z5j-X3-qcv.ibShadowedToolTip" = "Hidden - Hides the entry. If value is true the entry can be shown by pressing F3. \n         If value is Always the entry can never be show.";
+
+/* Class = "NSTableColumn"; headerCell.title = "Volume*"; ObjectID = "aml-aw-XgP"; */
+"aml-aw-XgP.headerCell.title" = "Volume*";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Avoid scan for Linux if Linux isn't installed. Clover is Faster."; ObjectID = "azD-v1-xjg"; */
+"azD-v1-xjg.ibShadowedToolTip" = "Avoid scan for Linux if Linux isn't installed. Clover is Faster.";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedNoSelectionPlaceholder = " "; ObjectID = "buX-pP-Myq"; */
+"buX-pP-Myq.ibShadowedNoSelectionPlaceholder" = " ";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Type - The type of OS that is being scanned for. \n       Valid types are OSX, OSXInstaller, OSXRecovery, Windows, Linux, LinuxKernel. \n       If Type is not one of these it will be treated as all types."; ObjectID = "dS1-wz-3gQ"; */
+"dS1-wz-3gQ.ibShadowedToolTip" = "Type - The type of OS that is being scanned for. \n       Valid types are OSX, OSXInstaller, OSXRecovery, Windows, Linux, LinuxKernel. \n       If Type is not one of these it will be treated as all types.";
+
+/* Class = "NSBox"; title = "SubEntries"; ObjectID = "dh6-Jc-C9b"; */
+"dh6-Jc-C9b.title" = "SubEntries";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "DriveImage - Path to a custom drive image file. Search path is root directory of entry volume, \n\t     theme directory, clover directory, clover volume root directory, and finally os icon names."; ObjectID = "do1-vv-GsU"; */
+"do1-vv-GsU.ibShadowedToolTip" = "DriveImage - Path to a custom drive image file. Search path is root directory of entry volume, \n\t     theme directory, clover directory, clover volume root directory, and finally os icon names.";
+
+/* Class = "NSBox"; title = "Custom Tool"; ObjectID = "dpl-Qa-42U"; */
+"dpl-Qa-42U.title" = "Custom Tool";
+
+/* Class = "NSSegmentedControl"; ibShadowedToolTip = "Enable or disable all automatic scans."; ObjectID = "eIP-dU-U5E"; */
+"eIP-dU-U5E.ibShadowedToolTip" = "Enable or disable all automatic scans.";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "different config file name"; ObjectID = "eg0-xd-hl3"; */
+"eg0-xd-hl3.ibShadowedIsNilPlaceholder" = "different config file name";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedNoSelectionPlaceholder = "  "; ObjectID = "f5g-Ud-Zeu"; */
+"f5g-Ud-Zeu.ibShadowedNoSelectionPlaceholder" = "  ";
+
+/* Class = "NSButtonCell"; title = "Mirror"; ObjectID = "fEP-x0-c3b"; */
+"fEP-x0-c3b.title" = "Mirror";
+
+/* Class = "NSTableColumn"; headerCell.title = "Volume*"; ObjectID = "fjs-4m-F0G"; */
+"fjs-4m-F0G.headerCell.title" = "Volume*";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedNoSelectionPlaceholder = " "; ObjectID = "fpB-Us-6ln"; */
+"fpB-Us-6ln.ibShadowedNoSelectionPlaceholder" = " ";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "<key>Legacy</key>\n<array>\n  <dict>\n    <key>Volume</key>\n    <string>Volume name or GUID</string>\n    <key>Title</key>\n    <string>Display title</string>\n    <key>Hidden</key>\n    <false/>\n    <key>Disabled</key>\n    <false/>\n    <key>Ignore</key>\n    <true/>\n    <key>Type</key>\n    <string>Windows/Linux</string>\n  </dict>\n  ...\n</array>\nVolume - A volume name or GUID to be used when scanning for loader.\nTitle - Changes the display title. Uses the format \"Boot <Title> from <VolumeName>\"\nHidden - Hides the entry but can be shown by pressing F3.\nDisabled - Disables the entry so that is never shown.\nIgnore - Entry will be ignored, or not used, so it will not affect anything.\nType - The type of OS that is being scanned for. Valid types are OSX, OSXInstaller, OSXRecovery, Windows, Linux, LinuxKernel. If Type is not one of these it will be treated as all types."; ObjectID = "g2H-X3-h7A"; */
+"g2H-X3-h7A.ibShadowedToolTip" = "<key>Legacy</key>\n<array>\n  <dict>\n    <key>Volume</key>\n    <string>Volume name or GUID</string>\n    <key>Title</key>\n    <string>Display title</string>\n    <key>Hidden</key>\n    <false/>\n    <key>Disabled</key>\n    <false/>\n    <key>Ignore</key>\n    <true/>\n    <key>Type</key>\n    <string>Windows/Linux</string>\n  </dict>\n  ...\n</array>\nVolume - A volume name or GUID to be used when scanning for loader.\nTitle - Changes the display title. Uses the format \"Boot <Title> from <VolumeName>\"\nHidden - Hides the entry but can be shown by pressing F3.\nDisabled - Disables the entry so that is never shown.\nIgnore - Entry will be ignored, or not used, so it will not affect anything.\nType - The type of OS that is being scanned for. Valid types are OSX, OSXInstaller, OSXRecovery, Windows, Linux, LinuxKernel. If Type is not one of these it will be treated as all types.";
+
+/* Class = "NSTextFieldCell"; title = "Volume"; ObjectID = "gRh-73-8RY"; */
+"gRh-73-8RY.title" = "Volume";
+
+/* Class = "NSButtonCell"; title = "NoCache"; ObjectID = "gWF-kI-e4d"; */
+"gWF-kI-e4d.title" = "NoCache";
+
+/* Class = "NSTableColumn"; headerCell.title = "Hidden"; ObjectID = "gYd-B7-5ZX"; */
+"gYd-B7-5ZX.headerCell.title" = "Hidden";
+
+/* Class = "NSTextFieldCell"; title = "Double Click"; ObjectID = "hGN-6i-Azt"; */
+"hGN-6i-Azt.title" = "Double Click";
+
+/* Class = "NSButtonCell"; title = "Custom Icons"; ObjectID = "hl5-yQ-Q2d"; */
+"hl5-yQ-Q2d.title" = "Custom Icons";
+
+/* Class = "NSButtonCell"; title = "Entries"; ObjectID = "hqc-aL-c9Y"; */
+"hqc-aL-c9Y.title" = "Entries";
+
+/* Class = "NSBox"; title = "Scan"; ObjectID = "iLE-7M-Ra5"; */
+"iLE-7M-Ra5.title" = "Scan";
+
+/* Class = "NSTextFieldCell"; title = "Injectkexts"; ObjectID = "ioH-MF-2e8"; */
+"ioH-MF-2e8.title" = "Injectkexts";
+
+/* Class = "NSCollectionView"; ibShadowedToolTip = "If the automatically scan entries are not enough you can add your own custom boot entries."; ObjectID = "k1f-lh-HGh"; */
+"k1f-lh-HGh.ibShadowedToolTip" = "If the automatically scan entries are not enough you can add your own custom boot entries.";
+
+/* Class = "NSTextFieldCell"; title = "Screen Resolution"; ObjectID = "kG4-am-ZNJ"; */
+"kG4-am-ZNJ.title" = "Screen Resolution";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Title - Changes the display title. Uses the format \"Boot <Title> from <VolumeName>\"\n\nFullTitle - Sets the display title to only \"<FullTitle>\" without any format."; ObjectID = "kzI-pm-cpr"; */
+"kzI-pm-cpr.ibShadowedToolTip" = "Title - Changes the display title. Uses the format \"Boot <Title> from <VolumeName>\"\n\nFullTitle - Sets the display title to only \"<FullTitle>\" without any format.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Disabled - Disables the entry so it is not taken into account."; ObjectID = "l7R-cy-enn"; */
+"l7R-cy-enn.ibShadowedToolTip" = "Disabled - Disables the entry so it is not taken into account.";
+
+/* Class = "NSTextFieldCell"; title = "CustomLogo"; ObjectID = "lEw-2l-N0l"; */
+"lEw-2l-N0l.title" = "CustomLogo";
+
+/* Class = "NSTextFieldCell"; title = "BootBgColor"; ObjectID = "mBS-k6-Ajf"; */
+"mBS-k6-Ajf.title" = "BootBgColor";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>KbdPrevLang</key>\n<true/>\n\nAdded prelang kbd option if want to keep language when updating macOS with native NVRAM."; ObjectID = "mFQ-E7-pUH"; */
+"mFQ-E7-pUH.ibShadowedToolTip" = "<key>KbdPrevLang</key>\n<true/>\n\nAdded prelang kbd option if want to keep language when updating macOS with native NVRAM.";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "<key>Hide</key>\n<array>\n  <string>WindowsHDD</string>\n  <string>HD(1,GPT,E223FF7F-F2DA-4DBB-B765- 756F2D95B0FE)</string>\n</array>\nHide a partition with given name or GUID."; ObjectID = "mfp-id-Dny"; */
+"mfp-id-Dny.ibShadowedToolTip" = "<key>Hide</key>\n<array>\n  <string>WindowsHDD</string>\n  <string>HD(1,GPT,E223FF7F-F2DA-4DBB-B765- 756F2D95B0FE)</string>\n</array>\nHide a partition with given name or GUID.";
+
+/* Class = "NSTextFieldCell"; title = "Settings"; ObjectID = "n5T-4e-3Nd"; */
+"n5T-4e-3Nd.title" = "Settings";
+
+/* Class = "NSTableColumn"; headerCell.title = "Ignore"; ObjectID = "oBe-8f-xt3"; */
+"oBe-8f-xt3.headerCell.title" = "Ignore";
+
+/* Class = "NSButtonCell"; title = "Disable"; ObjectID = "oGN-lh-alU"; */
+"oGN-lh-alU.title" = "Disable";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "InjectKexts - Inject kexts. Valid options are Yes, No or Detect. \n              Use Detect to inject kexts only if FakeSMC is not present in KernelCache or /S/L/E. \n              For OSX, OSXInstaller and OSXRecovery type entries."; ObjectID = "p6D-at-O0Q"; */
+"p6D-at-O0Q.ibShadowedToolTip" = "InjectKexts - Inject kexts. Valid options are Yes, No or Detect. \n              Use Detect to inject kexts only if FakeSMC is not present in KernelCache or /S/L/E. \n              For OSX, OSXInstaller and OSXRecovery type entries.";
+
+/* Class = "NSTextFieldCell"; title = "Required field (*)"; ObjectID = "qZF-jN-ZQp"; */
+"qZF-jN-ZQp.title" = "Required field (*)";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedNoSelectionPlaceholder = " "; ObjectID = "qiu-m0-aDm"; */
+"qiu-m0-aDm.ibShadowedNoSelectionPlaceholder" = " ";
+
+/* Class = "NSTableColumn"; headerCell.title = "Type*"; ObjectID = "quU-uS-ASm"; */
+"quU-uS-ASm.headerCell.title" = "Type*";
+
+/* Class = "NSBox"; title = "Custom Legacy"; ObjectID = "qvW-Ar-LM7"; */
+"qvW-Ar-LM7.title" = "Custom Legacy";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>ShowOptimus</key>\n<true/>\n\nSome bioses can turn off/on NVidia Optimus cards.\nTurning it on you will notice that in GUI at boot time."; ObjectID = "rRi-4x-lO8"; */
+"rRi-4x-lO8.ibShadowedToolTip" = "<key>ShowOptimus</key>\n<true/>\n\nSome bioses can turn off/on NVidia Optimus cards.\nTurning it on you will notice that in GUI at boot time.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>Theme</key>\n<string>metal</string>\n\nAdditionally you can set the theme in the preference panel. \nThis setting overrides the one in the configuration file. \nIn case an invalid theme name is used here (no theme.plist exists at the given path), \nthen the configuration file setting is used again. \nIf even here the theme name is invalid, \nthen you will be greeted with an ugly fallback theme that will still be operational."; ObjectID = "rXR-5C-JUo"; */
+"rXR-5C-JUo.ibShadowedToolTip" = "<key>Theme</key>\n<string>metal</string>\n\nAdditionally you can set the theme in the preference panel. \nThis setting overrides the one in the configuration file. \nIn case an invalid theme name is used here (no theme.plist exists at the given path), \nthen the configuration file setting is used again. \nIf even here the theme name is invalid, \nthen you will be greeted with an ugly fallback theme that will still be operational.";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "Volume name or DISK UUID"; ObjectID = "rZe-9a-Aud"; */
+"rZe-9a-Aud.ibShadowedIsNilPlaceholder" = "Volume name or DISK UUID";
+
+/* Class = "NSTableColumn"; headerCell.title = "Disable"; ObjectID = "sYa-g6-s49"; */
+"sYa-g6-s49.headerCell.title" = "Disable";
+
+/* Class = "NSTextFieldCell"; title = "Hidden"; ObjectID = "ss3-uu-7EA"; */
+"ss3-uu-7EA.title" = "Hidden";
+
+/* Class = "NSTextFieldCell"; title = "EmbeddedThemeType"; ObjectID = "tIB-5J-Ffe"; */
+"tIB-5J-Ffe.title" = "EmbeddedThemeType";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Sync and Async sound play.\n\nSync play - sound play before enter Clover GUI. Clover GUI started after the sound is finished.\n\nAsync play - sound started to play before Clover GUI started and continue playing when GUI is ready.\n\nTo switch edit config.plist\n\n\t<key>GUI</key>\n\t<dict>\n\t\t<key>PlayAsync</key>\n\t\t<false/>"; ObjectID = "vWG-oJ-ht5"; */
+"vWG-oJ-ht5.ibShadowedToolTip" = "Sync and Async sound play.\n\nSync play - sound play before enter Clover GUI. Clover GUI started after the sound is finished.\n\nAsync play - sound started to play before Clover GUI started and continue playing when GUI is ready.\n\nTo switch edit config.plist\n\n\t<key>GUI</key>\n\t<dict>\n\t\t<key>PlayAsync</key>\n\t\t<false/>";
+
+/* Class = "NSButtonCell"; title = "Legacy"; ObjectID = "w7Y-WV-kix"; */
+"w7Y-WV-kix.title" = "Legacy";
+
+/* Class = "NSTextFieldCell"; title = "Title / FullTitle"; ObjectID = "w8u-pG-Rny"; */
+"w8u-pG-Rny.title" = "Title / FullTitle";
+
+/* Class = "NSButtonCell"; title = "KbdPrevLang"; ObjectID = "wLk-2Z-MyW"; */
+"wLk-2Z-MyW.title" = "KbdPrevLang";
+
+/* Class = "NSSegmentedCell"; wSs-ok-uQG.ibShadowedLabels[0] = "Custom"; ObjectID = "wSs-ok-uQG"; */
+"wSs-ok-uQG.ibShadowedLabels[0]" = "Custom";
+
+/* Class = "NSSegmentedCell"; wSs-ok-uQG.ibShadowedLabels[1] = "Auto=Yes"; ObjectID = "wSs-ok-uQG"; */
+"wSs-ok-uQG.ibShadowedLabels[1]" = "Auto=Yes";
+
+/* Class = "NSButtonCell"; title = "Tool"; ObjectID = "wfd-iw-bCk"; */
+"wfd-iw-bCk.title" = "Tool";
+
+/* Class = "NSBox"; ibShadowedToolTip = "<key>Mouse</key>\n<dict>\n    <key>Enabled</key>\n    <true/>\n    <key>Speed</key>\n    <integer>2</integer>\n    <key>Mirror</key>\n    <false/>\n    <key>DoubleClick</key>\n    <integer>500</integer>\n</dict>\nEnabled - The mouse may not work or even cause the whole GUI to lock up. Turn it off if this is the case.\nSpeed - Mouse movement speed. Reasonable values range from 2-8. Some mice may need a negative speed to reverse the movement. 0 turns off the mouse.\nMirror - Negative movement speed on a single axis\nDoubleClick - Pause for double click detection in milliseconds. Until now 500 has been a good value for everyone."; ObjectID = "xCY-ps-sxi"; */
+"xCY-ps-sxi.ibShadowedToolTip" = "<key>Mouse</key>\n<dict>\n    <key>Enabled</key>\n    <true/>\n    <key>Speed</key>\n    <integer>2</integer>\n    <key>Mirror</key>\n    <false/>\n    <key>DoubleClick</key>\n    <integer>500</integer>\n</dict>\nEnabled - The mouse may not work or even cause the whole GUI to lock up. Turn it off if this is the case.\nSpeed - Mouse movement speed. Reasonable values range from 2-8. Some mice may need a negative speed to reverse the movement. 0 turns off the mouse.\nMirror - Negative movement speed on a single axis\nDoubleClick - Pause for double click detection in milliseconds. Until now 500 has been a good value for everyone.";
+
+/* Class = "NSBox"; title = "Mouse"; ObjectID = "xCY-ps-sxi"; */
+"xCY-ps-sxi.title" = "Mouse";
+
+/* Class = "NSButtonCell"; title = "PlayAsync"; ObjectID = "xkn-W2-EOk"; */
+"xkn-W2-EOk.title" = "PlayAsync";
+
+/* Class = "NSButtonCell"; title = "Detachable Popover"; ObjectID = "yfN-qa-rjZ"; */
+"yfN-qa-rjZ.title" = "Detachable Popover";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>GUI</key>\n\t<dict>\n\t\t<key>Timezone﻿﻿﻿</key>\n\t\t<integer>3</integer>\n\t\t<key>Theme</key>\n\t\t<string>embedded</string>\n\t\t<key>EmbeddedThemeType﻿</key>\n\t\t<string>Daytime</string>﻿\nThen BIOS time + Timezone will be compared to 8:00 of morning and 20:00 of evening and set light type or dark."; ObjectID = "zuK-n2-fdn"; */
+"zuK-n2-fdn.ibShadowedToolTip" = "<key>GUI</key>\n\t<dict>\n\t\t<key>Timezone﻿﻿﻿</key>\n\t\t<integer>3</integer>\n\t\t<key>Theme</key>\n\t\t<string>embedded</string>\n\t\t<key>EmbeddedThemeType﻿</key>\n\t\t<string>Daytime</string>﻿\nThen BIOS time + Timezone will be compared to 8:00 of morning and 20:00 of evening and set light type or dark.";

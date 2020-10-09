@@ -1,0 +1,123 @@
+
+/* Class = "NSButtonCell"; title = "SyncRuntimePermissions"; ObjectID = "1MM-hq-HB3"; */
+"1MM-hq-HB3.title" = "SyncRuntimePermissions";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "24c-2L-Ti5"; */
+"24c-2L-Ti5.headerCell.title" = "Comment";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Default Value: False\nDescription: A legacy parameter to work around buggy memory maps. Preserves runtime memory size and location after wake from S4 sleep."; ObjectID = "4UR-a0-Lg7"; */
+"4UR-a0-Lg7.ibShadowedToolTip" = "Default Value: False\nDescription: A legacy parameter to work around buggy memory maps. Preserves runtime memory size and location after wake from S4 sleep.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Default Value: False\nDescription: This quirk is useful on Mac firmwares, which behave differently in different OS."; ObjectID = "54b-nc-0r7"; */
+"54b-nc-0r7.ibShadowedToolTip" = "Default Value: False\nDescription: This quirk is useful on Mac firmwares, which behave differently in different OS.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Default Value: False\nDescription: Protect UEFI Secure Boot variables from being written."; ObjectID = "7sq-Tw-PeE"; */
+"7sq-Tw-PeE.ibShadowedToolTip" = "Default Value: False\nDescription: Protect UEFI Secure Boot variables from being written.";
+
+/* Class = "NSButtonCell"; title = "ProvideConsoleGopEnable"; ObjectID = "87W-gf-A7d"; */
+"87W-gf-A7d.title" = "ProvideConsoleGopEnable";
+
+/* Class = "NSButtonCell"; title = "ForceExitBootServices"; ObjectID = "8ky-iq-XRF"; */
+"8ky-iq-XRF.title" = "ForceExitBootServices";
+
+/* Class = "NSScrollView"; ibShadowedToolTip = "1. Address\nType: plist integer\nFailsafe: 0\nDescription: Exceptional MMIO address, which memory descriptor should be left virtualised (unchanged) by DevirtualiseMmio. This means that the firmware will be able to directly communicate with this memory region during operating system functioning, because the region this value is in will be assigned a virtual address.\nThe addresses written here must be part of the memory map, have EfiMemoryMappedIO type and EFI_MEMORY_RUNTIME attribute (highest bit) set. To find the list of the candidates the debug log can be used.\n2. Comment\nType: plist string\nFailsafe: Empty string\nDescription: Arbitrary ASCII string used to provide human readable reference for the entry. It is implementation defined whether this value is used.\n3. Enabled\nType: plist boolean\nFailsafe: false\nDescription: This address will be devirtualised unless set to true."; ObjectID = "91h-XR-pnh"; */
+"91h-XR-pnh.ibShadowedToolTip" = "1. Address\nType: plist integer\nFailsafe: 0\nDescription: Exceptional MMIO address, which memory descriptor should be left virtualised (unchanged) by DevirtualiseMmio. This means that the firmware will be able to directly communicate with this memory region during operating system functioning, because the region this value is in will be assigned a virtual address.\nThe addresses written here must be part of the memory map, have EfiMemoryMappedIO type and EFI_MEMORY_RUNTIME attribute (highest bit) set. To find the list of the candidates the debug log can be used.\n2. Comment\nType: plist string\nFailsafe: Empty string\nDescription: Arbitrary ASCII string used to provide human readable reference for the entry. It is implementation defined whether this value is used.\n3. Enabled\nType: plist boolean\nFailsafe: false\nDescription: This address will be devirtualised unless set to true.";
+
+/* Class = "NSButtonCell"; title = "EnableWriteUnprotector"; ObjectID = "9h1-1c-Fkv"; */
+"9h1-1c-Fkv.title" = "EnableWriteUnprotector";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Default Value: 0\nDescription: Overrides the maximum slide instead of 256 when ProvideCustomSlide is enabled."; ObjectID = "CQd-k2-1mU"; */
+"CQd-k2-1mU.ibShadowedToolTip" = "Default Value: 0\nDescription: Overrides the maximum slide instead of 256 when ProvideCustomSlide is enabled.";
+
+/* Class = "NSButtonCell"; title = "DiscardHibernateMap"; ObjectID = "EDD-nJ-q38"; */
+"EDD-nJ-q38.title" = "DiscardHibernateMap";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Default Value: True\nDescription: Force macOS to use a pseudorandom value among available slide values."; ObjectID = "FQL-vw-xmL"; */
+"FQL-vw-xmL.ibShadowedToolTip" = "Default Value: True\nDescription: Force macOS to use a pseudorandom value among available slide values.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Default Value: True\nDescription: Install Graphics Output Protocol if missing from the console handle."; ObjectID = "G37-Vn-z58"; */
+"G37-Vn-z58.ibShadowedToolTip" = "Default Value: True\nDescription: Install Graphics Output Protocol if missing from the console handle.";
+
+/* Class = "NSTextFieldCell"; title = "ProvideMaxSlide"; ObjectID = "NNR-wp-96c"; */
+"NNR-wp-96c.title" = "ProvideMaxSlide";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Default Value: True\nDescription: Ensures that calls to ExitBootServices succeed even with an outdated MemoryMap key."; ObjectID = "OGD-la-o9T"; */
+"OGD-la-o9T.ibShadowedToolTip" = "Default Value: True\nDescription: Ensures that calls to ExitBootServices succeed even with an outdated MemoryMap key.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Default Value: True\nDescription: Workaround issues in some firmwares that access memory after SetVirtualAddress calls often resulting in boot crashes."; ObjectID = "Pnk-pO-kA2"; */
+"Pnk-pO-kA2.ibShadowedToolTip" = "Default Value: True\nDescription: Workaround issues in some firmwares that access memory after SetVirtualAddress calls often resulting in boot crashes.";
+
+/* Class = "NSButtonCell"; title = "SignalAppleOS"; ObjectID = "Pq3-br-7Gm"; */
+"Pq3-br-7Gm.title" = "SignalAppleOS";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Default Value: True\nDescription: Update memory permissions for runtime environment."; ObjectID = "QJ9-va-jTP"; */
+"QJ9-va-jTP.ibShadowedToolTip" = "Default Value: True\nDescription: Update memory permissions for runtime environment.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Default Value: False\nDescription: Permits write access to UEFI runtime services code. Use RebuildAppleMemoryMap if possible."; ObjectID = "RSJ-3x-2PK"; */
+"RSJ-3x-2PK.ibShadowedToolTip" = "Default Value: False\nDescription: Permits write access to UEFI runtime services code. Use RebuildAppleMemoryMap if possible.";
+
+/* Class = "NSButtonCell"; title = "DisableVariableWrite"; ObjectID = "Tct-0T-oa0"; */
+"Tct-0T-oa0.title" = "DisableVariableWrite";
+
+/* Class = "NSButtonCell"; title = "EnableSafeModeSlide"; ObjectID = "W3J-6N-sTe"; */
+"W3J-6N-sTe.title" = "EnableSafeModeSlide";
+
+/* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "X5r-8w-RLg"; */
+"X5r-8w-RLg.headerCell.title" = "Enabled";
+
+/* Class = "NSButtonCell"; title = "ProtectSecureBoot"; ObjectID = "ZW3-YR-DtS"; */
+"ZW3-YR-DtS.title" = "ProtectSecureBoot";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Default Value: False\nDescription: Reduce stolen memory footprint from memory map, incompatible with some systems"; ObjectID = "Zp3-4w-14w"; */
+"Zp3-4w-14w.ibShadowedToolTip" = "Default Value: False\nDescription: Reduce stolen memory footprint from memory map, incompatible with some systems";
+
+/* Class = "NSButtonCell"; title = "DisableSingleUser"; ObjectID = "bKz-Dw-Bti"; */
+"bKz-Dw-Bti.title" = "DisableSingleUser";
+
+/* Class = "NSButtonCell"; title = "ProvideCustomSlide"; ObjectID = "bZ2-Rn-Ibn"; */
+"bZ2-Rn-Ibn.title" = "ProvideCustomSlide";
+
+/* Class = "NSTableColumn"; headerCell.title = "Address*"; ObjectID = "ctD-8l-aXL"; */
+"ctD-8l-aXL.headerCell.title" = "Address*";
+
+/* Class = "NSButtonCell"; title = "ProtectUefiServices"; ObjectID = "gT2-fT-bnz"; */
+"gT2-fT-bnz.title" = "ProtectUefiServices";
+
+/* Class = "NSTabViewItem"; label = "MmioWhitelist"; ObjectID = "ldJ-oO-4GL"; */
+"ldJ-oO-4GL.label" = "MmioWhitelist";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Default Value: True\nDescription: Fix UEFI runtime services support on many firmwares."; ObjectID = "nWp-Pt-o5E"; */
+"nWp-Pt-o5E.ibShadowedToolTip" = "Default Value: True\nDescription: Fix UEFI runtime services support on many firmwares.";
+
+/* Class = "NSButtonCell"; title = "ProtectMemoryRegions"; ObjectID = "nf2-vK-muY"; */
+"nf2-vK-muY.title" = "ProtectMemoryRegions";
+
+/* Class = "NSButtonCell"; title = "DevirtualiseMmio"; ObjectID = "noq-e2-xoc"; */
+"noq-e2-xoc.title" = "DevirtualiseMmio";
+
+/* Class = "NSButtonCell"; title = "AvoidRuntimeDefrag"; ObjectID = "ny2-z8-pMr"; */
+"ny2-z8-pMr.title" = "AvoidRuntimeDefrag";
+
+/* Class = "NSButtonCell"; title = "RebuildAppleMemoryMap"; ObjectID = "oHR-DA-MvC"; */
+"oHR-DA-MvC.title" = "RebuildAppleMemoryMap";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Default Value: False\nDescription: Protect UEFI services from being overridden by the firmware."; ObjectID = "pPa-FS-AAF"; */
+"pPa-FS-AAF.ibShadowedToolTip" = "Default Value: False\nDescription: Protect UEFI services from being overridden by the firmware.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Default Value: False\nDescription: A security option to protect macOS NVRAM write access."; ObjectID = "pYM-5w-cYo"; */
+"pYM-5w-cYo.ibShadowedToolTip" = "Default Value: False\nDescription: A security option to protect macOS NVRAM write access.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Default Value: False\nDescription: Protect memory regions from incorrect access. Only needed by very old firmwares."; ObjectID = "qaK-ps-qYa"; */
+"qaK-ps-qYa.ibShadowedToolTip" = "Default Value: False\nDescription: Protect memory regions from incorrect access. Only needed by very old firmwares.";
+
+/* Class = "NSButtonCell"; title = "SetupVirtualMap"; ObjectID = "qgs-ds-IGq"; */
+"qgs-ds-IGq.title" = "SetupVirtualMap";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Default Value: True\nDescription: Patch the bootloader to enable KASLR in safe mode."; ObjectID = "rNN-c0-ymd"; */
+"rNN-c0-ymd.ibShadowedToolTip" = "Default Value: True\nDescription: Patch the bootloader to enable KASLR in safe mode.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Default Value: False\nDescription: A security option to ignore single user mode arguments."; ObjectID = "vYQ-4C-eVz"; */
+"vYQ-4C-eVz.ibShadowedToolTip" = "Default Value: False\nDescription: A security option to ignore single user mode arguments.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Generate Memory Map compatible with macOS."; ObjectID = "wVb-7V-a4H"; */
+"wVb-7V-a4H.ibShadowedToolTip" = "Type: plist boolean\nFailsafe: false\nDescription: Generate Memory Map compatible with macOS.";

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Old ATI Controller</key>
+	<array>
+		<string>Wormy</string>
+		<string>Alopias</string>
+		<string>Caretta</string>
+		<string>Kakapo</string>
+		<string>Kipunji</string>
+		<string>Peregrine</string>
+		<string>Raven</string>
+		<string>Sphyrna</string>
+	</array>
+	<key>AMD2400 Controller</key>
+	<array>
+		<string>lago</string>
+	</array>
+	<key>AMD2600 Controller</key>
+	<array>
+		<string>Hypoprion</string>
+		<string>Lamna</string>
+	</array>
+	<key>AMD3800 Controller</key>
+	<array>
+		<string>Megalodon</string>
+		<string>Triakis</string>
+	</array>
+	<key>AMD4600 Controller</key>
+	<array>
+		<string>Flicker</string>
+		<string>Gliff</string>
+		<string>Shrike</string>
+	</array>
+	<key>AMD4800 Controller</key>
+	<array>
+		<string>Cardinal</string>
+		<string>Motmot</string>
+		<string>Quail</string>
+	</array>
+	<key>AMD5000 Controller</key>
+	<array>
+		<string>Douc</string>
+		<string>Langur</string>
+		<string>Uakari</string>
+		<string>Zonalis</string>
+		<string>Alouatta</string>
+		<string>Hoolock</string>
+		<string>Vervet</string>
+		<string>Baboon</string>
+		<string>Eulemur</string>
+		<string>Galago</string>
+		<string>Colobus</string>
+		<string>Mangabey</string>
+		<string>Nomascus</string>
+		<string>Orangutan</string>
+	</array>
+	<key>AMD6000 Controller</key>
+	<array>
+		<string>Pithecia</string>
+		<string>Bulrushes</string>
+		<string>Cattail</string>
+		<string>Hydrilla</string>
+		<string>Duckweed</string>
+		<string>Fanwort</string>
+		<string>Elodea</string>
+		<string>Kudzu</string>
+		<string>Gibba</string>
+		<string>Lotus</string>
+		<string>Ipomoea</string>
+		<string>Muskgrass</string>
+		<string>Juncus</string>
+		<string>Osmunda</string>
+		<string>Pondweed</string>
+		<string>Spikerush</string>
+		<string>Typha</string>
+	</array>
+	<key>AMD7000 Controller</key>
+	<array>
+		<string>Ramen</string>
+		<string>Tako</string>
+		<string>Namako</string>
+		<string>Aji</string>
+		<string>Buri</string>
+		<string>Chutoro</string>
+		<string>Dashimaki</string>
+		<string>Ebi</string>
+		<string>Gari</string>
+		<string>Futomaki</string>
+		<string>Hamachi</string>
+		<string>OPM</string>
+		<string>Ikura</string>
+		<string>IkuraS</string>
+		<string>Junsai</string>
+		<string>Kani</string>
+		<string>KaniS</string>
+		<string>DashimakiS</string>
+		<string>Maguro</string>
+		<string>MaguroS</string>
+	</array>
+	<key>AMD8000 Controller</key>
+	<array>
+		<string>Exmoor</string>
+		<string>Baladi</string>
+	</array>
+	<key>AMD9000 Controller</key>
+	<array>
+		<string>MalteseS</string>
+		<string>Lagotto</string>
+		<string>GreyhoundS</string>
+		<string>Maltese</string>
+		<string>Basset</string>
+		<string>Greyhound</string>
+		<string>Labrador</string>
+	</array>
+	<key>AMD9300 Controller</key>
+	<array>
+		<string>FlueveSWIP</string>
+	</array>
+	<key>AMD9500 Controller</key>
+	<array>
+		<string>Acre</string>
+		<string>Dayman</string>
+		<string>Guariba</string>
+		<string>Hullaga</string>
+		<string>Orinoco</string>
+	</array>
+	<key>AMD9510 Controller</key>
+	<array>
+		<string>Berbice</string>
+	</array>
+	<key>AMD9515 Controller</key>
+	<array>
+		<string>Mazaruni</string>
+		<string>Longavi</string>
+	</array>
+	<key>AMD9520 Controller</key>
+	<array>
+		<string>Elqui</string>
+		<string>Caroni</string>
+		<string>Florin</string>
+		<string>Radeon</string>
+	</array>
+</dict>
+</plist>

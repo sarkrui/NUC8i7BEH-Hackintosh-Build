@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HD3000</key>
+	<array>
+		<string>00010000</string>
+		<string>00020000</string>
+		<string>00030010</string>
+		<string>00030020</string>
+		<string>00040000</string>
+	</array>
+	<key>HD4000 (mobile)</key>
+	<array>
+		<string>01660000</string>
+		<string>01660001</string>
+		<string>01660002</string>
+		<string>01660003</string>
+		<string>01660004</string>
+		<string>01660008</string>
+		<string>01660009</string>
+	</array>
+	<key>HD4000 (desktop)</key>
+	<array>
+		<string>01620005</string>
+		<string>0166000a</string>
+		<string>0166000b</string>
+	</array>
+	<key>Haswell (mobile)</key>
+	<array>
+		<string>04060000</string>
+		<string>04060002</string>
+		<string>04160000</string>
+		<string>04260000</string>
+		<string>0a160000</string>
+		<string>0a260000</string>
+		<string>0a260005</string>
+		<string>0a260006</string>
+		<string>0a260008</string>
+		<string>0a2e0008</string>
+		<string>0c060000</string>
+		<string>0c160000</string>
+		<string>0c260000</string>
+		<string>0d260000</string>
+		<string>0d260007</string>
+	</array>
+	<key>Haswell (desktop)</key>
+	<array>
+		<string>0d220003</string>
+	</array>
+	<key>BroadWell</key>
+	<array>
+		<string>16060000</string>
+		<string>16060002</string>
+		<string>160e0000</string>
+		<string>160e0001</string>
+		<string>16120003</string>
+		<string>16160000</string>
+		<string>16160002</string>
+		<string>161e0000</string>
+		<string>161e0001</string>
+		<string>16220000</string>
+		<string>16220002</string>
+		<string>16260000</string>
+		<string>16260002</string>
+		<string>16260004</string>
+		<string>16260005</string>
+		<string>16260006</string>
+		<string>162b0000</string>
+		<string>162b0002</string>
+		<string>162b0004</string>
+	</array>
+	<key>Skylake (mobile)</key>
+	<array>
+		<string>19160000</string>
+		<string>19160002</string>
+		<string>191b0000</string>
+		<string>191e0000</string>
+		<string>191e0003</string>
+		<string>19260000</string>
+		<string>19260002</string>
+	</array>
+	<key>Skylake (desktop)</key>
+	<array>
+		<string>19020001</string>
+		<string>19120000</string>
+		<string>19120001</string>
+		<string>19170001</string>
+		<string>19320001</string>
+	</array>
+	<key>Kabylake (mobile)</key>
+	<array>
+		<string>59160000</string>
+		<string>59160009</string>
+		<string>59180002</string>
+		<string>591b0000</string>
+		<string>591b0006</string>
+		<string>591c0005</string>
+		<string>591e0000</string>
+		<string>591e0001</string>
+		<string>59260002</string>
+		<string>59270004</string>
+		<string>59270009</string>
+		<string>87C00000</string>
+		<string>87C00005</string>
+	</array>
+	<key>Kabylake (desktop)</key>
+	<array>
+		<string>59120000</string>
+		<string>59120003</string>
+		<string>59230000</string>
+		<string>59260000</string>
+		<string>59260007</string>
+		<string>59270000</string>
+	</array>
+	<key>Coffeelake (mobile)</key>
+	<array>
+		<string>3E000000</string>
+		<string>3E920000</string>
+		<string>3E920009</string>
+		<string>3E9B0000</string>
+		<string>3E9B0006</string>
+		<string>3E9B0009</string>
+		<string>3EA50000</string>
+		<string>3EA50004</string>
+		<string>3EA50005</string>
+		<string>3EA50009</string>
+		<string>3EA60005</string>
+	</array>
+	<key>Coffeelake (desktop)</key>
+	<array>
+		<string>3E910003</string>
+		<string>3E920003</string>
+		<string>3E980003</string>
+		<string>3E9B0007</string>
+	</array>
+	<key>Cannonlake-m</key>
+	<array>
+		<string>5A400000</string>
+		<string>5A400009</string>
+		<string>5A410000</string>
+		<string>5A410009</string>
+		<string>5A490000</string>
+		<string>5A490009</string>
+		<string>5A500000</string>
+		<string>5A500009</string>
+		<string>5A510000</string>
+		<string>5A510009</string>
+		<string>5A520000</string>
+		<string>5A590000</string>
+		<string>5A590009</string>
+	</array>
+	<key>Cannonlake-d</key>
+	<array>
+		<string>0A010000</string>
+	</array>
+</dict>
+</plist>
